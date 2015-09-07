@@ -1,12 +1,12 @@
 name: eveapi
-summary: "TODO: Summary"
-description: "TODO: Description"
+summary: "EVEOnline API Client"
+description: "ruby API Client for the space based MMO EVEOnline"
 license: MIT
 authors: Adam Ladachowski
 email: adam@saiden.pl
 homepage: https://rubygems.org/gems/eveapi
 
-required_ruby_version: 1.9.3
+required_ruby_version: '>= 1.9'
 
 dependencies:
   excon: ~> 0.45
