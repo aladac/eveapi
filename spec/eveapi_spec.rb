@@ -33,7 +33,7 @@ describe EVEApi do
       expect { EVEApi::Client.new.some_bs_method }.to raise_error(RuntimeError)
     end
 
-    it "calling api_methods should return an Arraya of method symobls" do
+    it "calling api_methods should return an Array of method symobls" do
       expect(EVEApi::Client.new.api_methods).to be_an(Array)
     end
   end
