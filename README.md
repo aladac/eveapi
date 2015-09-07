@@ -1,4 +1,4 @@
-![EVEApi for ruby](https://github.com/aladac/eveapi/master/doc/eveapi.png)
+![EVEApi for ruby](https://github.com/aladac/eveapi/raw/master/doc/eveapi.png)
 
 *EVE API for ruby*
 
