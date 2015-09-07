@@ -6,9 +6,14 @@ module EVEApi
 
     def initialize(response=nil)
       @response = response
+      raise 'No such method' if response.status == 404
       @data = parse_xml
       @result = self.parse_result
-      raise 'No such method' if response.status == 404
+      raise error if error
+    end
+
+    def error
+      data['eveapi'].has_key?('error') ? data['eveapi']['error'] : false
     end
 
     def parse_xml
