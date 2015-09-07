@@ -1,10 +1,13 @@
----
 language: ruby
 rvm:
-  - 1.9
-  - 2.0
-  - 2.1
-  - 2.2
+- 1.9
+- 2.0
+- 2.1
+- 2.2
 deploy:
   provider: rubygems
-  api_key: <%= ENV['RUBYGEMS_API_KEY'] %>
+  api_key:
+    secure: c6TukCn8fE9/GXyxxHKd43PdVtt7BRHFw0cSUfX5lYaGNjTbj2ndQ8ps41jRXST+FdRMHSB2Rm12kG/FGgHRR5ZGUbjH12gDYTNVVyKmLKWY0pAcpY2TX/Y9agKQ3DNo6ylVThI1jQNiR5pZJwZ6dAlIedNtl2jY0jfiyq5/LidsLeIj5z2uhlWutrz+BTGMbTZUGRTwheD2czZHQqkWxvmnAwVGpG5bRJQgOC+87u6kvNYGo0ZlYDUVJNi/aC47jaR5poDsJaV9oRHrlaE/OsOM7Y87kyaaNoLTQ2GPIhfxxmG44C97oQywFUze/BNdClIMAoWNK57bxKRmFrk/48DqXI/+8PIw5yIa39qinw+n18L6WeGMACDpvr0uC3Dc7C33infnC8o246q85wpYn9o2ucTVvYSWmbg6uxZmA+zsG00tNvrNy5nGHmE+hJRZI/f52LdRW78bj1AVdI5WgMj8eAilrrgS1lMXBem2PTFDKGAIFP1ZsfURX512RkaWv9b+Vk2moYlN5qodB548mdFN98YCj5VUzRQh9d7ohx5+L49XGno4BnZSN/RMJiEKjnBR1aIjFlWvVjCi7u4HsE+3z64natVIzq066hlEpEGr/VepztQy3HQA5u9gP189Zxck+bG+Xf8XaJ+oDSQY7IuVfwEYB1KJfLRioPyt2fI=
+  gem: eveapi
+  on:
+    repo: aladac/eveapi
