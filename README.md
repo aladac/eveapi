@@ -28,3 +28,5 @@ TODO: Description
 Copyright (c) 2015 Adam Ladachowski
 
 See LICENSE.txt for details.
+
+foobar
