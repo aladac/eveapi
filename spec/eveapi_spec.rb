@@ -3,10 +3,6 @@ require 'eveapi'
 
 describe EVEApi do
   context 'whithout auth' do
-    it "should have a VERSION constant" do
-      expect(subject.const_get('VERSION')).to_not be_empty
-    end
-
     it "there should be a connection class" do
       expect { EVEApi::Client.new }.not_to raise_error
     end
@@ -36,5 +32,11 @@ describe EVEApi do
     it "calling a method not present in the EVEApi should fail" do
       expect { EVEApi::Client.new.some_bs_method }.to raise_error(RuntimeError)
     end
+  end
+end
+
+describe EVEApi::Request do
+  it 'there should be a EVEApi::Response class' do
+    expect { EVEApi::Request }.not_to raise_error
   end
 end
