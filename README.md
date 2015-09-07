@@ -4,8 +4,8 @@
 * [Documentation](http://rubydoc.info/gems/eveapi/frames)
 * [Email](mailto:adam at saiden.pl)
 
-[![Build Status](https://secure.travis-ci.org//eveapi.svg?branch=master)](https://travis-ci.org//eveapi)
-[![Code Climate GPA](https://codeclimate.com/github//eveapi/badges/gpa.svg)](https://codeclimate.com/github//eveapi)
+[![Build Status](https://secure.travis-ci.org/aladac/eveapi.svg?branch=master)](https://travis-ci.org/aladac/eveapi)
+[![Code Climate GPA](https://codeclimate.com/github/aladac/eveapi/badges/gpa.svg)](https://codeclimate.com/github/aladac/eveapi)
 
 ## Description
 
