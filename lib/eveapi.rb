@@ -9,6 +9,9 @@ class String
   def camelize
     self.split("_").each {|s| s.capitalize! }.join("")
   end
+  def underscore
+    self.scan(/[A-Z][a-z]*/).join("_").downcase
+  end
 end
 
 module EVEApi
@@ -37,6 +40,10 @@ module EVEApi
       { 'rowCount' => row_count, 'keyID' => key_id, 'vCode' => vcode, 'characterID' => character_id }.select { |k,v| v }
     end
 
+    def api_methods
+      api_call_list[:methods].map { |m| m['type'][0..3].downcase + '_' + m['name'].underscore }
+    end
+
     def method_missing(name, *args, &block)
       raise 'Invalid Method Name' if check_path(name).empty?
       check_path(name)
@@ -49,6 +56,11 @@ module EVEApi
         data['eveapi']['result']['rowset']['row']
       rescue NoMethodError
         data['eveapi']['result']
+      rescue TypeError
+        {
+          groups: data['eveapi']['result']['rowset'].first['row'],
+          methods: data['eveapi']['result']['rowset'].last['row']
+        }
       end
     end
   end
