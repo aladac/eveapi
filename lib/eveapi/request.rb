@@ -26,10 +26,11 @@ module EVEApi
       rescue NoMethodError
         data['eveapi']['result']
       rescue TypeError
-        {
-          groups: data['eveapi']['result']['rowset'].first['row'],
-          methods: data['eveapi']['result']['rowset'].last['row']
-        }
+        output = {}
+        data['eveapi']['result']['rowset'].each do |r|
+          output.merge!({ r['name'].underscore.to_sym => r['row'] })
+        end
+        output
       end
     end
   end
