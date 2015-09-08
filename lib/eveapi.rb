@@ -4,8 +4,11 @@ $LOAD_PATH << lib_dir unless $LOAD_PATH.include?(lib_dir)
 require 'eveapi/version'
 require 'eveapi/client'
 require 'eveapi/request'
+require 'eveapi/util'
 require 'excon'
 require 'crack'
+
+include EVEApi::Util
 
 class String
   def camelize
