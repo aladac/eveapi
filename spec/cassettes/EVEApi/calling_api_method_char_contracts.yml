@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.eveonline.com/char/Contracts.xml.aspx?characterID=810699209&keyID=2139278&vCode=BLG8R4woo0iG9zCnSS6mXzjrjp68DQlQhUbI2TG3J9VBF5Q8XkvNjm4QvrMtEdDJ
+    uri: https://api.eveonline.com/char/Contracts.xml.aspx?characterID=95512059&keyID=4278167&vCode=7QJg6p5BZNpDBp2FIz39dGwa7jnNaXAuYyLUVitlTQ3rY60VPBcaTpJVfYIkiW5l
     body:
       encoding: US-ASCII
       string: ''
@@ -19,13 +19,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Tue, 08 Sep 2015 06:52:07 GMT
+      - Tue, 08 Sep 2015 23:38:23 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-08 06:52:08</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-08 23:38:23</currentTime>\r\n  <result>\r\n    <rowset
         name=\"contractList\" key=\"contractID\" columns=\"contractID,issuerID,issuerCorpID,assigneeID,acceptorID,startStationID,endStationID,type,status,title,forCorp,availability,dateIssued,dateExpired,dateAccepted,numDays,dateCompleted,price,reward,collateral,buyout,volume\"
-        />\r\n  </result>\r\n  <cachedUntil>2015-09-08 06:52:16</cachedUntil>\r\n</eveapi>"
+        />\r\n  </result>\r\n  <cachedUntil>2015-09-08 23:52:23</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Tue, 08 Sep 2015 06:52:08 GMT
+  recorded_at: Tue, 08 Sep 2015 23:38:23 GMT
 recorded_with: VCR 2.9.3

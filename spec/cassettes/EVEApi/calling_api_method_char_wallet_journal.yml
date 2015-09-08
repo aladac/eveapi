@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.eveonline.com/char/WalletJournal.xml.aspx?characterID=810699209&keyID=2139278&vCode=BLG8R4woo0iG9zCnSS6mXzjrjp68DQlQhUbI2TG3J9VBF5Q8XkvNjm4QvrMtEdDJ
+    uri: https://api.eveonline.com/char/WalletJournal.xml.aspx?characterID=95512059&keyID=4278167&vCode=7QJg6p5BZNpDBp2FIz39dGwa7jnNaXAuYyLUVitlTQ3rY60VPBcaTpJVfYIkiW5l
     body:
       encoding: US-ASCII
       string: ''
@@ -19,46 +19,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Tue, 08 Sep 2015 06:52:07 GMT
+      - Tue, 08 Sep 2015 23:38:23 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-08 06:52:08</currentTime>\r\n  <result>\r\n    <rowset
-        name=\"transactions\" key=\"refID\" columns=\"date,refID,refTypeID,ownerName1,ownerID1,ownerName2,ownerID2,argName1,argID1,amount,balance,reason,taxReceiverID,taxAmount,owner1TypeID,owner2TypeID\">\r\n
-        \     <row date=\"2015-09-07 23:56:07\" refID=\"11632325571\" refTypeID=\"42\"
-        ownerName1=\"Adrian Dent\" ownerID1=\"810699209\" ownerName2=\"\" ownerID2=\"0\"
-        argName1=\"\" argID1=\"0\" amount=\"-1489366.18\" balance=\"16489278276.04\"
-        reason=\"\" taxReceiverID=\"\" taxAmount=\"\" owner1TypeID=\"2\" owner2TypeID=\"1375\"
-        />\r\n      <row date=\"2015-09-07 23:53:43\" refID=\"11632318980\" refTypeID=\"42\"
-        ownerName1=\"Adrian Dent\" ownerID1=\"810699209\" ownerName2=\"\" ownerID2=\"0\"
-        argName1=\"\" argID1=\"0\" amount=\"-9599693.92\" balance=\"16490767642.22\"
-        reason=\"\" taxReceiverID=\"\" taxAmount=\"\" owner1TypeID=\"2\" owner2TypeID=\"1375\"
-        />\r\n      <row date=\"2015-09-07 23:53:43\" refID=\"11632318977\" refTypeID=\"42\"
-        ownerName1=\"Adrian Dent\" ownerID1=\"810699209\" ownerName2=\"\" ownerID2=\"0\"
-        argName1=\"\" argID1=\"0\" amount=\"-2399923.48\" balance=\"16500367336.14\"
-        reason=\"\" taxReceiverID=\"\" taxAmount=\"\" owner1TypeID=\"2\" owner2TypeID=\"1375\"
-        />\r\n      <row date=\"2015-09-07 23:52:55\" refID=\"11632317161\" refTypeID=\"42\"
-        ownerName1=\"Adrian Dent\" ownerID1=\"810699209\" ownerName2=\"\" ownerID2=\"0\"
-        argName1=\"\" argID1=\"0\" amount=\"-2655491.95\" balance=\"16502767259.62\"
-        reason=\"\" taxReceiverID=\"\" taxAmount=\"\" owner1TypeID=\"2\" owner2TypeID=\"1375\"
-        />\r\n      <row date=\"2015-09-07 21:40:05\" refID=\"11631914300\" refTypeID=\"19\"
-        ownerName1=\"Adrian Dent\" ownerID1=\"810699209\" ownerName2=\"Secure Commerce
-        Commission\" ownerID2=\"1000132\" argName1=\"-1019112760286\" argID1=\"0\"
-        amount=\"-87990748.80\" balance=\"16505422751.57\" reason=\"\" taxReceiverID=\"\"
-        taxAmount=\"\" owner1TypeID=\"1375\" owner2TypeID=\"2\" />\r\n      <row date=\"2015-09-07
-        21:39:21\" refID=\"11631910958\" refTypeID=\"42\" ownerName1=\"Adrian Dent\"
-        ownerID1=\"810699209\" ownerName2=\"\" ownerID2=\"0\" argName1=\"\" argID1=\"0\"
-        amount=\"-949999999.61\" balance=\"16593413500.37\" reason=\"\" taxReceiverID=\"\"
-        taxAmount=\"\" owner1TypeID=\"2\" owner2TypeID=\"1375\" />\r\n      <row date=\"2015-08-29
-        09:29:47\" refID=\"11594617793\" refTypeID=\"42\" ownerName1=\"Adrian Dent\"
-        ownerID1=\"810699209\" ownerName2=\"\" ownerID2=\"0\" argName1=\"\" argID1=\"0\"
-        amount=\"-31060776.57\" balance=\"17543413499.98\" reason=\"\" taxReceiverID=\"\"
-        taxAmount=\"\" owner1TypeID=\"2\" owner2TypeID=\"1375\" />\r\n      <row date=\"2015-08-13
-        19:58:10\" refID=\"11533776567\" refTypeID=\"42\" ownerName1=\"Adrian Dent\"
-        ownerID1=\"810699209\" ownerName2=\"\" ownerID2=\"0\" argName1=\"\" argID1=\"0\"
-        amount=\"-993999995.00\" balance=\"17574474276.55\" reason=\"\" taxReceiverID=\"\"
-        taxAmount=\"\" owner1TypeID=\"2\" owner2TypeID=\"1375\" />\r\n    </rowset>\r\n
-        \ </result>\r\n  <cachedUntil>2015-09-08 07:19:08</cachedUntil>\r\n</eveapi>"
+        \ <currentTime>2015-09-08 23:38:23</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"transactions\" key=\"refID\" columns=\"date,refID,refTypeID,ownerName1,ownerID1,ownerName2,ownerID2,argName1,argID1,amount,balance,reason,taxReceiverID,taxAmount,owner1TypeID,owner2TypeID\"
+        />\r\n  </result>\r\n  <cachedUntil>2015-09-09 00:05:23</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Tue, 08 Sep 2015 06:52:08 GMT
+  recorded_at: Tue, 08 Sep 2015 23:38:23 GMT
 recorded_with: VCR 2.9.3

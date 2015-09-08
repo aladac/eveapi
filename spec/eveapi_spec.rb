@@ -39,9 +39,9 @@ describe EVEApi, :vcr do
   EVEApi::Client.new.working_methods.each do |m|
     before :each do
       @client = EVEApi::Client.new
-      @client.key_id = "2139278"
-      @client.vcode = "BLG8R4woo0iG9zCnSS6mXzjrjp68DQlQhUbI2TG3J9VBF5Q8XkvNjm4QvrMtEdDJ"
-      @client.character_id = '810699209'
+      @client.key_id = "4278167"
+      @client.vcode = "7QJg6p5BZNpDBp2FIz39dGwa7jnNaXAuYyLUVitlTQ3rY60VPBcaTpJVfYIkiW5l"
+      @client.character_id = '95512059'
     end
     it "calling api method #{m}" do
       expect { @client.send(m) }.not_to raise_error

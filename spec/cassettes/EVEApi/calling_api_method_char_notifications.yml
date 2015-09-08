@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.eveonline.com/char/Notifications.xml.aspx?characterID=810699209&keyID=2139278&vCode=BLG8R4woo0iG9zCnSS6mXzjrjp68DQlQhUbI2TG3J9VBF5Q8XkvNjm4QvrMtEdDJ
+    uri: https://api.eveonline.com/char/Notifications.xml.aspx?characterID=95512059&keyID=4278167&vCode=7QJg6p5BZNpDBp2FIz39dGwa7jnNaXAuYyLUVitlTQ3rY60VPBcaTpJVfYIkiW5l
     body:
       encoding: US-ASCII
       string: ''
@@ -19,16 +19,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Tue, 08 Sep 2015 06:52:09 GMT
+      - Tue, 08 Sep 2015 23:38:25 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-08 06:52:09</currentTime>\r\n  <result>\r\n    <rowset
-        name=\"notifications\" key=\"notificationID\" columns=\"notificationID,typeID,senderID,senderName,sentDate,read\">\r\n
-        \     <row notificationID=\"528493506\" typeID=\"55\" senderID=\"1000132\"
-        senderName=\"Secure Commerce Commission\" sentDate=\"2015-09-07 21:40:00\"
-        read=\"1\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-08
-        07:08:18</cachedUntil>\r\n</eveapi>"
+        \ <currentTime>2015-09-08 23:38:25</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"notifications\" key=\"notificationID\" columns=\"notificationID,typeID,senderID,senderName,sentDate,read\"
+        />\r\n  </result>\r\n  <cachedUntil>2015-09-09 00:08:25</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Tue, 08 Sep 2015 06:52:09 GMT
+  recorded_at: Tue, 08 Sep 2015 23:38:25 GMT
 recorded_with: VCR 2.9.3

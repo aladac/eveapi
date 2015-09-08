@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.eveonline.com/char/CharacterSheet.xml.aspx?characterID=810699209&keyID=2139278&vCode=BLG8R4woo0iG9zCnSS6mXzjrjp68DQlQhUbI2TG3J9VBF5Q8XkvNjm4QvrMtEdDJ
+    uri: https://api.eveonline.com/char/CharacterSheet.xml.aspx?characterID=95512059&keyID=4278167&vCode=7QJg6p5BZNpDBp2FIz39dGwa7jnNaXAuYyLUVitlTQ3rY60VPBcaTpJVfYIkiW5l
     body:
       encoding: US-ASCII
       string: ''
@@ -19,285 +19,61 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Tue, 08 Sep 2015 06:52:11 GMT
+      - Tue, 08 Sep 2015 23:38:27 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-08 06:52:11</currentTime>\r\n  <result>\r\n    <characterID>810699209</characterID>\r\n
-        \   <name>Adrian Dent</name>\r\n    <homeStationID>61000921</homeStationID>\r\n
-        \   <DoB>2006-09-10 22:49:00</DoB>\r\n    <race>Caldari</race>\r\n    <bloodLineID>2</bloodLineID>\r\n
-        \   <bloodLine>Civire</bloodLine>\r\n    <ancestryID>8</ancestryID>\r\n    <ancestry>Mercs</ancestry>\r\n
-        \   <gender>Male</gender>\r\n    <corporationName>Caldari Provisions</corporationName>\r\n
-        \   <corporationID>1000009</corporationID>\r\n    <cloneTypeID>164</cloneTypeID>\r\n
-        \   <cloneName>Clone Grade Alpha</cloneName>\r\n    <cloneSkillPoints>0</cloneSkillPoints>\r\n
-        \   <freeSkillPoints>0</freeSkillPoints>\r\n    <freeRespecs>0</freeRespecs>\r\n
-        \   <cloneJumpDate>2015-04-04 20:48:48</cloneJumpDate>\r\n    <lastRespecDate>2015-02-07
-        09:51:16</lastRespecDate>\r\n    <lastTimedRespec>2015-01-26 17:00:17</lastTimedRespec>\r\n
-        \   <remoteStationDate>2015-01-05 22:37:44</remoteStationDate>\r\n    <rowset
-        name=\"jumpClones\" key=\"jumpCloneID\" columns=\"jumpCloneID,typeID,locationID,cloneName\">\r\n
-        \     <row jumpCloneID=\"21454032\" typeID=\"164\" locationID=\"60003760\"
-        cloneName=\"\" />\r\n      <row jumpCloneID=\"19071605\" typeID=\"164\" locationID=\"60012562\"
-        cloneName=\"\" />\r\n      <row jumpCloneID=\"19943660\" typeID=\"164\" locationID=\"61000422\"
-        cloneName=\"\" />\r\n      <row jumpCloneID=\"21736576\" typeID=\"164\" locationID=\"61000921\"
-        cloneName=\"\" />\r\n    </rowset>\r\n    <rowset name=\"jumpCloneImplants\"
-        key=\"jumpCloneID\" columns=\"jumpCloneID,typeID,typeName\">\r\n      <row
-        jumpCloneID=\"21454032\" typeID=\"10209\" typeName=\"Memory Augmentation -
-        Improved\" />\r\n      <row jumpCloneID=\"21454032\" typeID=\"10213\" typeName=\"Neural
-        Boost - Improved\" />\r\n      <row jumpCloneID=\"21454032\" typeID=\"10217\"
-        typeName=\"Ocular Filter - Improved\" />\r\n      <row jumpCloneID=\"19943660\"
-        typeID=\"2082\" typeName=\"Genolution Core Augmentation CA-1\" />\r\n      <row
-        jumpCloneID=\"19943660\" typeID=\"2589\" typeName=\"Genolution Core Augmentation
-        CA-2\" />\r\n    </rowset>\r\n    <jumpActivation>2015-04-04 21:41:49</jumpActivation>\r\n
-        \   <jumpFatigue>2015-04-05 05:34:07</jumpFatigue>\r\n    <jumpLastUpdate>2015-04-04
-        21:31:28</jumpLastUpdate>\r\n    <balance>16489278276.04</balance>\r\n    <rowset
-        name=\"implants\" key=\"typeID\" columns=\"typeID,typeName\">\r\n      <row
-        typeID=\"9943\" typeName=\"Cybernetic Subprocessor - Basic\" />\r\n      <row
-        typeID=\"10209\" typeName=\"Memory Augmentation - Improved\" />\r\n      <row
-        typeID=\"10213\" typeName=\"Neural Boost - Improved\" />\r\n      <row typeID=\"10217\"
-        typeName=\"Ocular Filter - Improved\" />\r\n    </rowset>\r\n    <attributes>\r\n
-        \     <intelligence>17</intelligence>\r\n      <memory>27</memory>\r\n      <charisma>17</charisma>\r\n
-        \     <perception>21</perception>\r\n      <willpower>17</willpower>\r\n    </attributes>\r\n
-        \   <rowset name=\"skills\" key=\"typeID\" columns=\"typeID,skillpoints,level,published\">\r\n
-        \     <row typeID=\"3442\" skillpoints=\"1280000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3432\" skillpoints=\"512000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3342\" skillpoints=\"32000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"3436\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"26259\" skillpoints=\"4243\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"17940\" skillpoints=\"605050\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3388\" skillpoints=\"5237\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"3394\" skillpoints=\"90510\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3392\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3402\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3425\" skillpoints=\"90523\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3363\" skillpoints=\"250\" level=\"1\" published=\"1\"
-        />\r\n      <row typeID=\"3321\" skillpoints=\"512000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3424\" skillpoints=\"512000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3338\" skillpoints=\"2048000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3332\" skillpoints=\"1280000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3328\" skillpoints=\"90510\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"16598\" skillpoints=\"4243\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"16594\" skillpoints=\"4243\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"25863\" skillpoints=\"4243\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"3551\" skillpoints=\"8000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"3441\" skillpoints=\"1280000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"21059\" skillpoints=\"512000\" level=\"5\" published=\"1\"
+        \ <currentTime>2015-09-08 23:38:27</currentTime>\r\n  <result>\r\n    <characterID>95512059</characterID>\r\n
+        \   <name>Quint Slade</name>\r\n    <homeStationID>60014629</homeStationID>\r\n
+        \   <DoB>2015-04-09 20:37:05</DoB>\r\n    <race>Amarr</race>\r\n    <bloodLineID>13</bloodLineID>\r\n
+        \   <bloodLine>Khanid</bloodLine>\r\n    <ancestryID>37</ancestryID>\r\n    <ancestry>Cyber
+        Knights</ancestry>\r\n    <gender>Male</gender>\r\n    <corporationName>Imperial
+        Academy</corporationName>\r\n    <corporationID>1000166</corporationID>\r\n
+        \   <cloneTypeID>164</cloneTypeID>\r\n    <cloneName>Clone Grade Alpha</cloneName>\r\n
+        \   <cloneSkillPoints>0</cloneSkillPoints>\r\n    <freeSkillPoints>0</freeSkillPoints>\r\n
+        \   <freeRespecs>2</freeRespecs>\r\n    <cloneJumpDate>0001-01-01 00:00:00</cloneJumpDate>\r\n
+        \   <lastRespecDate>0001-01-01 00:00:00</lastRespecDate>\r\n    <lastTimedRespec>0001-01-01
+        00:00:00</lastTimedRespec>\r\n    <remoteStationDate>0001-01-01 00:00:00</remoteStationDate>\r\n
+        \   <rowset name=\"jumpClones\" key=\"jumpCloneID\" columns=\"jumpCloneID,typeID,locationID,cloneName\"
+        />\r\n    <rowset name=\"jumpCloneImplants\" key=\"jumpCloneID\" columns=\"jumpCloneID,typeID,typeName\"
+        />\r\n    <jumpActivation>0001-01-01 00:00:00</jumpActivation>\r\n    <jumpFatigue>0001-01-01
+        00:00:00</jumpFatigue>\r\n    <jumpLastUpdate>0001-01-01 00:00:00</jumpLastUpdate>\r\n
+        \   <balance>0.01</balance>\r\n    <rowset name=\"implants\" key=\"typeID\"
+        columns=\"typeID,typeName\">\r\n      <row typeID=\"9956\" typeName=\"Social
+        Adaptation Chip - Basic\" />\r\n      <row typeID=\"10221\" typeName=\"Cybernetic
+        Subprocessor - Standard\" />\r\n      <row typeID=\"10208\" typeName=\"Memory
+        Augmentation - Standard\" />\r\n      <row typeID=\"10212\" typeName=\"Neural
+        Boost - Standard\" />\r\n      <row typeID=\"10216\" typeName=\"Ocular Filter
+        - Standard\" />\r\n    </rowset>\r\n    <attributes>\r\n      <intelligence>20</intelligence>\r\n
+        \     <memory>20</memory>\r\n      <charisma>19</charisma>\r\n      <perception>20</perception>\r\n
+        \     <willpower>20</willpower>\r\n    </attributes>\r\n    <rowset name=\"skills\"
+        key=\"typeID\" columns=\"typeID,skillpoints,level,published\">\r\n      <row
+        typeID=\"3300\" skillpoints=\"1415\" level=\"2\" published=\"1\" />\r\n      <row
+        typeID=\"3303\" skillpoints=\"8000\" level=\"3\" published=\"1\" />\r\n      <row
+        typeID=\"3327\" skillpoints=\"256000\" level=\"5\" published=\"1\" />\r\n
+        \     <row typeID=\"3331\" skillpoints=\"3603\" level=\"2\" published=\"1\"
+        />\r\n      <row typeID=\"3386\" skillpoints=\"1415\" level=\"2\" published=\"1\"
+        />\r\n      <row typeID=\"3392\" skillpoints=\"1421\" level=\"2\" published=\"1\"
+        />\r\n      <row typeID=\"3402\" skillpoints=\"8000\" level=\"3\" published=\"1\"
+        />\r\n      <row typeID=\"3412\" skillpoints=\"750\" level=\"1\" published=\"1\"
+        />\r\n      <row typeID=\"3413\" skillpoints=\"8000\" level=\"3\" published=\"1\"
+        />\r\n      <row typeID=\"3426\" skillpoints=\"45255\" level=\"4\" published=\"1\"
+        />\r\n      <row typeID=\"3449\" skillpoints=\"8000\" level=\"3\" published=\"1\"
         />\r\n      <row typeID=\"3411\" skillpoints=\"768000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"26252\" skillpoints=\"90510\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3419\" skillpoints=\"768000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"26260\" skillpoints=\"135765\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3443\" skillpoints=\"8000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"23618\" skillpoints=\"40000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"3355\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"12305\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3184\" skillpoints=\"5657\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"3326\" skillpoints=\"1280000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"4385\" skillpoints=\"40000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"3452\" skillpoints=\"181020\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3322\" skillpoints=\"750\" level=\"1\" published=\"1\"
-        />\r\n      <row typeID=\"3323\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"3427\" skillpoints=\"90510\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3348\" skillpoints=\"8000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"3895\" skillpoints=\"90510\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3440\" skillpoints=\"5838\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"16069\" skillpoints=\"2829\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"12195\" skillpoints=\"8000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"22578\" skillpoints=\"1000\" level=\"1\" published=\"1\"
-        />\r\n      <row typeID=\"32918\" skillpoints=\"500\" level=\"1\" published=\"1\"
-        />\r\n      <row typeID=\"3307\" skillpoints=\"287108\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3331\" skillpoints=\"90510\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3329\" skillpoints=\"90510\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3336\" skillpoints=\"64000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"26253\" skillpoints=\"24000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"2406\" skillpoints=\"5597\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"13279\" skillpoints=\"8000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"25718\" skillpoints=\"1280000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"33091\" skillpoints=\"512000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"33092\" skillpoints=\"512000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"33093\" skillpoints=\"512000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"33094\" skillpoints=\"512000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"33095\" skillpoints=\"1536000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"33096\" skillpoints=\"1536000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"33097\" skillpoints=\"1536000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"33098\" skillpoints=\"1536000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"12210\" skillpoints=\"135765\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"30544\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"30542\" skillpoints=\"45255\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"30548\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"30550\" skillpoints=\"45303\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"30552\" skillpoints=\"97344\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"30549\" skillpoints=\"45286\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"30651\" skillpoints=\"40000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"3439\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"21603\" skillpoints=\"170950\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"19759\" skillpoints=\"1000\" level=\"1\" published=\"1\"
-        />\r\n      <row typeID=\"32999\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"3434\" skillpoints=\"750\" level=\"1\" published=\"1\"
-        />\r\n      <row typeID=\"22536\" skillpoints=\"14\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"33078\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"32797\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"26256\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"22806\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"26258\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"26257\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"27902\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"3339\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"3343\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"3340\" skillpoints=\"1000\" level=\"1\" published=\"1\"
-        />\r\n      <row typeID=\"22808\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"3361\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"3358\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"3406\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"3405\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"12095\" skillpoints=\"32000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"11207\" skillpoints=\"1536000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"16591\" skillpoints=\"271530\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"25810\" skillpoints=\"7072\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"23566\" skillpoints=\"226275\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"12206\" skillpoints=\"40000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"21790\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"33699\" skillpoints=\"512000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"34390\" skillpoints=\"110828\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"20210\" skillpoints=\"24000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"11446\" skillpoints=\"1280000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"20212\" skillpoints=\"729135\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"12098\" skillpoints=\"226275\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"28609\" skillpoints=\"271530\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"35680\" skillpoints=\"135765\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"21611\" skillpoints=\"407294\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3356\" skillpoints=\"16000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"3893\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"3357\" skillpoints=\"45255\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3446\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"19719\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"3341\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"3337\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"22809\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"3396\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"3395\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"22807\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"3349\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"3350\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"20495\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"20494\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"26224\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"25544\" skillpoints=\"8000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"3305\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"3421\" skillpoints=\"2829\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"3423\" skillpoints=\"16000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"4411\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"33002\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"33001\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"19760\" skillpoints=\"750\" level=\"1\" published=\"1\"
-        />\r\n      <row typeID=\"25739\" skillpoints=\"38501\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"25811\" skillpoints=\"7072\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"11082\" skillpoints=\"135765\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3433\" skillpoints=\"750\" level=\"1\" published=\"1\"
-        />\r\n      <row typeID=\"3422\" skillpoints=\"500\" level=\"1\" published=\"1\"
-        />\r\n      <row typeID=\"2505\" skillpoints=\"5657\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"2495\" skillpoints=\"56480\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"23594\" skillpoints=\"1280000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"16281\" skillpoints=\"8000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"28164\" skillpoints=\"24000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"3335\" skillpoints=\"40000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"3333\" skillpoints=\"40000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"12093\" skillpoints=\"32000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"3315\" skillpoints=\"32000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"3435\" skillpoints=\"768000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"25235\" skillpoints=\"8000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"3444\" skillpoints=\"2829\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"12193\" skillpoints=\"8000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"12191\" skillpoints=\"8000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"12192\" skillpoints=\"8000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"33000\" skillpoints=\"16000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"23606\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3451\" skillpoints=\"512000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"12442\" skillpoints=\"1024000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"20315\" skillpoints=\"1280000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"20312\" skillpoints=\"1280000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3430\" skillpoints=\"24000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"20211\" skillpoints=\"40000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"24241\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"26255\" skillpoints=\"4243\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"26261\" skillpoints=\"135765\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"26254\" skillpoints=\"4243\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"3310\" skillpoints=\"16000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"3311\" skillpoints=\"90510\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3453\" skillpoints=\"512000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3431\" skillpoints=\"45255\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3312\" skillpoints=\"90510\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3316\" skillpoints=\"16000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"25719\" skillpoints=\"768000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3420\" skillpoints=\"181020\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"24242\" skillpoints=\"45255\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"21718\" skillpoints=\"4243\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"13278\" skillpoints=\"4269\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"3412\" skillpoints=\"135765\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3304\" skillpoints=\"768000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"12365\" skillpoints=\"16000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"12366\" skillpoints=\"16000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"11566\" skillpoints=\"16000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"12367\" skillpoints=\"16000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"28073\" skillpoints=\"1000\" level=\"1\" published=\"1\"
-        />\r\n      <row typeID=\"3325\" skillpoints=\"1024000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3418\" skillpoints=\"768000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"20314\" skillpoints=\"512000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"21071\" skillpoints=\"512000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"12441\" skillpoints=\"512000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"12484\" skillpoints=\"7072\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"12486\" skillpoints=\"226286\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"12487\" skillpoints=\"731527\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"12485\" skillpoints=\"7072\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"3416\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3387\" skillpoints=\"2829\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"3417\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3385\" skillpoints=\"45255\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3380\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3318\" skillpoints=\"512000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3302\" skillpoints=\"8000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"11579\" skillpoints=\"271530\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3303\" skillpoints=\"45255\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3429\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3426\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3386\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3330\" skillpoints=\"512000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3327\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3320\" skillpoints=\"45255\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3319\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3301\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3300\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3306\" skillpoints=\"44\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"3393\" skillpoints=\"1415\" level=\"2\" published=\"1\"
-        />\r\n      <row typeID=\"3413\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3359\" skillpoints=\"135765\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3428\" skillpoints=\"90510\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3324\" skillpoints=\"768000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3450\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3410\" skillpoints=\"135787\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3438\" skillpoints=\"16000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"3317\" skillpoints=\"40000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"19921\" skillpoints=\"111848\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"3449\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3454\" skillpoints=\"226275\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3455\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"3437\" skillpoints=\"256000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"11584\" skillpoints=\"24000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"3334\" skillpoints=\"1280000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"12092\" skillpoints=\"32000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"12211\" skillpoints=\"40000\" level=\"3\" published=\"1\"
-        />\r\n      <row typeID=\"33399\" skillpoints=\"90510\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"3409\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"3403\" skillpoints=\"0\" level=\"0\" published=\"1\"
-        />\r\n      <row typeID=\"3456\" skillpoints=\"1280000\" level=\"5\" published=\"1\"
-        />\r\n      <row typeID=\"20213\" skillpoints=\"362039\" level=\"4\" published=\"1\"
-        />\r\n      <row typeID=\"28656\" skillpoints=\"2500\" level=\"1\" published=\"1\"
+        />\r\n      <row typeID=\"3450\" skillpoints=\"8000\" level=\"3\" published=\"1\"
+        />\r\n      <row typeID=\"3318\" skillpoints=\"90510\" level=\"4\" published=\"1\"
+        />\r\n      <row typeID=\"3393\" skillpoints=\"250\" level=\"1\" published=\"1\"
+        />\r\n      <row typeID=\"3424\" skillpoints=\"2829\" level=\"2\" published=\"1\"
+        />\r\n      <row typeID=\"3394\" skillpoints=\"500\" level=\"1\" published=\"1\"
+        />\r\n      <row typeID=\"3454\" skillpoints=\"1250\" level=\"1\" published=\"1\"
         />\r\n    </rowset>\r\n    <rowset name=\"certificates\" key=\"certificateID\"
         columns=\"certificateID\" />\r\n    <rowset name=\"corporationRoles\" key=\"roleID\"
         columns=\"roleID,roleName\" />\r\n    <rowset name=\"corporationRolesAtHQ\"
         key=\"roleID\" columns=\"roleID,roleName\" />\r\n    <rowset name=\"corporationRolesAtBase\"
         key=\"roleID\" columns=\"roleID,roleName\" />\r\n    <rowset name=\"corporationRolesAtOther\"
         key=\"roleID\" columns=\"roleID,roleName\" />\r\n    <rowset name=\"corporationTitles\"
-        key=\"titleID\" columns=\"titleID,titleName\" />\r\n  </result>\r\n  <cachedUntil>2015-09-08
-        07:38:42</cachedUntil>\r\n</eveapi>"
+        key=\"titleID\" columns=\"titleID,titleName\" />\r\n  </result>\r\n  <cachedUntil>2015-09-09
+        00:35:27</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Tue, 08 Sep 2015 06:52:11 GMT
+  recorded_at: Tue, 08 Sep 2015 23:38:27 GMT
 recorded_with: VCR 2.9.3

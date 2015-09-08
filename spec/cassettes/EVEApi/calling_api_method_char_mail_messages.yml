@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.eveonline.com/char/MailMessages.xml.aspx?characterID=810699209&keyID=2139278&vCode=BLG8R4woo0iG9zCnSS6mXzjrjp68DQlQhUbI2TG3J9VBF5Q8XkvNjm4QvrMtEdDJ
+    uri: https://api.eveonline.com/char/MailMessages.xml.aspx?characterID=95512059&keyID=4278167&vCode=7QJg6p5BZNpDBp2FIz39dGwa7jnNaXAuYyLUVitlTQ3rY60VPBcaTpJVfYIkiW5l
     body:
       encoding: US-ASCII
       string: ''
@@ -19,161 +19,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Tue, 08 Sep 2015 06:52:10 GMT
+      - Tue, 08 Sep 2015 23:38:25 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-08 06:52:10</currentTime>\r\n  <result>\r\n    <rowset
-        name=\"messages\" key=\"messageID\" columns=\"messageID,senderID,senderName,sentDate,title,toCorpOrAllianceID,toCharacterIDs,toListID\">\r\n
-        \     <row messageID=\"348986139\" senderID=\"95463896\" senderName=\"Scar
-        Tripitika\" sentDate=\"2015-04-07 22:23:00\" title=\"CURRENT NEUTS\" toCorpOrAllianceID=\"98356422\"
-        toCharacterIDs=\"\" toListID=\"\" senderTypeID=\"1384\" />\r\n      <row messageID=\"348997113\"
-        senderID=\"1481529910\" senderName=\"TyLei JinMei\" sentDate=\"2015-04-08
-        06:14:00\" title=\"MAZES FOR SALE!!!\" toCorpOrAllianceID=\"98356422\" toCharacterIDs=\"\"
-        toListID=\"\" senderTypeID=\"1384\" />\r\n      <row messageID=\"349008440\"
-        senderID=\"1195268175\" senderName=\"LordHascouf\" sentDate=\"2015-04-08 18:10:00\"
-        title=\"Free CAP to lucky Miner\" toCorpOrAllianceID=\"98356422\" toCharacterIDs=\"\"
-        toListID=\"\" senderTypeID=\"1377\" />\r\n      <row messageID=\"349017093\"
-        senderID=\"95463896\" senderName=\"Scar Tripitika\" sentDate=\"2015-04-08
-        23:00:00\" title=\"***IMPORTANT***\" toCorpOrAllianceID=\"98356422\" toCharacterIDs=\"\"
-        toListID=\"\" senderTypeID=\"1384\" />\r\n      <row messageID=\"349017463\"
-        senderID=\"95463896\" senderName=\"Scar Tripitika\" sentDate=\"2015-04-08
-        23:13:00\" title=\"***IMPORTANT - PVP COMS***\" toCorpOrAllianceID=\"98356422\"
-        toCharacterIDs=\"\" toListID=\"\" senderTypeID=\"1384\" />\r\n      <row messageID=\"349027429\"
-        senderID=\"93969999\" senderName=\"Sophie Novastar\" sentDate=\"2015-04-09
-        06:50:00\" title=\"Leaving\" toCorpOrAllianceID=\"98356422\" toCharacterIDs=\"\"
-        toListID=\"\" senderTypeID=\"1377\" />\r\n      <row messageID=\"349030584\"
-        senderID=\"95463896\" senderName=\"Scar Tripitika\" sentDate=\"2015-04-09
-        11:42:00\" title=\"JOINT OPS / COMMS etc...\" toCorpOrAllianceID=\"98356422\"
-        toCharacterIDs=\"1178278065\" toListID=\"\" senderTypeID=\"1384\" />\r\n      <row
-        messageID=\"349035860\" senderID=\"481810316\" senderName=\"Borduke\" sentDate=\"2015-04-09
-        16:45:00\" title=\"Re: Dread Gurista Staging\" toCorpOrAllianceID=\"98356422\"
-        toCharacterIDs=\"94608658\" toListID=\"\" senderTypeID=\"1375\" />\r\n      <row
-        messageID=\"349039385\" senderID=\"602556158\" senderName=\"Chea Panasty\"
-        sentDate=\"2015-04-09 19:05:00\" title=\"Re: ***READ ME*** PVP COMMS\" toCorpOrAllianceID=\"98356422\"
-        toCharacterIDs=\"95463896\" toListID=\"\" senderTypeID=\"1375\" />\r\n      <row
-        messageID=\"349049328\" senderID=\"805438256\" senderName=\"Tinkers\" sentDate=\"2015-04-10
-        00:56:00\" title=\"Re: 2DWM-2\" toCorpOrAllianceID=\"99003549\" toCharacterIDs=\"1458841383\"
-        toListID=\"\" senderTypeID=\"1375\" />\r\n      <row messageID=\"349063937\"
-        senderID=\"94887576\" senderName=\"Not a Goon\" sentDate=\"2015-04-10 17:03:00\"
-        title=\"Alliance Mails &amp; POS Settings\" toCorpOrAllianceID=\"99003549\"
-        toCharacterIDs=\"\" toListID=\"\" senderTypeID=\"1383\" />\r\n      <row messageID=\"349084029\"
-        senderID=\"1957855282\" senderName=\"b8sic\" sentDate=\"2015-04-11 06:23:00\"
-        title=\"SOLD Re: 10/10 MAZE\" toCorpOrAllianceID=\"98356422\" toCharacterIDs=\"1957855282\"
-        toListID=\"\" senderTypeID=\"1378\" />\r\n      <row messageID=\"349084170\"
-        senderID=\"910996047\" senderName=\"Tohsons\" sentDate=\"2015-04-11 06:33:00\"
-        title=\"Maze in ZU-IU4 (9 Jumps from BU)\" toCorpOrAllianceID=\"98356422\"
-        toCharacterIDs=\"\" toListID=\"\" senderTypeID=\"1375\" />\r\n      <row messageID=\"349121028\"
-        senderID=\"94895257\" senderName=\"01d Crow\" sentDate=\"2015-04-12 13:08:00\"
-        title=\"Re: implant\" toCorpOrAllianceID=\"98356422\" toCharacterIDs=\"195451802\"
-        toListID=\"\" senderTypeID=\"1373\" />\r\n      <row messageID=\"349152422\"
-        senderID=\"93662277\" senderName=\"Zoastria Tantalon\" sentDate=\"2015-04-13
-        14:34:00\" title=\"Maze for sale.\" toCorpOrAllianceID=\"98356422\" toCharacterIDs=\"\"
-        toListID=\"\" senderTypeID=\"1379\" />\r\n      <row messageID=\"349206958\"
-        senderID=\"738202706\" senderName=\"Mark Foley\" sentDate=\"2015-04-15 15:59:00\"
-        title=\"FYI : Relic and Data Sites\" toCorpOrAllianceID=\"98356422\" toCharacterIDs=\"\"
-        toListID=\"\" senderTypeID=\"1376\" />\r\n      <row messageID=\"349230217\"
-        senderID=\"95463896\" senderName=\"Scar Tripitika\" sentDate=\"2015-04-16
-        11:26:00\" title=\"What's next !\" toCorpOrAllianceID=\"98356422\" toCharacterIDs=\"\"
-        toListID=\"\" senderTypeID=\"1384\" />\r\n      <row messageID=\"349233833\"
-        senderID=\"95463896\" senderName=\"Scar Tripitika\" sentDate=\"2015-04-16
-        15:43:00\" title=\"some info based on replies so far\" toCorpOrAllianceID=\"98356422\"
-        toCharacterIDs=\"\" toListID=\"\" senderTypeID=\"1384\" />\r\n      <row messageID=\"349529135\"
-        senderID=\"1815524449\" senderName=\"deesull\" sentDate=\"2015-04-26 15:34:00\"
-        title=\"Re: ALTs\" toCorpOrAllianceID=\"\" toCharacterIDs=\"810699209\" toListID=\"\"
-        senderTypeID=\"1375\" />\r\n      <row messageID=\"348978637\" senderID=\"1067764245\"
-        senderName=\"Greghor Tournelle\" sentDate=\"2015-04-07 18:24:00\" title=\"The
-        Maze - W0X-MG 95 mil.\" toCorpOrAllianceID=\"98356422\" toCharacterIDs=\"\"
-        toListID=\"\" senderTypeID=\"1377\" />\r\n      <row messageID=\"348985547\"
-        senderID=\"95463896\" senderName=\"Scar Tripitika\" sentDate=\"2015-04-07
-        22:04:00\" title=\"RemindeR\" toCorpOrAllianceID=\"98356422\" toCharacterIDs=\"\"
-        toListID=\"\" senderTypeID=\"1384\" />\r\n      <row messageID=\"348986502\"
-        senderID=\"95463896\" senderName=\"Scar Tripitika\" sentDate=\"2015-04-07
-        22:33:00\" title=\"DOCK UP\" toCorpOrAllianceID=\"98356422\" toCharacterIDs=\"\"
-        toListID=\"\" senderTypeID=\"1384\" />\r\n      <row messageID=\"348992611\"
-        senderID=\"94887576\" senderName=\"Not a Goon\" sentDate=\"2015-04-08 02:14:00\"
-        title=\"PBLRD and GTS - Now a thing!\" toCorpOrAllianceID=\"99003549\" toCharacterIDs=\"\"
-        toListID=\"\" senderTypeID=\"1383\" />\r\n      <row messageID=\"349003404\"
-        senderID=\"802666540\" senderName=\"Karissel\" sentDate=\"2015-04-08 14:29:00\"
-        title=\"Reminder Mining operation on 4-11-15 at 17:00 eve time\" toCorpOrAllianceID=\"98356422\"
-        toCharacterIDs=\"\" toListID=\"\" senderTypeID=\"1379\" />\r\n      <row messageID=\"349011377\"
-        senderID=\"95463896\" senderName=\"Scar Tripitika\" sentDate=\"2015-04-08
-        19:52:00\" title=\"Re: Free CAP to lucky Miner\" toCorpOrAllianceID=\"98356422\"
-        toCharacterIDs=\"1195268175\" toListID=\"\" senderTypeID=\"1384\" />\r\n      <row
-        messageID=\"349016257\" senderID=\"1635457686\" senderName=\"NiteNinja\" sentDate=\"2015-04-08
-        22:30:00\" title=\"PVP For Dummies - Implants and Boosters!\" toCorpOrAllianceID=\"99003549\"
-        toCharacterIDs=\"\" toListID=\"\" senderTypeID=\"1375\" />\r\n      <row messageID=\"349025614\"
-        senderID=\"94608658\" senderName=\"Psycho Axium\" sentDate=\"2015-04-09 04:50:00\"
-        title=\"Dread Gurista Staging\" toCorpOrAllianceID=\"98356422\" toCharacterIDs=\"\"
-        toListID=\"\" senderTypeID=\"1374\" />\r\n      <row messageID=\"349035889\"
-        senderID=\"481810316\" senderName=\"Borduke\" sentDate=\"2015-04-09 16:47:00\"
-        title=\"Re: Dread Gurista Staging\" toCorpOrAllianceID=\"98356422\" toCharacterIDs=\"\"
-        toListID=\"\" senderTypeID=\"1375\" />\r\n      <row messageID=\"349039027\"
-        senderID=\"95463896\" senderName=\"Scar Tripitika\" sentDate=\"2015-04-09
-        18:51:00\" title=\"***READ ME*** PVP COMMS\" toCorpOrAllianceID=\"98356422\"
-        toCharacterIDs=\"\" toListID=\"\" senderTypeID=\"1384\" />\r\n      <row messageID=\"349042230\"
-        senderID=\"1458841383\" senderName=\"Lux Nimrod\" sentDate=\"2015-04-09 20:36:00\"
-        title=\"2DWM-2\" toCorpOrAllianceID=\"99003549\" toCharacterIDs=\"\" toListID=\"\"
-        senderTypeID=\"1376\" />\r\n      <row messageID=\"349045126\" senderID=\"94887576\"
-        senderName=\"Not a Goon\" sentDate=\"2015-04-09 22:20:00\" title=\"Reminder:
-        Blue Standings for Alt Corps\" toCorpOrAllianceID=\"99003549\" toCharacterIDs=\"\"
-        toListID=\"\" senderTypeID=\"1383\" />\r\n      <row messageID=\"349047339\"
-        senderID=\"1635457686\" senderName=\"NiteNinja\" sentDate=\"2015-04-09 23:41:00\"
-        title=\"Market PVP and You!\" toCorpOrAllianceID=\"99003549\" toCharacterIDs=\"\"
-        toListID=\"\" senderTypeID=\"1375\" />\r\n      <row messageID=\"349047397\"
-        senderID=\"1635457686\" senderName=\"NiteNinja\" sentDate=\"2015-04-09 23:44:00\"
-        title=\"Market PVP and You! --Correction--\" toCorpOrAllianceID=\"99003549\"
-        toCharacterIDs=\"\" toListID=\"\" senderTypeID=\"1375\" />\r\n      <row messageID=\"349055609\"
-        senderID=\"91735572\" senderName=\"Andii Gaterau\" sentDate=\"2015-04-10 08:30:00\"
-        title=\"WTS Maze\" toCorpOrAllianceID=\"98356422\" toCharacterIDs=\"\" toListID=\"\"
-        senderTypeID=\"1377\" />\r\n      <row messageID=\"349057510\" senderID=\"95463896\"
-        senderName=\"Scar Tripitika\" sentDate=\"2015-04-10 11:12:00\" title=\"***NEW
-        STATIONS***\" toCorpOrAllianceID=\"98356422\" toCharacterIDs=\"1132877161,91926804\"
-        toListID=\"\" senderTypeID=\"1384\" />\r\n      <row messageID=\"349060279\"
-        senderID=\"93617191\" senderName=\"Abe Mabata\" sentDate=\"2015-04-10 14:25:00\"
-        title=\"Re: 2DWM-2\" toCorpOrAllianceID=\"99003549\" toCharacterIDs=\"1458841383,805438256\"
-        toListID=\"\" senderTypeID=\"1376\" />\r\n      <row messageID=\"349060881\"
-        senderID=\"1067764245\" senderName=\"Greghor Tournelle\" sentDate=\"2015-04-10
-        14:57:00\" title=\"The Maze - I1-BE8 90 mil.\" toCorpOrAllianceID=\"98356422\"
-        toCharacterIDs=\"\" toListID=\"\" senderTypeID=\"1377\" />\r\n      <row messageID=\"349079377\"
-        senderID=\"1179982954\" senderName=\"Rekindle\" sentDate=\"2015-04-11 02:27:00\"
-        title=\"New jump bridge route!\" toCorpOrAllianceID=\"98356422\" toCharacterIDs=\"\"
-        toListID=\"\" senderTypeID=\"1378\" />\r\n      <row messageID=\"349083987\"
-        senderID=\"1957855282\" senderName=\"b8sic\" sentDate=\"2015-04-11 06:21:00\"
-        title=\"10/10 MAZE\" toCorpOrAllianceID=\"98356422\" toCharacterIDs=\"\" toListID=\"\"
-        senderTypeID=\"1378\" />\r\n      <row messageID=\"349120215\" senderID=\"195451802\"
-        senderName=\"darthimus\" sentDate=\"2015-04-12 12:19:00\" title=\"implant\"
-        toCorpOrAllianceID=\"98356422\" toCharacterIDs=\"\" toListID=\"\" senderTypeID=\"1385\"
-        />\r\n      <row messageID=\"349127226\" senderID=\"1179982954\" senderName=\"Rekindle\"
-        sentDate=\"2015-04-12 17:25:00\" title=\"Mining Op Success - Thank you\" toCorpOrAllianceID=\"98356422\"
-        toCharacterIDs=\"\" toListID=\"\" senderTypeID=\"1378\" />\r\n      <row messageID=\"349129481\"
-        senderID=\"195451802\" senderName=\"darthimus\" sentDate=\"2015-04-12 18:36:00\"
-        title=\"FW: Mining Op Success - Thank you\" toCorpOrAllianceID=\"98356422\"
-        toCharacterIDs=\"\" toListID=\"\" senderTypeID=\"1385\" />\r\n      <row messageID=\"349130242\"
-        senderID=\"792728654\" senderName=\"Azuraz Dandaridae\" sentDate=\"2015-04-12
-        19:01:00\" title=\"Re: Mining Op Success - Thank you\" toCorpOrAllianceID=\"98356422\"
-        toCharacterIDs=\"1179982954\" toListID=\"\" senderTypeID=\"1377\" />\r\n      <row
-        messageID=\"349132813\" senderID=\"195451802\" senderName=\"darthimus\" sentDate=\"2015-04-12
-        20:21:00\" title=\"Re: implant\" toCorpOrAllianceID=\"98356422\" toCharacterIDs=\"\"
-        toListID=\"\" senderTypeID=\"1385\" />\r\n      <row messageID=\"349634972\"
-        senderID=\"810699209\" senderName=\"Adrian Dent\" sentDate=\"2015-04-29 19:15:00\"
-        title=\"Re: ALTs\" toCorpOrAllianceID=\"\" toCharacterIDs=\"1815524449\" toListID=\"\"
-        senderTypeID=\"1375\" />\r\n      <row messageID=\"350569545\" senderID=\"1195551863\"
-        senderName=\"Meta Knite\" sentDate=\"2015-05-28 13:16:00\" title=\"Hey bud\"
-        toCorpOrAllianceID=\"\" toCharacterIDs=\"810699209\" toListID=\"\" senderTypeID=\"1385\"
-        />\r\n      <row messageID=\"352041677\" senderID=\"810699209\" senderName=\"Adrian
-        Dent\" sentDate=\"2015-07-17 19:33:00\" title=\"Re: Hey bud\" toCorpOrAllianceID=\"\"
-        toCharacterIDs=\"1195551863\" toListID=\"\" senderTypeID=\"1375\" />\r\n      <row
-        messageID=\"352068129\" senderID=\"932731143\" senderName=\"Cristym 04Commander\"
-        sentDate=\"2015-07-18 14:30:00\" title=\"eve score\" toCorpOrAllianceID=\"\"
-        toCharacterIDs=\"810699209\" toListID=\"\" senderTypeID=\"1377\" />\r\n      <row
-        messageID=\"352094983\" senderID=\"1195551863\" senderName=\"Meta Knite\"
-        sentDate=\"2015-07-19 07:10:00\" title=\"Re: Hey bud\" toCorpOrAllianceID=\"\"
-        toCharacterIDs=\"810699209\" toListID=\"\" senderTypeID=\"1385\" />\r\n      <row
-        messageID=\"352246875\" senderID=\"810699209\" senderName=\"Adrian Dent\"
-        sentDate=\"2015-07-23 22:34:00\" title=\"Re: eve score\" toCorpOrAllianceID=\"\"
-        toCharacterIDs=\"932731143\" toListID=\"\" senderTypeID=\"1375\" />\r\n    </rowset>\r\n
-        \ </result>\r\n  <cachedUntil>2015-09-08 06:53:19</cachedUntil>\r\n</eveapi>"
+        \ <currentTime>2015-09-08 23:38:25</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"messages\" key=\"messageID\" columns=\"messageID,senderID,senderName,sentDate,title,toCorpOrAllianceID,toCharacterIDs,toListID\"
+        />\r\n  </result>\r\n  <cachedUntil>2015-09-08 23:53:25</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Tue, 08 Sep 2015 06:52:10 GMT
+  recorded_at: Tue, 08 Sep 2015 23:38:26 GMT
 recorded_with: VCR 2.9.3

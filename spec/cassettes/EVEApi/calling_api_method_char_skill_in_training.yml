@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.eveonline.com/char/SkillInTraining.xml.aspx?characterID=810699209&keyID=2139278&vCode=BLG8R4woo0iG9zCnSS6mXzjrjp68DQlQhUbI2TG3J9VBF5Q8XkvNjm4QvrMtEdDJ
+    uri: https://api.eveonline.com/char/SkillInTraining.xml.aspx?characterID=95512059&keyID=4278167&vCode=7QJg6p5BZNpDBp2FIz39dGwa7jnNaXAuYyLUVitlTQ3rY60VPBcaTpJVfYIkiW5l
     body:
       encoding: US-ASCII
       string: ''
@@ -19,17 +19,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Tue, 08 Sep 2015 06:52:09 GMT
+      - Tue, 08 Sep 2015 23:38:24 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-08 06:52:09</currentTime>\r\n  <result>\r\n    <currentTQTime
-        offset=\"0\">2015-09-08 06:52:09</currentTQTime>\r\n    <trainingEndTime>2015-09-20
-        04:33:50</trainingEndTime>\r\n    <trainingStartTime>2015-09-07 23:51:45</trainingStartTime>\r\n
-        \   <trainingTypeID>3412</trainingTypeID>\r\n    <trainingStartSP>135765</trainingStartSP>\r\n
-        \   <trainingDestinationSP>768000</trainingDestinationSP>\r\n    <trainingToLevel>5</trainingToLevel>\r\n
-        \   <skillInTraining>1</skillInTraining>\r\n  </result>\r\n  <cachedUntil>2015-09-08
-        07:35:18</cachedUntil>\r\n</eveapi>"
+        \ <currentTime>2015-09-08 23:38:24</currentTime>\r\n  <result>\r\n    <currentTQTime
+        offset=\"0\">2015-09-08 23:38:24</currentTQTime>\r\n    <skillInTraining>0</skillInTraining>\r\n
+        \ </result>\r\n  <cachedUntil>2015-09-09 00:35:24</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Tue, 08 Sep 2015 06:52:09 GMT
+  recorded_at: Tue, 08 Sep 2015 23:38:24 GMT
 recorded_with: VCR 2.9.3

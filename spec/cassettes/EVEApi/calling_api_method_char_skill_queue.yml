@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.eveonline.com/char/SkillQueue.xml.aspx?characterID=810699209&keyID=2139278&vCode=BLG8R4woo0iG9zCnSS6mXzjrjp68DQlQhUbI2TG3J9VBF5Q8XkvNjm4QvrMtEdDJ
+    uri: https://api.eveonline.com/char/SkillQueue.xml.aspx?characterID=95512059&keyID=4278167&vCode=7QJg6p5BZNpDBp2FIz39dGwa7jnNaXAuYyLUVitlTQ3rY60VPBcaTpJVfYIkiW5l
     body:
       encoding: US-ASCII
       string: ''
@@ -19,71 +19,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Tue, 08 Sep 2015 06:52:08 GMT
+      - Tue, 08 Sep 2015 23:38:24 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-08 06:52:09</currentTime>\r\n  <result>\r\n    <rowset
-        name=\"skillqueue\" key=\"queuePosition\" columns=\"queuePosition,typeID,level,startSP,endSP,startTime,endTime\">\r\n
-        \     <row queuePosition=\"0\" typeID=\"3412\" level=\"5\" startSP=\"135765\"
-        endSP=\"768000\" startTime=\"2015-09-07 23:51:45\" endTime=\"2015-09-20 04:33:50\"
-        />\r\n      <row queuePosition=\"1\" typeID=\"30552\" level=\"5\" startSP=\"97381\"
-        endSP=\"256000\" startTime=\"2015-09-20 04:33:50\" endTime=\"2015-09-23 04:01:50\"
-        />\r\n      <row queuePosition=\"2\" typeID=\"20212\" level=\"5\" startSP=\"729135\"
-        endSP=\"2048000\" startTime=\"2015-09-23 04:01:50\" endTime=\"2015-10-17 22:06:50\"
-        />\r\n      <row queuePosition=\"3\" typeID=\"21611\" level=\"5\" startSP=\"407294\"
-        endSP=\"2304000\" startTime=\"2015-10-17 22:06:50\" endTime=\"2015-11-26 20:02:47\"
-        />\r\n      <row queuePosition=\"4\" typeID=\"3336\" level=\"4\" startSP=\"64000\"
-        endSP=\"362039\" startTime=\"2015-11-26 20:02:47\" endTime=\"2015-12-02 10:17:53\"
-        />\r\n      <row queuePosition=\"5\" typeID=\"3320\" level=\"5\" startSP=\"45255\"
-        endSP=\"256000\" startTime=\"2015-12-02 10:17:53\" endTime=\"2015-12-06 09:13:42\"
-        />\r\n      <row queuePosition=\"6\" typeID=\"12487\" level=\"5\" startSP=\"731527\"
-        endSP=\"1280000\" startTime=\"2015-12-06 09:13:42\" endTime=\"2015-12-14 20:21:59\"
-        />\r\n      <row queuePosition=\"7\" typeID=\"23566\" level=\"5\" startSP=\"226275\"
-        endSP=\"1280000\" startTime=\"2015-12-14 20:21:59\" endTime=\"2015-12-31 02:38:06\"
-        />\r\n      <row queuePosition=\"8\" typeID=\"33399\" level=\"5\" startSP=\"90510\"
-        endSP=\"512000\" startTime=\"2015-12-31 02:38:06\" endTime=\"2016-01-10 13:31:19\"
-        />\r\n      <row queuePosition=\"9\" typeID=\"30549\" level=\"5\" startSP=\"45286\"
-        endSP=\"256000\" startTime=\"2016-01-10 13:31:19\" endTime=\"2016-01-14 12:26:17\"
-        />\r\n      <row queuePosition=\"10\" typeID=\"3394\" level=\"5\" startSP=\"90510\"
-        endSP=\"512000\" startTime=\"2016-01-14 12:26:17\" endTime=\"2016-01-22 15:34:20\"
-        />\r\n      <row queuePosition=\"11\" typeID=\"3425\" level=\"5\" startSP=\"90523\"
-        endSP=\"512000\" startTime=\"2016-01-22 15:34:20\" endTime=\"2016-01-30 18:42:02\"
-        />\r\n      <row queuePosition=\"12\" typeID=\"3420\" level=\"5\" startSP=\"181020\"
-        endSP=\"1024000\" startTime=\"2016-01-30 18:42:02\" endTime=\"2016-02-16 00:58:09\"
-        />\r\n      <row queuePosition=\"13\" typeID=\"3336\" level=\"5\" startSP=\"362039\"
-        endSP=\"2048000\" startTime=\"2016-02-16 00:58:09\" endTime=\"2016-03-18 16:24:40\"
-        />\r\n      <row queuePosition=\"14\" typeID=\"19760\" level=\"2\" startSP=\"750\"
-        endSP=\"4243\" startTime=\"2016-03-18 16:24:40\" endTime=\"2016-03-18 18:01:41\"
-        />\r\n      <row queuePosition=\"15\" typeID=\"19760\" level=\"3\" startSP=\"4243\"
-        endSP=\"24000\" startTime=\"2016-03-18 18:01:41\" endTime=\"2016-03-19 03:10:30\"
-        />\r\n      <row queuePosition=\"16\" typeID=\"19759\" level=\"2\" startSP=\"1000\"
-        endSP=\"5657\" startTime=\"2016-03-19 03:10:30\" endTime=\"2016-03-19 05:19:51\"
-        />\r\n      <row queuePosition=\"17\" typeID=\"19759\" level=\"3\" startSP=\"5657\"
-        endSP=\"32000\" startTime=\"2016-03-19 05:19:51\" endTime=\"2016-03-19 17:31:36\"
-        />\r\n      <row queuePosition=\"18\" typeID=\"23618\" level=\"4\" startSP=\"40000\"
-        endSP=\"226275\" startTime=\"2016-03-19 17:31:36\" endTime=\"2016-03-22 14:31:03\"
-        />\r\n      <row queuePosition=\"19\" typeID=\"33000\" level=\"4\" startSP=\"16000\"
-        endSP=\"90510\" startTime=\"2016-03-22 14:31:03\" endTime=\"2016-03-24 01:00:46\"
-        />\r\n      <row queuePosition=\"20\" typeID=\"12366\" level=\"4\" startSP=\"16000\"
-        endSP=\"90510\" startTime=\"2016-03-24 01:00:46\" endTime=\"2016-03-25 11:30:30\"
-        />\r\n      <row queuePosition=\"21\" typeID=\"12365\" level=\"4\" startSP=\"16000\"
-        endSP=\"90510\" startTime=\"2016-03-25 11:30:30\" endTime=\"2016-03-26 22:00:13\"
-        />\r\n      <row queuePosition=\"22\" typeID=\"11566\" level=\"4\" startSP=\"16000\"
-        endSP=\"90510\" startTime=\"2016-03-26 22:00:13\" endTime=\"2016-03-28 08:29:56\"
-        />\r\n      <row queuePosition=\"23\" typeID=\"12367\" level=\"4\" startSP=\"16000\"
-        endSP=\"90510\" startTime=\"2016-03-28 08:29:56\" endTime=\"2016-03-29 18:59:40\"
-        />\r\n      <row queuePosition=\"24\" typeID=\"4385\" level=\"4\" startSP=\"40000\"
-        endSP=\"226275\" startTime=\"2016-03-29 18:59:40\" endTime=\"2016-04-02 17:04:21\"
-        />\r\n      <row queuePosition=\"25\" typeID=\"4385\" level=\"5\" startSP=\"226275\"
-        endSP=\"1280000\" startTime=\"2016-04-02 17:04:21\" endTime=\"2016-04-24 21:15:25\"
-        />\r\n      <row queuePosition=\"26\" typeID=\"3452\" level=\"5\" startSP=\"181020\"
-        endSP=\"1024000\" startTime=\"2016-04-24 21:15:25\" endTime=\"2016-05-12 15:00:16\"
-        />\r\n      <row queuePosition=\"27\" typeID=\"3454\" level=\"5\" startSP=\"226275\"
-        endSP=\"1280000\" startTime=\"2016-05-12 15:00:16\" endTime=\"2016-06-03 19:11:20\"
-        />\r\n      <row queuePosition=\"28\" typeID=\"11579\" level=\"5\" startSP=\"271530\"
-        endSP=\"1536000\" startTime=\"2016-06-03 19:11:20\" endTime=\"2016-06-28 04:35:30\"
-        />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-08 07:35:18</cachedUntil>\r\n</eveapi>"
+        \ <currentTime>2015-09-08 23:38:24</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"skillqueue\" key=\"queuePosition\" columns=\"queuePosition,typeID,level,startSP,endSP,startTime,endTime\"
+        />\r\n  </result>\r\n  <cachedUntil>2015-09-09 00:35:24</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Tue, 08 Sep 2015 06:52:09 GMT
+  recorded_at: Tue, 08 Sep 2015 23:38:24 GMT
 recorded_with: VCR 2.9.3

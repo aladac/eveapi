@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.eveonline.com/char/WalletTransactions.xml.aspx?characterID=810699209&keyID=2139278&vCode=BLG8R4woo0iG9zCnSS6mXzjrjp68DQlQhUbI2TG3J9VBF5Q8XkvNjm4QvrMtEdDJ
+    uri: https://api.eveonline.com/char/WalletTransactions.xml.aspx?characterID=95512059&keyID=4278167&vCode=7QJg6p5BZNpDBp2FIz39dGwa7jnNaXAuYyLUVitlTQ3rY60VPBcaTpJVfYIkiW5l
     body:
       encoding: US-ASCII
       string: ''
@@ -19,49 +19,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Tue, 08 Sep 2015 06:52:07 GMT
+      - Tue, 08 Sep 2015 23:38:23 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-08 06:52:08</currentTime>\r\n  <result>\r\n    <rowset
-        name=\"transactions\" key=\"transactionID\" columns=\"transactionDateTime,transactionID,quantity,typeName,typeID,price,clientID,clientName,stationID,stationName,transactionType,transactionFor,journalTransactionID,clientTypeID\">\r\n
-        \     <row transactionDateTime=\"2015-09-07 23:56:07\" transactionID=\"4057140173\"
-        quantity=\"1\" typeName=\"EM Ward Field II\" typeID=\"2301\" price=\"1489366.18\"
-        clientID=\"95426485\" clientName=\"KillerTrader\" stationID=\"60003760\" stationName=\"Jita
-        IV - Moon 4 - Caldari Navy Assembly Plant\" transactionType=\"buy\" transactionFor=\"personal\"
-        journalTransactionID=\"11632325571\" clientTypeID=\"1377\" />\r\n      <row
-        transactionDateTime=\"2015-09-07 23:53:43\" transactionID=\"4057138305\" quantity=\"4\"
-        typeName=\"Cruise Missile Launcher II\" typeID=\"19739\" price=\"2399923.48\"
-        clientID=\"95758175\" clientName=\"Mr Bank Man\" stationID=\"60003760\" stationName=\"Jita
-        IV - Moon 4 - Caldari Navy Assembly Plant\" transactionType=\"buy\" transactionFor=\"personal\"
-        journalTransactionID=\"11632318980\" clientTypeID=\"1376\" />\r\n      <row
-        transactionDateTime=\"2015-09-07 23:53:43\" transactionID=\"4057138304\" quantity=\"1\"
-        typeName=\"Cruise Missile Launcher II\" typeID=\"19739\" price=\"2399923.48\"
-        clientID=\"95199051\" clientName=\"Fredo Ovaert\" stationID=\"60003760\" stationName=\"Jita
-        IV - Moon 4 - Caldari Navy Assembly Plant\" transactionType=\"buy\" transactionFor=\"personal\"
-        journalTransactionID=\"11632318977\" clientTypeID=\"1378\" />\r\n      <row
-        transactionDateTime=\"2015-09-07 23:52:55\" transactionID=\"4057137743\" quantity=\"1\"
-        typeName=\"Improved Cloaking Device II\" typeID=\"11577\" price=\"2655491.95\"
-        clientID=\"94282021\" clientName=\"Bibo Obib\" stationID=\"60003760\" stationName=\"Jita
-        IV - Moon 4 - Caldari Navy Assembly Plant\" transactionType=\"buy\" transactionFor=\"personal\"
-        journalTransactionID=\"11632317161\" clientTypeID=\"1379\" />\r\n      <row
-        transactionDateTime=\"2015-09-07 21:39:21\" transactionID=\"4057022689\" quantity=\"1\"
-        typeName=\"Widow\" typeID=\"22436\" price=\"949999999.61\" clientID=\"1425215641\"
-        clientName=\"sprut01\" stationID=\"60003760\" stationName=\"Jita IV - Moon
-        4 - Caldari Navy Assembly Plant\" transactionType=\"buy\" transactionFor=\"personal\"
-        journalTransactionID=\"11631910958\" clientTypeID=\"1383\" />\r\n      <row
-        transactionDateTime=\"2015-08-29 09:29:47\" transactionID=\"4046768226\" quantity=\"1\"
-        typeName=\"Jump Drive Calibration\" typeID=\"21611\" price=\"31060776.57\"
-        clientID=\"95474124\" clientName=\"Valery Shihari\" stationID=\"60003760\"
-        stationName=\"Jita IV - Moon 4 - Caldari Navy Assembly Plant\" transactionType=\"buy\"
-        transactionFor=\"personal\" journalTransactionID=\"11594617793\" clientTypeID=\"1383\"
-        />\r\n      <row transactionDateTime=\"2015-08-13 19:58:10\" transactionID=\"4029808775\"
-        quantity=\"1\" typeName=\"30 Day Pilot's License Extension (PLEX)\" typeID=\"29668\"
-        price=\"993999995.00\" clientID=\"1383918885\" clientName=\"Alexei Asmodeus\"
-        stationID=\"60003760\" stationName=\"Jita IV - Moon 4 - Caldari Navy Assembly
-        Plant\" transactionType=\"buy\" transactionFor=\"personal\" journalTransactionID=\"11533776567\"
-        clientTypeID=\"1376\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-08
-        07:05:17</cachedUntil>\r\n</eveapi>"
+        \ <currentTime>2015-09-08 23:38:23</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"transactions\" key=\"transactionID\" columns=\"transactionDateTime,transactionID,quantity,typeName,typeID,price,clientID,clientName,stationID,stationName,transactionType,transactionFor,journalTransactionID,clientTypeID\"
+        />\r\n  </result>\r\n  <cachedUntil>2015-09-09 00:05:23</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Tue, 08 Sep 2015 06:52:08 GMT
+  recorded_at: Tue, 08 Sep 2015 23:38:23 GMT
 recorded_with: VCR 2.9.3
