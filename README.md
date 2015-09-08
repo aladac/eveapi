@@ -11,7 +11,7 @@ This work in progress in a very early stage. Not documented. Only a couple of me
 
 Most methods names can be listed by calling `EVEApi::Client#api_methods`
 ```ruby
-pry(main)> EVEApi::Client.new.api_methods[0..5]
+EVEApi::Client.new.api_methods[0..5]
 => [
     [0] :char_chat_channels,
     [1] :char_bookmarks,
@@ -43,10 +43,20 @@ Uses [excon](https://github.com/excon/excon),  [crack](https://github.com/jnunem
 ```ruby
 require 'eveapi'
 client = EVEApi::Client.new
-client.key_id = YOUR_API_KEY_ID
-client.vcode = YOUR_API_VCODE
+client.key_id = 4278167
+client.vcode = "7QJg6p5BZNpDBp2FIz39dGwa7jnNaXAuYyLUVitlTQ3rY60VPBcaTpJVfYIkiW5l"
 client.account_characters
-# [{"name"=>"CHARACTER_NAME1", "characterID"=>"CHARACTER_ID1", "corporationName"=>"CORPORATION_NAME1", "corporationID"=>"CORPORATION_ID1", "allianceID"=>"0", "allianceName"=>"", "factionID"=>"0", "factionName"=>""}, {"name"=>"CHARACTER_NAME2", "characterID"=>"CHARACTER_ID2", "corporationName"=>"CORPORATION_NAME2", "corporationID"=>"CORPORATION_ID2", "allianceID"=>"0", "allianceName"=>"", "factionID"=>"0", "factionName"=>""}]
+client.account_characters
+=> {
+                :name => "Quint Slade",
+        :character_id => "95512059",
+    :corporation_name => "Imperial Academy",
+      :corporation_id => "1000166",
+         :alliance_id => "0",
+       :alliance_name => "",
+          :faction_id => "0",
+        :faction_name => ""
+}
 ```
 
 ## Requirements
