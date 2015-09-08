@@ -8,7 +8,7 @@ module EVEApi
       @response = response
       raise 'No such method' if response.status == 404
       @data = parse_xml
-      @result = self.parse_result
+      @result = convert_hash_keys(self.parse_result)
       raise error if error
     end
 
@@ -24,7 +24,15 @@ module EVEApi
       begin
         data['eveapi']['result']['rowset']['row']
       rescue NoMethodError
-        data['eveapi']['result']
+        case data['eveapi']['result']
+        when Hash
+          data['eveapi']['result']
+          data['eveapi']['result'].each_value do |v|
+            v.process_rows if v.is_a?(Hash)
+          end
+        else
+          data['eveapi']['result']
+        end
       rescue TypeError
         output = {}
         data['eveapi']['result']['rowset'].each do |r|
