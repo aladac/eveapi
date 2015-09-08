@@ -33,5 +33,31 @@ module EVEApi
       request = EVEApi::Request.new @connection.get(path: check_path(name), query: params)
       request.result
     end
+    def working_methods
+      [
+        :account_api_key_info,
+        :account_account_status,
+        :server_server_status,
+        :char_contracts,
+        :char_wallet_transactions,
+        :char_wallet_journal,
+        :char_upcoming_calendar_events,
+        :char_standings,
+        :char_skill_queue,
+        :char_skill_in_training,
+        :char_research,
+        :char_notifications,
+        :char_medals,
+        :char_market_orders,
+        :char_mail_messages,
+        :char_mailing_lists,
+        :char_industry_jobs,
+        :char_contact_notifications,
+        :char_contact_list,
+        :char_character_sheet,
+        :char_asset_list,
+        :char_account_balance,
+      ]
+    end
   end
 end
