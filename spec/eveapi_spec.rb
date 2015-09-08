@@ -36,6 +36,18 @@ describe EVEApi do
     it "calling api_methods should return an Array of method symobls" do
       expect(EVEApi::Client.new.api_methods).to be_an(Array)
     end
+
+    EVEApi::Client.new.working_methods.each do |m|
+      before :each do
+        @client = EVEApi::Client.new
+        @client.key_id = "2139278"
+        @client.vcode = "BLG8R4woo0iG9zCnSS6mXzjrjp68DQlQhUbI2TG3J9VBF5Q8XkvNjm4QvrMtEdDJ"
+        @client.character_id = '810699209'
+      end
+      it "calling api method #{m}" do
+        expect { @client.send(m) }.not_to raise_error
+      end
+    end
   end
 end
 
