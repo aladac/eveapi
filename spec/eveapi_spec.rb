@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'eveapi'
 
-describe EVEApi do
+describe EVEApi, :vcr do
   it "there should be a connection class" do
     expect { EVEApi::Client.new }.not_to raise_error
   end
@@ -49,7 +49,7 @@ describe EVEApi do
   end
 end
 
-describe EVEApi::Request do
+describe EVEApi::Request, :vcr do
   it 'there should be a EVEApi::Response class' do
     expect { EVEApi::Request }.not_to raise_error
   end

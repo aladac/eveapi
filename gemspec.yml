@@ -18,3 +18,5 @@ development_dependencies:
   rake: ~> 10.0
   rdoc: ~> 4.0
   rspec: ~> 3.0
+  vcr: ~> 2.9
+  webmock: ~> 1
