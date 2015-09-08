@@ -19,13 +19,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Tue, 08 Sep 2015 23:38:25 GMT
+      - Tue, 08 Sep 2015 23:52:46 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-08 23:38:26</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-08 23:52:46</currentTime>\r\n  <result>\r\n    <rowset
         name=\"mailingLists\" key=\"listID\" columns=\"listID,displayName\" />\r\n
         \ </result>\r\n  <cachedUntil>2015-09-09 05:35:26</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Tue, 08 Sep 2015 23:38:26 GMT
+  recorded_at: Tue, 08 Sep 2015 23:52:46 GMT
 recorded_with: VCR 2.9.3

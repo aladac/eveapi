@@ -19,13 +19,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Tue, 08 Sep 2015 23:38:23 GMT
+      - Tue, 08 Sep 2015 23:52:44 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-08 23:38:24</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-08 23:52:44</currentTime>\r\n  <result>\r\n    <rowset
         name=\"upcomingEvents\" key=\"eventID\" columns=\"eventID,ownerID,ownerName,eventDate,eventTitle,duration,importance,response,eventText,ownerTypeID\"
         />\r\n  </result>\r\n  <cachedUntil>2015-09-09 00:35:24</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Tue, 08 Sep 2015 23:38:24 GMT
+  recorded_at: Tue, 08 Sep 2015 23:52:44 GMT
 recorded_with: VCR 2.9.3
