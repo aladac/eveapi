@@ -1,0 +1,395 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.eveonline.com/char/ContactList.xml.aspx?characterID=810699209&keyID=2139278&vCode=BLG8R4woo0iG9zCnSS6mXzjrjp68DQlQhUbI2TG3J9VBF5Q8XkvNjm4QvrMtEdDJ
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Tue, 08 Sep 2015 06:52:11 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-08 06:52:11</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"contactList\" key=\"contactID\" columns=\"contactID,contactName,standing,contactTypeID,labelMask,inWatchlist\">\r\n
+        \     <row contactID=\"3009988\" contactName=\"Navittus Sildbena\" standing=\"0\"
+        contactTypeID=\"1380\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3009993\" contactName=\"Sildebetur Aredeborg\" standing=\"0\"
+        contactTypeID=\"1380\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3010112\" contactName=\"Lulmuna Eilirmuald\" standing=\"0\" contactTypeID=\"1380\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3010115\"
+        contactName=\"Imulia Aeduin\" standing=\"0\" contactTypeID=\"1380\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3010116\" contactName=\"Adamegod
+        Krizokil\" standing=\"0\" contactTypeID=\"1379\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3010118\" contactName=\"Beomilar Brettirdur\"
+        standing=\"0\" contactTypeID=\"1380\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3010119\" contactName=\"Avren Atune\" standing=\"0\"
+        contactTypeID=\"1379\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3010137\" contactName=\"Balmires Agrelins\" standing=\"0\" contactTypeID=\"1377\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3010163\"
+        contactName=\"Annida Ruokajainen\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3010167\" contactName=\"Mekamireki
+        Fedas\" standing=\"0\" contactTypeID=\"1373\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3010176\" contactName=\"Kiljavas Yaskasen\" standing=\"0\"
+        contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3010874\" contactName=\"Samivesti Iivonas\" standing=\"0\" contactTypeID=\"1376\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3011064\"
+        contactName=\"Numo Humo\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3011086\" contactName=\"Inainshatsu
+        Onelari\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3011257\" contactName=\"Asanas Sanoya\" standing=\"0\"
+        contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3011316\" contactName=\"Ebunero Nila\" standing=\"0\" contactTypeID=\"1376\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3011323\"
+        contactName=\"Kukkiainen Endateinen\" standing=\"0\" contactTypeID=\"1376\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3011472\"
+        contactName=\"Kinachi Hepimeki\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3011716\" contactName=\"Arajailen
+        Korinen\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3011834\" contactName=\"Kukkankasvio Kalmon\"
+        standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3011848\" contactName=\"Shunkoken Pojus\" standing=\"0\"
+        contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3011949\" contactName=\"Userala Yakela\" standing=\"0\" contactTypeID=\"1375\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3012012\"
+        contactName=\"Paarinela Siakkawai\" standing=\"0\" contactTypeID=\"1375\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3012018\"
+        contactName=\"Ogyura Unao\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3012019\" contactName=\"Arugas
+        Ungi\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3012027\" contactName=\"Missomon Riki\" standing=\"0\"
+        contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3012029\" contactName=\"Hakadura Otora\" standing=\"0\" contactTypeID=\"1376\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3012030\"
+        contactName=\"Orayuata Paanenen\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3012033\" contactName=\"Ahiras
+        Kartavo\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3012038\" contactName=\"Kakkagainen Jakamaa\"
+        standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3012043\" contactName=\"Pukka Shotsu\" standing=\"0\"
+        contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3012045\" contactName=\"Mastakomon Hamon\" standing=\"0\" contactTypeID=\"1376\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3012049\"
+        contactName=\"Motsu Ititeimo\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3012055\" contactName=\"Okatuya
+        Ekala\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3012074\" contactName=\"Konolana Tsunibaka\"
+        standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3012078\" contactName=\"Hahtodan Onuoto\" standing=\"0\"
+        contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3012151\" contactName=\"Iekka Katiken\" standing=\"0\" contactTypeID=\"1375\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3012160\"
+        contactName=\"Hotisku Sogas\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3012195\" contactName=\"Vesuri
+        Varvailen\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3012197\" contactName=\"Hittanpaa Vaankalen\"
+        standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3012356\" contactName=\"Ratadure Oltber\" standing=\"0\"
+        contactTypeID=\"1380\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3012451\" contactName=\"Uinkin Hrul\" standing=\"0\" contactTypeID=\"1379\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3012452\"
+        contactName=\"Nildukur Surelnolf\" standing=\"0\" contactTypeID=\"1379\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3012462\" contactName=\"Leumolsan
+        Fivinald\" standing=\"0\" contactTypeID=\"1379\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3012473\" contactName=\"Welukenur Annodi\" standing=\"0\"
+        contactTypeID=\"1380\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3012503\" contactName=\"Heia Andidan\" standing=\"0\" contactTypeID=\"1379\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3013116\"
+        contactName=\"Ihah Nieren\" standing=\"0\" contactTypeID=\"1374\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3013350\" contactName=\"Kavala
+        Ahtitaras\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3013483\" contactName=\"Annaa Hoyokaima\" standing=\"0\"
+        contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3013634\" contactName=\"Iesa Suokinainen\" standing=\"0\" contactTypeID=\"1376\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3013643\"
+        contactName=\"Vola Nousela\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3013949\" contactName=\"Bragesar
+        Asgureven\" standing=\"0\" contactTypeID=\"1379\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3013962\" contactName=\"Aldasiven On\" standing=\"0\"
+        contactTypeID=\"1379\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3013963\" contactName=\"Grord Bekengot\" standing=\"0\" contactTypeID=\"1380\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3013965\"
+        contactName=\"Unuter Hureirik\" standing=\"0\" contactTypeID=\"1379\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3014134\" contactName=\"Ansel
+        Reirokur\" standing=\"0\" contactTypeID=\"1380\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3014143\" contactName=\"Bedangel Appold\" standing=\"0\"
+        contactTypeID=\"1379\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3014144\" contactName=\"Azorsund Erkaegur\" standing=\"0\" contactTypeID=\"1380\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3014149\"
+        contactName=\"Vanulard Inard\" standing=\"0\" contactTypeID=\"1380\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3014564\" contactName=\"Nalda
+        Rasteed\" standing=\"0\" contactTypeID=\"1373\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3014586\" contactName=\"Ikpa Khni\" standing=\"0\"
+        contactTypeID=\"1373\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3014597\" contactName=\"Adamrepun Sararik\" standing=\"0\" contactTypeID=\"1373\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3014610\"
+        contactName=\"Khana Airshaz\" standing=\"0\" contactTypeID=\"1373\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3014781\" contactName=\"Anreh
+        Gaknem\" standing=\"0\" contactTypeID=\"1374\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3015766\" contactName=\"Maittintes Espou\" standing=\"0\"
+        contactTypeID=\"1378\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3015784\" contactName=\"Pourpes Andonore\" standing=\"0\" contactTypeID=\"1377\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3015819\"
+        contactName=\"Ahtadaken Kies\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3016780\" contactName=\"Ogomutsu
+        Anttunen\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3016783\" contactName=\"Izama Pukakada\" standing=\"0\"
+        contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3016810\" contactName=\"Kutatala Ikao\" standing=\"0\" contactTypeID=\"1376\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3016813\"
+        contactName=\"Anken Takinius\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3016815\" contactName=\"Tuga
+        Nato\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3016818\" contactName=\"Wi Tsuruma\" standing=\"0\"
+        contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3016822\" contactName=\"Oisio Narva\" standing=\"0\" contactTypeID=\"1376\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3016825\"
+        contactName=\"Morpala Sasuola\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3016828\" contactName=\"Nakkilen
+        Utonoma\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3016830\" contactName=\"Etseras Kulesa\" standing=\"0\"
+        contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3016832\" contactName=\"Oksarkovuo Ahviala\" standing=\"0\" contactTypeID=\"1376\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3016833\"
+        contactName=\"Purkkoken Honuken\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3016836\" contactName=\"Auni
+        Heinen\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3016838\" contactName=\"Pois Ouchiras\" standing=\"0\"
+        contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3016840\" contactName=\"Asalova Iella\" standing=\"0\" contactTypeID=\"1375\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3016841\"
+        contactName=\"Arkiras Airilen\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3016848\" contactName=\"Ahtaras
+        Auta\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3016851\" contactName=\"Isiga Vesen\" standing=\"0\"
+        contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3016852\" contactName=\"Harenen Oksuken\" standing=\"0\" contactTypeID=\"1376\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3016853\"
+        contactName=\"Sishanuta Nalvula\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3016854\" contactName=\"Kishida
+        Uchoda\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3016855\" contactName=\"Rampiro Herlen\" standing=\"0\"
+        contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3016856\" contactName=\"Kirvas Manninen\" standing=\"0\" contactTypeID=\"1375\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3016858\"
+        contactName=\"Nituma Rainakaila\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3016859\" contactName=\"Aarnaras
+        Wasken\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3016860\" contactName=\"Pahtadan Rihtola\" standing=\"0\"
+        contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3016861\" contactName=\"Ailma Visanova\" standing=\"0\" contactTypeID=\"1376\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3016862\"
+        contactName=\"Paakata Aboraala\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3016863\" contactName=\"Sarojikka
+        Tokaka\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3016887\" contactName=\"Katahanda Ogyonen\" standing=\"0\"
+        contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3016893\" contactName=\"Sakokaida Ahitaitoh\" standing=\"0\" contactTypeID=\"1375\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3016939\"
+        contactName=\"Heima Anzomon\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3016942\" contactName=\"Ininaga
+        Vilkko\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3016961\" contactName=\"Kikh Kharannud\" standing=\"0\"
+        contactTypeID=\"1373\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3016970\" contactName=\"Ochikaipia Hevulainen\" standing=\"0\"
+        contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3016975\" contactName=\"Bunarolie Elettare\" standing=\"0\" contactTypeID=\"1377\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3017024\"
+        contactName=\"Arnkatzur Jaetantur\" standing=\"0\" contactTypeID=\"1380\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3017115\"
+        contactName=\"Vessolen Huunakailen\" standing=\"0\" contactTypeID=\"1375\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3017148\"
+        contactName=\"Tairainen Tolola\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3017202\" contactName=\"Ohbota
+        Maiken\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3017204\" contactName=\"Ilken Yagamies\" standing=\"0\"
+        contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3017222\" contactName=\"Vartalmar Haniko\" standing=\"0\" contactTypeID=\"1379\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3017249\"
+        contactName=\"Suitonen Nikirai\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3017299\" contactName=\"Albidoldur
+        Anssus\" standing=\"0\" contactTypeID=\"1379\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3017333\" contactName=\"Anokai Reilanen\" standing=\"0\"
+        contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3017364\" contactName=\"Atrald Eiswulf\" standing=\"0\" contactTypeID=\"1379\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3017391\"
+        contactName=\"Saira Ikku\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3017399\" contactName=\"Upuo
+        Ichisakko\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3017486\" contactName=\"Correl Tare\" standing=\"0\"
+        contactTypeID=\"1378\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3017516\" contactName=\"Bappenalle Ygola\" standing=\"0\" contactTypeID=\"1378\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3017644\"
+        contactName=\"Saguda Svallin\" standing=\"0\" contactTypeID=\"1379\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3017674\" contactName=\"Alpedurch
+        Soulobert\" standing=\"0\" contactTypeID=\"1378\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3017880\" contactName=\"Ilrer Thielbrync\" standing=\"0\"
+        contactTypeID=\"1377\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3018017\" contactName=\"Chararie Madene\" standing=\"0\" contactTypeID=\"1377\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3018198\"
+        contactName=\"Stie Allacis\" standing=\"0\" contactTypeID=\"1378\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3018480\" contactName=\"Hakno
+        Lekan\" standing=\"0\" contactTypeID=\"1379\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3018481\" contactName=\"Apheta Zenakon\" standing=\"0\"
+        contactTypeID=\"1380\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3018482\" contactName=\"Jachael Menson\" standing=\"0\" contactTypeID=\"1379\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3018490\"
+        contactName=\"Taspar Zolankor\" standing=\"0\" contactTypeID=\"1374\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3018491\" contactName=\"Vaktan
+        Sido\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3018492\" contactName=\"Rokuza Taman\" standing=\"0\"
+        contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3018493\" contactName=\"Peeta Waikon\" standing=\"0\" contactTypeID=\"1376\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3018580\"
+        contactName=\"Pomari Maara\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3018581\" contactName=\"Hosiwo
+        Onima\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3018582\" contactName=\"Nakkito Ihadechi\" standing=\"0\"
+        contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3018594\" contactName=\"Enanato Imeri\" standing=\"0\" contactTypeID=\"1375\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3018645\"
+        contactName=\"Korhonomi Oti\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3018646\" contactName=\"Tillen
+        Matsu\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3018647\" contactName=\"Autaris Pia\" standing=\"0\"
+        contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3018658\" contactName=\"Arizam Gimit\" standing=\"0\" contactTypeID=\"1385\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3018659\"
+        contactName=\"Shafra Gulias\" standing=\"0\" contactTypeID=\"1373\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3018669\" contactName=\"Rilbedur
+        Tjar\" standing=\"0\" contactTypeID=\"1379\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3018670\" contactName=\"West Ludorim\" standing=\"0\"
+        contactTypeID=\"1379\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3018671\" contactName=\"Albedur Vatzako\" standing=\"0\" contactTypeID=\"1379\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3018676\"
+        contactName=\"Sawara Hakonen\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3018696\" contactName=\"Rantoh
+        Funkaki\" standing=\"0\" contactTypeID=\"1383\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3018699\" contactName=\"Nouteras Ashata\" standing=\"0\"
+        contactTypeID=\"1383\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3018870\" contactName=\"Altan Uigot\" standing=\"0\" contactTypeID=\"1386\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3018897\"
+        contactName=\"Ollen Alulama\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3018898\" contactName=\"Ichmari
+        Obesa\" standing=\"0\" contactTypeID=\"1383\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3018899\" contactName=\"Kui Hisken\" standing=\"0\"
+        contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3018906\" contactName=\"Hazar Arjidsi\" standing=\"0\" contactTypeID=\"1380\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3018907\"
+        contactName=\"Sish Iaokih\" standing=\"0\" contactTypeID=\"1386\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3018908\" contactName=\"Darabu
+        Harva\" standing=\"0\" contactTypeID=\"1379\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3018910\" contactName=\"Cimalo Mahnab\" standing=\"0\"
+        contactTypeID=\"1379\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3018975\" contactName=\"Naan Lekspar\" standing=\"0\" contactTypeID=\"1375\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3018992\"
+        contactName=\"Retatia Murae\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3019112\" contactName=\"Taltadan
+        Kaarrinen\" standing=\"0\" contactTypeID=\"1383\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3019114\" contactName=\"Ulkka Arateri\" standing=\"0\"
+        contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3019115\" contactName=\"Santadan Nukkuta\" standing=\"0\" contactTypeID=\"1383\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3019116\"
+        contactName=\"Saun Romakieto\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3019118\" contactName=\"Neuntonen
+        Hahagas\" standing=\"0\" contactTypeID=\"1383\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3019120\" contactName=\"Montilen Jonota\" standing=\"0\"
+        contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3019123\" contactName=\"Kunkkainen Uoken\" standing=\"0\" contactTypeID=\"1376\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3019124\"
+        contactName=\"Iijonen Ishiras\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3019125\" contactName=\"Reurmanen
+        Aureslen\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3019286\" contactName=\"Haulieras Pirkibo\" standing=\"0\"
+        contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3019294\" contactName=\"Kunken Pis\" standing=\"0\" contactTypeID=\"1376\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3019323\"
+        contactName=\"Aheri Shirkkima\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3019372\" contactName=\"Katsen
+        Isha\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3019378\" contactName=\"Kia Isatoh\" standing=\"0\"
+        contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3019381\" contactName=\"Aokinisen Oksira\" standing=\"0\" contactTypeID=\"1383\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"3019396\"
+        contactName=\"Aursa Kunivuri\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"3019400\" contactName=\"Sinas
+        Egassuo\" standing=\"0\" contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"3019401\" contactName=\"Arikio Kuretsu\" standing=\"0\"
+        contactTypeID=\"1383\" labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"3019499\" contactName=\"Aura Ammold\" standing=\"0\" contactTypeID=\"1379\"
+        labelMask=\"0\" inWatchlist=\"False\" />\r\n      <row contactID=\"91105257\"
+        contactName=\"Valen Maeleficar\" standing=\"0\" contactTypeID=\"1375\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"91905082\" contactName=\"Thor
+        Isu\" standing=\"-10\" contactTypeID=\"1375\" labelMask=\"8\" inWatchlist=\"True\"
+        />\r\n      <row contactID=\"92449494\" contactName=\"Lliam Lago\" standing=\"-10\"
+        contactTypeID=\"1380\" labelMask=\"8\" inWatchlist=\"True\" />\r\n      <row
+        contactID=\"92683594\" contactName=\"Azrael Sheriph\" standing=\"0\" contactTypeID=\"1377\"
+        labelMask=\"0\" inWatchlist=\"True\" />\r\n      <row contactID=\"92734118\"
+        contactName=\"Lori Kuvora\" standing=\"0\" contactTypeID=\"1379\" labelMask=\"0\"
+        inWatchlist=\"True\" />\r\n      <row contactID=\"93051887\" contactName=\"Blondie
+        Blond\" standing=\"10\" contactTypeID=\"1376\" labelMask=\"2\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"93131435\" contactName=\"Lei Chang\" standing=\"10\"
+        contactTypeID=\"1384\" labelMask=\"2\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"93273990\" contactName=\"Carl Malus\" standing=\"10\" contactTypeID=\"1375\"
+        labelMask=\"2\" inWatchlist=\"False\" />\r\n      <row contactID=\"93657447\"
+        contactName=\"Walker Garde\" standing=\"10\" contactTypeID=\"1386\" labelMask=\"2\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"93660037\" contactName=\"Raff
+        Rage\" standing=\"10\" contactTypeID=\"1380\" labelMask=\"2\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"94104488\" contactName=\"Una Cilot\" standing=\"10\"
+        contactTypeID=\"1376\" labelMask=\"2\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"94534434\" contactName=\"EVESCORE\" standing=\"10\" contactTypeID=\"1375\"
+        labelMask=\"2\" inWatchlist=\"False\" />\r\n      <row contactID=\"95359568\"
+        contactName=\"Garth Slade\" standing=\"10\" contactTypeID=\"1373\" labelMask=\"2\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"95512059\" contactName=\"Quint
+        Slade\" standing=\"10\" contactTypeID=\"1385\" labelMask=\"0\" inWatchlist=\"True\"
+        />\r\n      <row contactID=\"98279136\" contactName=\"Carl Malus Corporation\"
+        standing=\"10\" contactTypeID=\"2\" labelMask=\"2\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"98356422\" contactName=\"Full Spectrum Inc\"
+        standing=\"10\" contactTypeID=\"2\" labelMask=\"16\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"151415392\" contactName=\"Sargeant HAmmer\" standing=\"0\"
+        contactTypeID=\"1375\" labelMask=\"0\" inWatchlist=\"True\" />\r\n      <row
+        contactID=\"369869539\" contactName=\"Loeina\" standing=\"-10\" contactTypeID=\"1379\"
+        labelMask=\"8\" inWatchlist=\"True\" />\r\n      <row contactID=\"409470906\"
+        contactName=\"Titanium Totty\" standing=\"10\" contactTypeID=\"1375\" labelMask=\"0\"
+        inWatchlist=\"True\" />\r\n      <row contactID=\"668435333\" contactName=\"SOMER
+        Blink\" standing=\"0\" contactTypeID=\"2\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"764731430\" contactName=\"Reno Shinra\" standing=\"-5\"
+        contactTypeID=\"1375\" labelMask=\"8\" inWatchlist=\"False\" />\r\n      <row
+        contactID=\"1113710135\" contactName=\"studen1\" standing=\"0\" contactTypeID=\"1374\"
+        labelMask=\"0\" inWatchlist=\"True\" />\r\n      <row contactID=\"1182765870\"
+        contactName=\"Miss Frisson\" standing=\"10\" contactTypeID=\"1374\" labelMask=\"0\"
+        inWatchlist=\"True\" />\r\n      <row contactID=\"1465050528\" contactName=\"Estel
+        Arador Corp Services\" standing=\"0\" contactTypeID=\"2\" labelMask=\"0\"
+        inWatchlist=\"False\" />\r\n      <row contactID=\"1495741119\" contactName=\"Red
+        Frog Freight\" standing=\"0\" contactTypeID=\"2\" labelMask=\"0\" inWatchlist=\"False\"
+        />\r\n      <row contactID=\"1618365663\" contactName=\"Scyffir\" standing=\"0\"
+        contactTypeID=\"1376\" labelMask=\"0\" inWatchlist=\"True\" />\r\n      <row
+        contactID=\"1815524449\" contactName=\"deesull\" standing=\"0\" contactTypeID=\"1375\"
+        labelMask=\"0\" inWatchlist=\"True\" />\r\n      <row contactID=\"1917792386\"
+        contactName=\"Xavier Dragon\" standing=\"10\" contactTypeID=\"1386\" labelMask=\"0\"
+        inWatchlist=\"True\" />\r\n    </rowset>\r\n    <rowset name=\"contactLabels\"
+        key=\"labelID\" columns=\"name\">\r\n      <row labelID=\"1\" name=\"NPC\"
+        />\r\n      <row labelID=\"2\" name=\"ALT\" />\r\n      <row labelID=\"4\"
+        name=\"JF\" />\r\n      <row labelID=\"8\" name=\"NEUT\" />\r\n      <row
+        labelID=\"16\" name=\"CORP\" />\r\n    </rowset>\r\n    <rowset name=\"corporateContactList\"
+        key=\"contactID\" columns=\"contactID,contactName,standing,contactTypeID,labelMask\"
+        />\r\n    <rowset name=\"corporateContactLabels\" key=\"labelID\" columns=\"name\"
+        />\r\n    <rowset name=\"allianceContactList\" key=\"contactID\" columns=\"contactID,contactName,standing,contactTypeID,labelMask\"
+        />\r\n    <rowset name=\"allianceContactLabels\" key=\"labelID\" columns=\"name\"
+        />\r\n  </result>\r\n  <cachedUntil>2015-09-08 06:53:20</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Tue, 08 Sep 2015 06:52:11 GMT
+recorded_with: VCR 2.9.3

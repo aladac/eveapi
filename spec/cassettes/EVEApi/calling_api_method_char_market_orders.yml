@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.eveonline.com/char/MarketOrders.xml.aspx?characterID=810699209&keyID=2139278&vCode=BLG8R4woo0iG9zCnSS6mXzjrjp68DQlQhUbI2TG3J9VBF5Q8XkvNjm4QvrMtEdDJ
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Tue, 08 Sep 2015 06:52:10 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-08 06:52:10</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"orders\" key=\"orderID\" columns=\"orderID,charID,stationID,volEntered,volRemaining,minVolume,orderState,typeID,range,accountKey,duration,escrow,price,bid,issued\">\r\n
+        \     <row orderID=\"4251515334\" charID=\"810699209\" stationID=\"60003760\"
+        volEntered=\"1\" volRemaining=\"0\" minVolume=\"1\" orderState=\"2\" typeID=\"22436\"
+        range=\"-1\" accountKey=\"1000\" duration=\"0\" escrow=\"0.00\" price=\"949999999.61\"
+        bid=\"1\" issued=\"2015-09-07 21:39:21\" />\r\n      <row orderID=\"4251640874\"
+        charID=\"810699209\" stationID=\"60003760\" volEntered=\"1\" volRemaining=\"0\"
+        minVolume=\"1\" orderState=\"2\" typeID=\"11577\" range=\"-1\" accountKey=\"1000\"
+        duration=\"0\" escrow=\"0.00\" price=\"2655491.95\" bid=\"1\" issued=\"2015-09-07
+        23:52:55\" />\r\n      <row orderID=\"4251641482\" charID=\"810699209\" stationID=\"60003760\"
+        volEntered=\"5\" volRemaining=\"0\" minVolume=\"1\" orderState=\"2\" typeID=\"19739\"
+        range=\"-1\" accountKey=\"1000\" duration=\"0\" escrow=\"0.00\" price=\"2399923.48\"
+        bid=\"1\" issued=\"2015-09-07 23:53:43\" />\r\n      <row orderID=\"4251643512\"
+        charID=\"810699209\" stationID=\"60003760\" volEntered=\"1\" volRemaining=\"0\"
+        minVolume=\"1\" orderState=\"2\" typeID=\"2301\" range=\"-1\" accountKey=\"1000\"
+        duration=\"0\" escrow=\"0.00\" price=\"1489366.18\" bid=\"1\" issued=\"2015-09-07
+        23:56:06\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-08
+        07:35:19</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Tue, 08 Sep 2015 06:52:10 GMT
+recorded_with: VCR 2.9.3

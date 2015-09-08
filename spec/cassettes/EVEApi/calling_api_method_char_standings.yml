@@ -1,0 +1,170 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.eveonline.com/char/Standings.xml.aspx?characterID=810699209&keyID=2139278&vCode=BLG8R4woo0iG9zCnSS6mXzjrjp68DQlQhUbI2TG3J9VBF5Q8XkvNjm4QvrMtEdDJ
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Tue, 08 Sep 2015 06:52:08 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-08 06:52:08</currentTime>\r\n  <result>\r\n    <characterNPCStandings>\r\n
+        \     <rowset name=\"agents\" key=\"fromID\" columns=\"fromID,fromName,standing\">\r\n
+        \       <row fromID=\"3010112\" fromName=\"Lulmuna Eilirmuald\" standing=\"0.11\"
+        />\r\n        <row fromID=\"3010115\" fromName=\"Imulia Aeduin\" standing=\"5.18\"
+        />\r\n        <row fromID=\"3010118\" fromName=\"Beomilar Brettirdur\" standing=\"3.25\"
+        />\r\n        <row fromID=\"3010119\" fromName=\"Avren Atune\" standing=\"0.41\"
+        />\r\n        <row fromID=\"3010137\" fromName=\"Balmires Agrelins\" standing=\"5.58\"
+        />\r\n        <row fromID=\"3010167\" fromName=\"Mekamireki Fedas\" standing=\"0.85\"
+        />\r\n        <row fromID=\"3010176\" fromName=\"Kiljavas Yaskasen\" standing=\"7.90\"
+        />\r\n        <row fromID=\"3011064\" fromName=\"Numo Humo\" standing=\"0.15\"
+        />\r\n        <row fromID=\"3011716\" fromName=\"Arajailen Korinen\" standing=\"0.59\"
+        />\r\n        <row fromID=\"3012018\" fromName=\"Ogyura Unao\" standing=\"0.24\"
+        />\r\n        <row fromID=\"3012019\" fromName=\"Arugas Ungi\" standing=\"0.50\"
+        />\r\n        <row fromID=\"3012027\" fromName=\"Missomon Riki\" standing=\"-0.48\"
+        />\r\n        <row fromID=\"3012029\" fromName=\"Hakadura Otora\" standing=\"0.18\"
+        />\r\n        <row fromID=\"3012030\" fromName=\"Orayuata Paanenen\" standing=\"1.82\"
+        />\r\n        <row fromID=\"3012038\" fromName=\"Kakkagainen Jakamaa\" standing=\"0.13\"
+        />\r\n        <row fromID=\"3012043\" fromName=\"Pukka Shotsu\" standing=\"0.01\"
+        />\r\n        <row fromID=\"3012045\" fromName=\"Mastakomon Hamon\" standing=\"-0.40\"
+        />\r\n        <row fromID=\"3012055\" fromName=\"Okatuya Ekala\" standing=\"1.58\"
+        />\r\n        <row fromID=\"3012074\" fromName=\"Konolana Tsunibaka\" standing=\"0.08\"
+        />\r\n        <row fromID=\"3012078\" fromName=\"Hahtodan Onuoto\" standing=\"0.19\"
+        />\r\n        <row fromID=\"3012151\" fromName=\"Iekka Katiken\" standing=\"1.66\"
+        />\r\n        <row fromID=\"3012160\" fromName=\"Hotisku Sogas\" standing=\"-0.22\"
+        />\r\n        <row fromID=\"3012195\" fromName=\"Vesuri Varvailen\" standing=\"0.06\"
+        />\r\n        <row fromID=\"3012197\" fromName=\"Hittanpaa Vaankalen\" standing=\"0.35\"
+        />\r\n        <row fromID=\"3012356\" fromName=\"Ratadure Oltber\" standing=\"0.80\"
+        />\r\n        <row fromID=\"3012451\" fromName=\"Uinkin Hrul\" standing=\"0.96\"
+        />\r\n        <row fromID=\"3012462\" fromName=\"Leumolsan Fivinald\" standing=\"2.27\"
+        />\r\n        <row fromID=\"3012473\" fromName=\"Welukenur Annodi\" standing=\"1.10\"
+        />\r\n        <row fromID=\"3012503\" fromName=\"Heia Andidan\" standing=\"3.17\"
+        />\r\n        <row fromID=\"3013350\" fromName=\"Kavala Ahtitaras\" standing=\"-0.36\"
+        />\r\n        <row fromID=\"3013643\" fromName=\"Vola Nousela\" standing=\"4.56\"
+        />\r\n        <row fromID=\"3013962\" fromName=\"Aldasiven On\" standing=\"0.30\"
+        />\r\n        <row fromID=\"3013963\" fromName=\"Grord Bekengot\" standing=\"1.67\"
+        />\r\n        <row fromID=\"3013965\" fromName=\"Unuter Hureirik\" standing=\"1.85\"
+        />\r\n        <row fromID=\"3014134\" fromName=\"Ansel Reirokur\" standing=\"2.63\"
+        />\r\n        <row fromID=\"3014143\" fromName=\"Bedangel Appold\" standing=\"3.00\"
+        />\r\n        <row fromID=\"3014144\" fromName=\"Azorsund Erkaegur\" standing=\"2.51\"
+        />\r\n        <row fromID=\"3014149\" fromName=\"Vanulard Inard\" standing=\"0.55\"
+        />\r\n        <row fromID=\"3015784\" fromName=\"Pourpes Andonore\" standing=\"5.35\"
+        />\r\n        <row fromID=\"3016780\" fromName=\"Ogomutsu Anttunen\" standing=\"3.11\"
+        />\r\n        <row fromID=\"3016783\" fromName=\"Izama Pukakada\" standing=\"4.53\"
+        />\r\n        <row fromID=\"3016813\" fromName=\"Anken Takinius\" standing=\"0.56\"
+        />\r\n        <row fromID=\"3016815\" fromName=\"Tuga Nato\" standing=\"0.57\"
+        />\r\n        <row fromID=\"3016822\" fromName=\"Oisio Narva\" standing=\"1.90\"
+        />\r\n        <row fromID=\"3016825\" fromName=\"Morpala Sasuola\" standing=\"0.28\"
+        />\r\n        <row fromID=\"3016828\" fromName=\"Nakkilen Utonoma\" standing=\"0.05\"
+        />\r\n        <row fromID=\"3016830\" fromName=\"Etseras Kulesa\" standing=\"2.35\"
+        />\r\n        <row fromID=\"3016832\" fromName=\"Oksarkovuo Ahviala\" standing=\"7.37\"
+        />\r\n        <row fromID=\"3016833\" fromName=\"Purkkoken Honuken\" standing=\"0.72\"
+        />\r\n        <row fromID=\"3016836\" fromName=\"Auni Heinen\" standing=\"-0.14\"
+        />\r\n        <row fromID=\"3016838\" fromName=\"Pois Ouchiras\" standing=\"1.65\"
+        />\r\n        <row fromID=\"3016840\" fromName=\"Asalova Iella\" standing=\"7.62\"
+        />\r\n        <row fromID=\"3016841\" fromName=\"Arkiras Airilen\" standing=\"-0.17\"
+        />\r\n        <row fromID=\"3016851\" fromName=\"Isiga Vesen\" standing=\"2.73\"
+        />\r\n        <row fromID=\"3016852\" fromName=\"Harenen Oksuken\" standing=\"0.34\"
+        />\r\n        <row fromID=\"3016853\" fromName=\"Sishanuta Nalvula\" standing=\"0.22\"
+        />\r\n        <row fromID=\"3016854\" fromName=\"Kishida Uchoda\" standing=\"3.99\"
+        />\r\n        <row fromID=\"3016855\" fromName=\"Rampiro Herlen\" standing=\"3.65\"
+        />\r\n        <row fromID=\"3016856\" fromName=\"Kirvas Manninen\" standing=\"4.60\"
+        />\r\n        <row fromID=\"3016858\" fromName=\"Nituma Rainakaila\" standing=\"3.23\"
+        />\r\n        <row fromID=\"3016859\" fromName=\"Aarnaras Wasken\" standing=\"5.92\"
+        />\r\n        <row fromID=\"3016860\" fromName=\"Pahtadan Rihtola\" standing=\"5.26\"
+        />\r\n        <row fromID=\"3016861\" fromName=\"Ailma Visanova\" standing=\"-0.04\"
+        />\r\n        <row fromID=\"3016862\" fromName=\"Paakata Aboraala\" standing=\"1.75\"
+        />\r\n        <row fromID=\"3016863\" fromName=\"Sarojikka Tokaka\" standing=\"6.00\"
+        />\r\n        <row fromID=\"3016942\" fromName=\"Ininaga Vilkko\" standing=\"-0.77\"
+        />\r\n        <row fromID=\"3016961\" fromName=\"Kikh Kharannud\" standing=\"3.24\"
+        />\r\n        <row fromID=\"3016975\" fromName=\"Bunarolie Elettare\" standing=\"2.80\"
+        />\r\n        <row fromID=\"3017024\" fromName=\"Arnkatzur Jaetantur\" standing=\"-0.05\"
+        />\r\n        <row fromID=\"3017115\" fromName=\"Vessolen Huunakailen\" standing=\"2.29\"
+        />\r\n        <row fromID=\"3018658\" fromName=\"Arizam Gimit\" standing=\"0.67\"
+        />\r\n        <row fromID=\"3018676\" fromName=\"Sawara Hakonen\" standing=\"10.00\"
+        />\r\n        <row fromID=\"3018975\" fromName=\"Naan Lekspar\" standing=\"-0.64\"
+        />\r\n        <row fromID=\"3018992\" fromName=\"Retatia Murae\" standing=\"3.47\"
+        />\r\n        <row fromID=\"3019118\" fromName=\"Neuntonen Hahagas\" standing=\"-0.50\"
+        />\r\n        <row fromID=\"3019286\" fromName=\"Haulieras Pirkibo\" standing=\"8.92\"
+        />\r\n        <row fromID=\"3019372\" fromName=\"Katsen Isha\" standing=\"4.48\"
+        />\r\n        <row fromID=\"3019378\" fromName=\"Kia Isatoh\" standing=\"0.79\"
+        />\r\n        <row fromID=\"3019381\" fromName=\"Aokinisen Oksira\" standing=\"3.94\"
+        />\r\n        <row fromID=\"3019396\" fromName=\"Aursa Kunivuri\" standing=\"0.96\"
+        />\r\n        <row fromID=\"3019400\" fromName=\"Sinas Egassuo\" standing=\"3.72\"
+        />\r\n        <row fromID=\"3019401\" fromName=\"Arikio Kuretsu\" standing=\"2.83\"
+        />\r\n      </rowset>\r\n      <rowset name=\"NPCCorporations\" key=\"fromID\"
+        columns=\"fromID,fromName,standing\">\r\n        <row fromID=\"1000002\" fromName=\"CBD
+        Corporation\" standing=\"-0.16\" />\r\n        <row fromID=\"1000005\" fromName=\"Hyasyoda
+        Corporation\" standing=\"3.55\" />\r\n        <row fromID=\"1000007\" fromName=\"Poksu
+        Mineral Group\" standing=\"0.22\" />\r\n        <row fromID=\"1000008\" fromName=\"Minedrill\"
+        standing=\"0.33\" />\r\n        <row fromID=\"1000009\" fromName=\"Caldari
+        Provisions\" standing=\"0.01\" />\r\n        <row fromID=\"1000011\" fromName=\"Wiyrkomi
+        Corporation\" standing=\"4.64\" />\r\n        <row fromID=\"1000017\" fromName=\"Nugoeihuvi
+        Corporation\" standing=\"2.01\" />\r\n        <row fromID=\"1000023\" fromName=\"Expert
+        Distribution\" standing=\"4.28\" />\r\n        <row fromID=\"1000025\" fromName=\"Sukuuvestaa
+        Corporation\" standing=\"0.10\" />\r\n        <row fromID=\"1000027\" fromName=\"Expert
+        Housing\" standing=\"0.79\" />\r\n        <row fromID=\"1000033\" fromName=\"Caldari
+        Business Tribunal\" standing=\"5.14\" />\r\n        <row fromID=\"1000035\"
+        fromName=\"Caldari Navy\" standing=\"8.29\" />\r\n        <row fromID=\"1000036\"
+        fromName=\"Internal Security\" standing=\"7.09\" />\r\n        <row fromID=\"1000039\"
+        fromName=\"Home Guard\" standing=\"2.15\" />\r\n        <row fromID=\"1000041\"
+        fromName=\"Spacelane Patrol\" standing=\"1.52\" />\r\n        <row fromID=\"1000042\"
+        fromName=\"Wiyrkomi Peace Corps\" standing=\"0.20\" />\r\n        <row fromID=\"1000044\"
+        fromName=\"School of Applied Knowledge\" standing=\"0.24\" />\r\n        <row
+        fromID=\"1000045\" fromName=\"Science and Trade Institute\" standing=\"0.38\"
+        />\r\n        <row fromID=\"1000046\" fromName=\"Sebiestor Tribe\" standing=\"0.52\"
+        />\r\n        <row fromID=\"1000051\" fromName=\"Republic Fleet\" standing=\"1.66\"
+        />\r\n        <row fromID=\"1000054\" fromName=\"Republic Security Services\"
+        standing=\"4.37\" />\r\n        <row fromID=\"1000081\" fromName=\"Ministry
+        of Assessment\" standing=\"0.07\" />\r\n        <row fromID=\"1000084\" fromName=\"Amarr
+        Navy\" standing=\"0.54\" />\r\n        <row fromID=\"1000123\" fromName=\"Ammatar
+        Fleet\" standing=\"1.75\" />\r\n        <row fromID=\"1000124\" fromName=\"Archangels\"
+        standing=\"-0.23\" />\r\n        <row fromID=\"1000126\" fromName=\"Ammatar
+        Consulate\" standing=\"6.46\" />\r\n        <row fromID=\"1000127\" fromName=\"Guristas\"
+        standing=\"-1.63\" />\r\n        <row fromID=\"1000130\" fromName=\"Sisters
+        of EVE\" standing=\"8.22\" />\r\n        <row fromID=\"1000134\" fromName=\"Blood
+        Raiders\" standing=\"0.00\" />\r\n        <row fromID=\"1000135\" fromName=\"Serpentis
+        Corporation\" standing=\"-0.03\" />\r\n        <row fromID=\"1000153\" fromName=\"Khanid
+        Works\" standing=\"0.25\" />\r\n        <row fromID=\"1000162\" fromName=\"True
+        Power\" standing=\"-0.02\" />\r\n        <row fromID=\"1000167\" fromName=\"State
+        War Academy\" standing=\"0.39\" />\r\n        <row fromID=\"1000180\" fromName=\"State
+        Protectorate\" standing=\"-0.38\" />\r\n      </rowset>\r\n      <rowset name=\"factions\"
+        key=\"fromID\" columns=\"fromID,fromName,standing\">\r\n        <row fromID=\"500001\"
+        fromName=\"Caldari State\" standing=\"5.05\" />\r\n        <row fromID=\"500002\"
+        fromName=\"Minmatar Republic\" standing=\"-1.74\" />\r\n        <row fromID=\"500003\"
+        fromName=\"Amarr Empire\" standing=\"2.06\" />\r\n        <row fromID=\"500004\"
+        fromName=\"Gallente Federation\" standing=\"-4.02\" />\r\n        <row fromID=\"500005\"
+        fromName=\"Jove Empire\" standing=\"1.87\" />\r\n        <row fromID=\"500007\"
+        fromName=\"Ammatar Mandate\" standing=\"4.15\" />\r\n        <row fromID=\"500008\"
+        fromName=\"Khanid Kingdom\" standing=\"4.15\" />\r\n        <row fromID=\"500009\"
+        fromName=\"The Syndicate\" standing=\"-1.48\" />\r\n        <row fromID=\"500010\"
+        fromName=\"Guristas Pirates\" standing=\"-10.00\" />\r\n        <row fromID=\"500011\"
+        fromName=\"Angel Cartel\" standing=\"-5.10\" />\r\n        <row fromID=\"500012\"
+        fromName=\"Blood Raider Covenant\" standing=\"-8.09\" />\r\n        <row fromID=\"500013\"
+        fromName=\"The InterBus\" standing=\"2.36\" />\r\n        <row fromID=\"500014\"
+        fromName=\"ORE\" standing=\"-1.26\" />\r\n        <row fromID=\"500015\" fromName=\"Thukker
+        Tribe\" standing=\"-3.00\" />\r\n        <row fromID=\"500016\" fromName=\"Servant
+        Sisters of EVE\" standing=\"2.62\" />\r\n        <row fromID=\"500017\" fromName=\"The
+        Society of Conscious Thought\" standing=\"2.42\" />\r\n        <row fromID=\"500018\"
+        fromName=\"Mordu's Legion Command\" standing=\"6.82\" />\r\n        <row fromID=\"500019\"
+        fromName=\"Sansha's Nation\" standing=\"-7.94\" />\r\n        <row fromID=\"500020\"
+        fromName=\"Serpentis\" standing=\"-7.68\" />\r\n      </rowset>\r\n    </characterNPCStandings>\r\n
+        \ </result>\r\n  <cachedUntil>2015-09-08 09:35:17</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Tue, 08 Sep 2015 06:52:09 GMT
+recorded_with: VCR 2.9.3

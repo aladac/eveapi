@@ -1,0 +1,34 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.eveonline.com/account/AccountStatus.xml.aspx?characterID=810699209&keyID=2139278&vCode=BLG8R4woo0iG9zCnSS6mXzjrjp68DQlQhUbI2TG3J9VBF5Q8XkvNjm4QvrMtEdDJ
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Tue, 08 Sep 2015 06:52:07 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-08 06:52:07</currentTime>\r\n  <result>\r\n    <paidUntil>2015-09-12
+        23:55:48</paidUntil>\r\n    <createDate>2006-09-10 02:17:00</createDate>\r\n
+        \   <logonCount>2272</logonCount>\r\n    <logonMinutes>193505</logonMinutes>\r\n
+        \   <rowset name=\"multiCharacterTraining\" key=\"trainingEnd\" columns=\"trainingEnd\"
+        />\r\n    <rowset name=\"Offers\" key=\"offerID\" columns=\"offerID,offeredDate,from,to,ISK\"
+        />\r\n  </result>\r\n  <cachedUntil>2015-09-08 06:53:07</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Tue, 08 Sep 2015 06:52:07 GMT
+recorded_with: VCR 2.9.3

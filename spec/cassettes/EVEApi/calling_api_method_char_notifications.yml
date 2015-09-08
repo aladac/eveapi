@@ -1,0 +1,34 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.eveonline.com/char/Notifications.xml.aspx?characterID=810699209&keyID=2139278&vCode=BLG8R4woo0iG9zCnSS6mXzjrjp68DQlQhUbI2TG3J9VBF5Q8XkvNjm4QvrMtEdDJ
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Tue, 08 Sep 2015 06:52:09 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-08 06:52:09</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"notifications\" key=\"notificationID\" columns=\"notificationID,typeID,senderID,senderName,sentDate,read\">\r\n
+        \     <row notificationID=\"528493506\" typeID=\"55\" senderID=\"1000132\"
+        senderName=\"Secure Commerce Commission\" sentDate=\"2015-09-07 21:40:00\"
+        read=\"1\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-08
+        07:08:18</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Tue, 08 Sep 2015 06:52:09 GMT
+recorded_with: VCR 2.9.3
