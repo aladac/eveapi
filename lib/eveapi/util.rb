@@ -1,8 +1,9 @@
 class Hash
   def process_rows
+    # self.merge!(self.delete(self.keys.first)) if self.length == 1
     case self['rowset']
     when Hash
-      self.merge!(self['rowset'].delete('name') => self['rowset'].delete('row'))
+      self.merge!(self['rowset']['name'] => self['rowset']['row'])
       self.delete('rowset')
     when Array
       self['rowset'].each do |rowset|
