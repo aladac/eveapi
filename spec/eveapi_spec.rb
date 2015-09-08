@@ -2,43 +2,45 @@ require 'spec_helper'
 require 'eveapi'
 
 describe EVEApi, :vcr do
+  before :each do
+    @client = Client.new
+  end
   it "there should be a connection class" do
-    expect { EVEApi::Client.new }.not_to raise_error
+    expect { @client }.not_to raise_error
   end
 
   it "connection instance variable should be of class Excon::Connection" do
-    expect(EVEApi::Client.new.connection).to be_a(Excon::Connection)
+    expect(@client.connection).to be_a(Excon::Connection)
   end
 
   it "check_path method should return an empty string when name contains of 1 part" do
-    expect(EVEApi::Client.new.check_path('name')).to eq('')
+    expect(@client.check_path('name')).to eq('')
   end
 
   it "check_path method should return a path string when name contains of 2 or more parts" do
-    expect(EVEApi::Client.new.check_path('name_name')).to be_a(String)
-    expect(EVEApi::Client.new.check_path('name_name')).not_to be_empty
+    expect(@client.check_path('name_name')).to be_a(String)
+    expect(@client.check_path('name_name')).not_to be_empty
   end
 
   it "params should return an empty hash when no param variables present" do
-    expect(EVEApi::Client.new.params).to be_a(Hash)
-    expect(EVEApi::Client.new.params).to be_empty
+    expect(Client.new.params).to be_a(Hash)
+    expect(Client.new.params).to be_empty
   end
 
   it "calling a method present in the EVEApi should success" do
-    expect { EVEApi::Client.new.server_server_status }.not_to raise_error
+    expect { @client.server_server_status }.not_to raise_error
   end
 
   it "calling a method not present in the EVEApi should fail" do
-    expect { EVEApi::Client.new.some_bs_method }.to raise_error(RuntimeError)
+    expect { @client.some_bs_method }.to raise_error(RuntimeError)
   end
 
   it "calling api_methods should return an Array of method symobls" do
-    expect(EVEApi::Client.new.api_methods).to be_an(Array)
+    expect(@client.api_methods).to be_an(Array)
   end
 
-  EVEApi::Client.new.working_methods.each do |m|
+  Client.new.working_methods.each do |m|
     before :each do
-      @client = EVEApi::Client.new
       @client.key_id = "4278167"
       @client.vcode = "7QJg6p5BZNpDBp2FIz39dGwa7jnNaXAuYyLUVitlTQ3rY60VPBcaTpJVfYIkiW5l"
       @client.character_id = '95512059'
@@ -51,6 +53,6 @@ end
 
 describe EVEApi::Request, :vcr do
   it 'there should be a EVEApi::Response class' do
-    expect { EVEApi::Request }.not_to raise_error
+    expect { Request }.not_to raise_error
   end
 end
