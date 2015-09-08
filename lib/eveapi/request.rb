@@ -22,23 +22,24 @@ module EVEApi
 
     def parse_result
       begin
-        data['eveapi']['result']['rowset']['row']
+        api_result = data['eveapi']['result']
+        api_result['rowset']['row']
       rescue NoMethodError
-        case data['eveapi']['result']
+        case api_result
         when Hash
-          data['eveapi']['result']
-          data['eveapi']['result'].each_value do |v|
+          api_result.each_value do |v|
             v.process_rows if v.is_a?(Hash)
           end
         else
-          data['eveapi']['result']
+          api_result
         end
       rescue TypeError
-        output = {}
-        data['eveapi']['result']['rowset'].each do |r|
-          output.merge!({ r['name'].underscore.to_sym => r['row'] })
+        # api_result.process_rows
+        api_result['rowset'].each do |r|
+          r.process_rows if r.is_a?(Hash)
+          api_result.merge!({ r['name'].underscore.to_sym => r['row'] })
         end
-        output
+        api_result
       end
     end
   end
