@@ -37,6 +37,7 @@ module EVEApi
       [
         :account_api_key_info,
         :account_account_status,
+        :account_characters,
         :server_server_status,
         :char_contracts,
         :char_wallet_transactions,
