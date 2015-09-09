@@ -24,7 +24,15 @@ module EVEApi
     end
 
     def api_methods
-      api_call_list[:calls].map { |m| ( m[:type][0..3].downcase + '_' + m[:name].underscore ).to_sym }
+      api_methods_hash.map { |m| m[:name] }
+    end
+
+    def ruby_method_name(m)
+      ( m[:type][0..3].downcase + '_' + m[:name].underscore ).to_sym
+    end
+
+    def api_methods_hash
+      api_call_list[:calls].map { |m| { name: ruby_method_name(m), desc: m[:description] } }
     end
 
     def method_missing(name, *args, &block)
