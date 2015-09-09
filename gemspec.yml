@@ -20,3 +20,5 @@ development_dependencies:
   rspec: ~> 3.0
   vcr: ~> 2.9
   webmock: ~> 1
+  pry: ~> 0.10
+  awesome_print: ~> 1.6
