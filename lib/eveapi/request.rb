@@ -26,9 +26,20 @@ module EVEApi
       end.process_rows
     end
 
+    def process_array(data)
+      data.each do |v|
+        v.process_rows if v.is_a?(Hash)
+      end
+    end
+
     def parse_result
       api_result = data['eveapi']['result']
-      return api_result['rowset']['row']
+      case api_result['rowset']['row']
+      when Array
+        return process_array api_result['rowset']['row']
+      else
+        return api_result['rowset']['row']
+      end
     rescue TypeError, NoMethodError
       return process_hash(api_result)
     end
