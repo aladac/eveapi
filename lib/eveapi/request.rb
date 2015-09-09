@@ -4,16 +4,16 @@ module EVEApi
     attr_accessor :result
     attr_accessor :response
 
-    def initialize(response=nil)
+    def initialize(response = nil)
       @response = response
-      raise "HTTP: #{response.status}" unless response.status == 200
+      fail "HTTP: #{response.status}" unless response.status == 200
       @data = parse_xml
-      @result = convert_hash_keys(self.parse_result)
-      raise error if error
+      @result = convert_hash_keys(parse_result)
+      fail error if error
     end
 
     def error
-      data['eveapi'].has_key?('error') ? data['eveapi']['error'] : false
+      data['eveapi'].key?('error') ? data['eveapi']['error'] : false
     end
 
     def parse_xml

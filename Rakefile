@@ -14,7 +14,7 @@ require 'bundler/gem_tasks'
 
 require 'rdoc/task'
 RDoc::Task.new
-task :doc => :rdoc
+task doc: :rdoc
 
 require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new
@@ -35,12 +35,12 @@ task :methods do
   EVEApi::Client.new.working_methods.each do |m|
     p m
     @client = EVEApi::Client.new
-    @client.key_id = 4278167
-    @client.vcode = "supersecretstuff"
+    @client.key_id = 4_278_167
+    @client.vcode = 'supersecretstuff'
     @client.character_id = '95512059'
-    out = ""
+    out = ''
     begin
-      out << @client.api_methods_hash.select { |me| me[:name] == m }.first[:desc]
+      out << @client.api_methods_hash.find { |me| me[:name] == m }[:desc]
     rescue
       out << "TODO Description (#{m})"
     end
@@ -52,7 +52,7 @@ task :methods do
     begin
       out << @client.send(m).pretty_inspect
       out << '```'
-      f = File.new("eveapi.wiki/#{m.to_s}.md","w")
+      f = File.new("eveapi.wiki/#{m}.md", 'w')
       f.puts out
       f.close
     rescue
@@ -60,7 +60,6 @@ task :methods do
   end
 end
 
-
-task :c => :console
-task :test    => :spec
-task :default => :spec
+task c: :console
+task test: :spec
+task default: :spec

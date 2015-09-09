@@ -6,7 +6,7 @@ module EVEApi
     attr_accessor :character_id
     attr_accessor :row_count
 
-    def initialize(key_id=nil, vcode=nil, character_id=nil)
+    def initialize(key_id = nil, vcode = nil, character_id = nil)
       @connection ||= Excon.new(API_ENDPOINT)
       @key_id = key_id
       @character_id = character_id
@@ -20,7 +20,7 @@ module EVEApi
     end
 
     def params
-      { 'rowCount' => row_count, 'keyID' => key_id, 'vCode' => vcode, 'characterID' => character_id }.select { |k,v| v }
+      { 'rowCount' => row_count, 'keyID' => key_id, 'vCode' => vcode, 'characterID' => character_id }.select { |_k, v| v }
     end
 
     def api_methods
@@ -28,19 +28,20 @@ module EVEApi
     end
 
     def ruby_method_name(m)
-      ( m[:type][0..3].downcase + '_' + m[:name].underscore ).to_sym
+      (m[:type][0..3].downcase + '_' + m[:name].underscore).to_sym
     end
 
     def api_methods_hash
       api_call_list[:calls].map { |m| { name: ruby_method_name(m), desc: m[:description] } }
     end
 
-    def method_missing(name, *args, &block)
-      raise 'Invalid Method Name' if check_path(name).empty?
+    def method_missing(name, *_args, &_block)
+      fail 'Invalid Method Name' if check_path(name).empty?
       check_path(name)
       request = EVEApi::Request.new @connection.get(path: check_path(name), query: params)
       request.result
     end
+
     def working_methods
       [
         :account_api_key_info,
@@ -65,7 +66,7 @@ module EVEApi
         :char_contact_list,
         :char_character_sheet,
         :char_asset_list,
-        :char_account_balance,
+        :char_account_balance
       ]
     end
   end

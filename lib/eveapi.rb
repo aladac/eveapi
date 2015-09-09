@@ -12,16 +12,16 @@ include EVEApi::Util
 
 class String
   def camelize
-    self.split("_").each {|s| s.capitalize! }.join("")
+    split('_').each(&:capitalize!).join('')
   end
 
   # Stolen from ActiveSupport::Inflector
   def underscore
     return self unless self =~ /[A-Z-]|::/
-    word = self.to_s.gsub(/::/, '/')
-    word.gsub!(/([A-Z\d]+)([A-Z][a-z])/,'\1_\2')
-    word.gsub!(/([a-z\d])([A-Z])/,'\1_\2')
-    word.tr!("-", "_")
+    word = to_s.gsub(/::/, '/')
+    word.gsub!(/([A-Z\d]+)([A-Z][a-z])/, '\1_\2')
+    word.gsub!(/([a-z\d])([A-Z])/, '\1_\2')
+    word.tr!('-', '_')
     word.downcase!
     word
   end

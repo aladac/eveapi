@@ -7,12 +7,12 @@ Gem::Specification.new do |gem|
 
   gem.name    = gemspec.fetch('name')
   gem.version = gemspec.fetch('version') do
-                  lib_dir = File.join(File.dirname(__FILE__),'lib')
-                  $LOAD_PATH << lib_dir unless $LOAD_PATH.include?(lib_dir)
+    lib_dir = File.join(File.dirname(__FILE__), 'lib')
+    $LOAD_PATH << lib_dir unless $LOAD_PATH.include?(lib_dir)
 
-                  require 'eveapi/version'
-                  EVEApi::VERSION
-                end
+    require 'eveapi/version'
+    EVEApi::VERSION
+  end
 
   gem.summary     = gemspec['summary']
   gem.description = gemspec['description']
@@ -23,7 +23,7 @@ Gem::Specification.new do |gem|
 
   glob = lambda { |patterns| gem.files & Dir[*patterns] }
 
-  gem.files = `git ls-files`.split($/)
+  gem.files = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
   gem.files = glob[gemspec['files']] if gemspec['files']
 
   gem.executables = gemspec.fetch('executables') do
@@ -36,7 +36,7 @@ Gem::Specification.new do |gem|
   gem.extra_rdoc_files = glob[gemspec['extra_doc_files'] || '*.{txt,md}']
 
   gem.require_paths = Array(gemspec.fetch('require_paths') {
-    %w[ext lib].select { |dir| File.directory?(dir) }
+    %w(ext lib).select { |dir| File.directory?(dir) }
   })
 
   gem.requirements              = Array(gemspec['requirements'])
@@ -47,14 +47,14 @@ Gem::Specification.new do |gem|
   split = lambda { |string| string.split(/,\s*/) }
 
   if gemspec['dependencies']
-    gemspec['dependencies'].each do |name,versions|
-      gem.add_dependency(name,split[versions])
+    gemspec['dependencies'].each do |name, versions|
+      gem.add_dependency(name, split[versions])
     end
   end
 
   if gemspec['development_dependencies']
-    gemspec['development_dependencies'].each do |name,versions|
-      gem.add_development_dependency(name,split[versions])
+    gemspec['development_dependencies'].each do |name, versions|
+      gem.add_development_dependency(name, split[versions])
     end
   end
 end

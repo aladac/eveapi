@@ -3,15 +3,15 @@ class Hash
     case self['rowset']
     when Hash
       self.merge!(self['rowset']['name'] => self['rowset']['row'])
-      self.delete('rowset')
+      delete('rowset')
     when Array
       self['rowset'].each do |rowset|
         self[rowset['name']] = rowset['row']
       end
-      self.delete('rowset')
+      delete('rowset')
     end
-    self.merge!(self.delete(self.keys.first)) if self.length == 1
-    return self
+    self.merge!(delete(keys.first)) if length == 1
+    self
   end
 end
 
