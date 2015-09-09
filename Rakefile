@@ -35,8 +35,8 @@ task :methods do
   EVEApi::Client.new.working_methods.each do |m|
     p m
     @client = EVEApi::Client.new
-    @client.key_id = 2139278
-    @client.vcode = "BLG8R4woo0iG9zCnSS6mXzjrjp68DQlQhUbI2TG3J9VBF5Q8XkvNjm4QvrMtEdDJ"
+    @client.key_id = 4278167
+    @client.vcode = "supersecretstuff"
     @client.character_id = 810699209
     out = ""
     begin
@@ -47,7 +47,7 @@ task :methods do
     out << "\n\n"
     out << "```ruby\n@client = EVEApi::Client.new\n"
     out << "@client.key_id = 4278167\n"
-    out << "@client.vcode = '7QJg6p5BZNpDBp2FIz39dGwa7jnN'\n\n"
+    out << "@client.vcode = 'supersecretstuff'\n\n"
     out << "@client.#{m}\n\n"
     begin
       out << @client.send(m).pretty_inspect
