@@ -52,7 +52,7 @@ task :methods do
     begin
       out << @client.send(m).pretty_inspect
       out << '```'
-      f = File.new("eveapi.wiki/#{m}.md", 'w')
+      f = File.new("./doc/wiki/#{m}.md", 'w')
       f.puts out
       f.close
     rescue => e
