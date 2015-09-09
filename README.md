@@ -38,9 +38,9 @@ Because of the way the paths are being built from the method names - some method
 | [char_standings](https://github.com/aladac/eveapi/wiki/char_standings) | `key_id`, `vcode`, `character_id` | `Array` |
 | [char_skill_queue](https://github.com/aladac/eveapi/wiki/char_skill_queue) | `key_id`, `vcode`, `character_id` | `Array` |
 | [char_skill_in_training](https://github.com/aladac/eveapi/wiki/char_skill_in_training) | `key_id`, `vcode`, `character_id` | `Hash` |
-| [char_research](https://github.com/aladac/eveapi/wiki/char_research) | TODO | TODO |
+| [char_research](https://github.com/aladac/eveapi/wiki/char_research) | `key_id`, `vcode`, `character_id` | `Array` |
 | [char_notifications](https://github.com/aladac/eveapi/wiki/char_notifications) | `key_id`, `vcode`, `character_id` | `Array` |
-| [char_medals](https://github.com/aladac/eveapi/wiki/char_medals) | TODO | TODO |
+| [char_medals](https://github.com/aladac/eveapi/wiki/char_medals) |  `key_id`, `vcode`, `character_id` | `Hash` |
 | [char_market_orders](https://github.com/aladac/eveapi/wiki/char_market_orders)  | `key_id`, `vcode`, `character_id` | `Array` |
 | [char_mail_messages](https://github.com/aladac/eveapi/wiki/char_mail_messages) | `key_id`, `vcode`, `character_id` | `Array` |
 | [char_mailing_lists](https://github.com/aladac/eveapi/wiki/char_mailing_lists) | `key_id`, `vcode`, `character_id` | `Array` |
