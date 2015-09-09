@@ -4,7 +4,7 @@ description: "ruby API Client for the space based MMO EVEOnline"
 license: MIT
 authors: Adam Ladachowski
 email: adam@saiden.pl
-homepage: https://rubygems.org/gems/eveapi
+homepage: https://github.com/aladac/eveapi
 
 required_ruby_version: '>= 1.9'
 

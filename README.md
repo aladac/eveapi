@@ -25,7 +25,31 @@ Most methods requiring arguments other than `character_id`, `key_id`, `vcode` an
 
 Because of the way the paths are being built from the method names - some methods may look funky eq. `server_server_status`.
 
-`account_characters`, `char_character_sheet`, `char_wallet_journal`, `server_server_status`, `account_api_key_info`, `api_call_list` should work.
+## Methods
+
+| Method Name   | Requires      |  Output Class             |
+| ------------- | ------------- | ------------- |
+| [account_api_key_info](account_api_key_info) | - | `Hash` |
+| [account_account_status](account_account_status) | `key_id`, `vcode` | `Hash` |
+| [account_characters](account_characters) | `key_id`, `vcode` | `Array` |
+| [server_server_status](server_server_status) | - | `Hash` |
+| [char_wallet_transactions](char_wallet_transactions) | `key_id`, `vcode`, `character_id` | `Array` |
+| [char_wallet_journal](char_wallet_journal) | `key_id`, `vcode`, `character_id` | `Array` |
+| [char_standings](char_standings) | `key_id`, `vcode`, `character_id` | `Array` |
+| [char_skill_queue](char_skill_queue) | | |
+| [char_skill_in_training](char_skill_in_training) | | |
+| [char_research](char_research) | | |
+| [char_notifications](char_notifications) | | |
+| [char_medals](char_medals) | | |
+| [char_market_orders](char_market_orders) | | |
+| [char_mail_messages](char_mail_messages) | | |
+| [char_mailing_lists](char_mailing_lists) | | |
+| [char_industry_jobs](char_industry_jobs) | | |
+| [char_contact_notifications](char_contact_notifications) | | |
+| [char_contact_list](char_contact_list) | | |
+| [char_character_sheet](char_character_sheet) | | |
+| [char_asset_list](char_asset_list) | | |
+| [char_account_balance](char_account_balance) | | |
 
 ## Description
 
