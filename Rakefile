@@ -37,7 +37,7 @@ task :methods do
     @client = EVEApi::Client.new
     @client.key_id = 4278167
     @client.vcode = "supersecretstuff"
-    @client.character_id = 810699209
+    @client.character_id = '95512059'
     out = ""
     begin
       out << @client.api_methods_hash.select { |me| me[:name] == m }.first[:desc]
