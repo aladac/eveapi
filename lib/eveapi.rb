@@ -10,23 +10,32 @@ require 'crack'
 
 include EVEApi::Util
 
-class String
-  def camelize
-    split('_').each(&:capitalize!).join('')
-  end
-
-  # Stolen from ActiveSupport::Inflector
-  def underscore
-    return self unless self =~ /[A-Z-]|::/
-    word = to_s.gsub(/::/, '/')
-    word.gsub!(/([A-Z\d]+)([A-Z][a-z])/, '\1_\2')
-    word.gsub!(/([a-z\d])([A-Z])/, '\1_\2')
-    word.tr!('-', '_')
-    word.downcase!
-    word
-  end
-end
-
+# EVEApi namespace
 module EVEApi
   API_ENDPOINT = 'https://api.eveonline.com'
+  WORKING_METHODS = [
+    :account_api_key_info,
+    :account_account_status,
+    :account_characters,
+    :server_server_status,
+    :char_contracts,
+    :char_wallet_transactions,
+    :char_wallet_journal,
+    :char_upcoming_calendar_events,
+    :char_standings,
+    :char_skill_queue,
+    :char_skill_in_training,
+    :char_research,
+    :char_notifications,
+    :char_medals,
+    :char_market_orders,
+    :char_mail_messages,
+    :char_mailing_lists,
+    :char_industry_jobs,
+    :char_contact_notifications,
+    :char_contact_list,
+    :char_character_sheet,
+    :char_asset_list,
+    :char_account_balance
+  ]
 end

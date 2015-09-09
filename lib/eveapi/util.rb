@@ -1,21 +1,52 @@
+# Utility Hash methods
 class Hash
   def process_rows
     case self['rowset']
     when Hash
-      self.merge!(self['rowset']['name'] => self['rowset']['row'])
-      delete('rowset')
+      normalize_hash_rowset
     when Array
-      self['rowset'].each do |rowset|
-        self[rowset['name']] = rowset['row']
-      end
-      delete('rowset')
+      normalize_array_rowset
     end
-    self.merge!(delete(keys.first)) if length == 1
-    self
+    collapse_key
+  end
+
+  def collapse_key
+    length == 1 ? self.merge!(delete(keys.first)) : self
+  end
+
+  def normalize_hash_rowset
+    self.merge!(self['rowset']['name'] => self['rowset']['row'])
+    delete('rowset')
+  end
+
+  def normalize_array_rowset
+    self['rowset'].each do |rowset|
+      self[rowset['name']] = rowset['row']
+    end
+    delete('rowset')
+  end
+end
+
+# Utility String methods
+class String
+  def camelize
+    split('_').each(&:capitalize!).join('')
+  end
+
+  # Stolen from ActiveSupport::Inflector
+  def underscore
+    return self unless self =~ /[A-Z-]|::/
+    word = to_s.gsub(/::/, '/')
+    word.gsub!(/([A-Z\d]+)([A-Z][a-z])/, '\1_\2')
+    word.gsub!(/([a-z\d])([A-Z])/, '\1_\2')
+    word.tr!('-', '_')
+    word.downcase!
+    word
   end
 end
 
 module EVEApi
+  # Utility methods
   module Util
     def underscore_key(k)
       k.to_s.underscore.to_sym

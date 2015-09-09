@@ -1,4 +1,5 @@
 module EVEApi
+  # Client instance and HTTP method handling
   class Client
     attr_accessor :connection
     attr_accessor :key_id
@@ -20,7 +21,12 @@ module EVEApi
     end
 
     def params
-      { 'rowCount' => row_count, 'keyID' => key_id, 'vCode' => vcode, 'characterID' => character_id }.select { |_k, v| v }
+      {
+        'rowCount'    => row_count,
+        'keyID'       => key_id,
+        'vCode'       => vcode,
+        'characterID' => character_id
+      }.select { |_k, v| v }
     end
 
     def api_methods
@@ -43,31 +49,7 @@ module EVEApi
     end
 
     def working_methods
-      [
-        :account_api_key_info,
-        :account_account_status,
-        :account_characters,
-        :server_server_status,
-        :char_contracts,
-        :char_wallet_transactions,
-        :char_wallet_journal,
-        :char_upcoming_calendar_events,
-        :char_standings,
-        :char_skill_queue,
-        :char_skill_in_training,
-        :char_research,
-        :char_notifications,
-        :char_medals,
-        :char_market_orders,
-        :char_mail_messages,
-        :char_mailing_lists,
-        :char_industry_jobs,
-        :char_contact_notifications,
-        :char_contact_list,
-        :char_character_sheet,
-        :char_asset_list,
-        :char_account_balance
-      ]
+      EVEApi::WORKING_METHODS
     end
   end
 end

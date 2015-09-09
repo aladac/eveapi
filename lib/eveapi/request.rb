@@ -1,4 +1,5 @@
 module EVEApi
+  # Handling of requests and response from the EVE Online API
   class Request
     attr_accessor :data
     attr_accessor :result

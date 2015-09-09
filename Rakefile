@@ -55,7 +55,8 @@ task :methods do
       f = File.new("eveapi.wiki/#{m}.md", 'w')
       f.puts out
       f.close
-    rescue
+    rescue => e
+      puts e.message
     end
   end
 end
