@@ -2,9 +2,12 @@
 
 *EVE API for ruby*
 
+[![Gem Version](https://badge.fury.io/rb/eveapi.svg)](http://badge.fury.io/rb/eveapi)
 [![Build Status](https://secure.travis-ci.org/aladac/eveapi.svg?branch=master)](https://travis-ci.org/aladac/eveapi)
 [![Code Climate](https://codeclimate.com/github/aladac/eveapi/badges/gpa.svg)](https://codeclimate.com/github/aladac/eveapi)
 [![Test Coverage](https://codeclimate.com/github/aladac/eveapi/badges/coverage.svg)](https://codeclimate.com/github/aladac/eveapi/coverage)
+[![Downloads](http://ruby-gem-downloads-badge.herokuapp.com/eveapi?type=total)](https://rubygems.org/gems/eveapi)
+
 
 ## Disclaimer!
 This work in progress in a very early stage. Not documented. Only a couple of methods are tested.
