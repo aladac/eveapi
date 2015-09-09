@@ -20,13 +20,28 @@ module EVEApi
       Crack::XML.parse(response.body)
     end
 
-    def parse_result
-      api_result = data['eveapi']['result']
-      return api_result['rowset']['row']
-    rescue NoMethodError, TypeError
-      api_result.each_value do |v|
+    def process_array(data)
+      data.each do |v|
+        v.process_rows if v.is_a?(Hash)
+      end
+    end
+
+    def process_hash(data)
+      data.each_value do |v|
         v.process_rows if v.is_a?(Hash)
       end.process_rows
+    end
+
+    def parse_result
+      api_result = data['eveapi']['result']
+      case api_result['rowset']['row']
+      when Array
+        process_array(api_result['rowset']['row'])
+      else
+        return api_result['rowset']['row']
+      end
+    rescue NoMethodError, TypeError
+      process_hash(api_result)
     end
   end
 end
