@@ -29,27 +29,27 @@ Because of the way the paths are being built from the method names - some method
 
 | Method Name   | Requires      |  Output Class             |
 | ------------- | ------------- | ------------- |
-| [account_api_key_info](account_api_key_info) | - | `Hash` |
-| [account_account_status](account_account_status) | `key_id`, `vcode` | `Hash` |
-| [account_characters](account_characters) | `key_id`, `vcode` | `Array` |
-| [server_server_status](server_server_status) | - | `Hash` |
-| [char_wallet_transactions](char_wallet_transactions) | `key_id`, `vcode`, `character_id` | `Array` |
-| [char_wallet_journal](char_wallet_journal) | `key_id`, `vcode`, `character_id` | `Array` |
-| [char_standings](char_standings) | `key_id`, `vcode`, `character_id` | `Array` |
-| [char_skill_queue](char_skill_queue) | | |
-| [char_skill_in_training](char_skill_in_training) | | |
-| [char_research](char_research) | | |
-| [char_notifications](char_notifications) | | |
-| [char_medals](char_medals) | | |
-| [char_market_orders](char_market_orders) | | |
-| [char_mail_messages](char_mail_messages) | | |
-| [char_mailing_lists](char_mailing_lists) | | |
-| [char_industry_jobs](char_industry_jobs) | | |
-| [char_contact_notifications](char_contact_notifications) | | |
-| [char_contact_list](char_contact_list) | | |
-| [char_character_sheet](char_character_sheet) | | |
-| [char_asset_list](char_asset_list) | | |
-| [char_account_balance](char_account_balance) | | |
+| [account_api_key_info](wiki/account_api_key_info) | - | `Hash` |
+| [account_account_status](wiki/account_account_status) | `key_id`, `vcode` | `Hash` |
+| [account_characters](wiki/account_characters) | `key_id`, `vcode` | `Array` |
+| [server_server_status](wiki/server_server_status) | - | `Hash` |
+| [char_wallet_transactions](wiki/char_wallet_transactions) | `key_id`, `vcode`, `character_id` | `Array` |
+| [char_wallet_journal](wiki/char_wallet_journal) | `key_id`, `vcode`, `character_id` | `Array` |
+| [char_standings](wiki/char_standings) | `key_id`, `vcode`, `character_id` | `Array` |
+| [char_skill_queue](wiki/char_skill_queue) | | |
+| [char_skill_in_training](wiki/char_skill_in_training) | | |
+| [char_research](wiki/char_research) | | |
+| [char_notifications](wiki/char_notifications) | | |
+| [char_medals](wiki/char_medals) | | |
+| [char_market_orders](wiki/char_market_orders) | | |
+| [char_mail_messages](wiki/char_mail_messages) | | |
+| [char_mailing_lists](wiki/char_mailing_lists) | | |
+| [char_industry_jobs](wiki/char_industry_jobs) | | |
+| [char_contact_notifications](wiki/char_contact_notifications) | | |
+| [char_contact_list](wiki/char_contact_list) | | |
+| [char_character_sheet](wiki/char_character_sheet) | | |
+| [char_asset_list](wiki/char_asset_list) | | |
+| [char_account_balance](wiki/char_account_balance) | | |
 
 ## Description
 
