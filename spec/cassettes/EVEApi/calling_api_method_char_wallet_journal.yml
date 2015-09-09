@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.eveonline.com/char/WalletJournal.xml.aspx?characterID=95512059&keyID=4278167&vCode=7QJg6p5BZNpDBp2FIz39dGwa7jnNaXAuYyLUVitlTQ3rY60VPBcaTpJVfYIkiW5l
+    uri: https://api.eveonline.com/char/WalletJournal.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
     body:
       encoding: US-ASCII
       string: ''
@@ -19,13 +19,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Tue, 08 Sep 2015 23:52:43 GMT
+      - Wed, 09 Sep 2015 12:35:45 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-08 23:52:44</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-09 12:35:46</currentTime>\r\n  <result>\r\n    <rowset
         name=\"transactions\" key=\"refID\" columns=\"date,refID,refTypeID,ownerName1,ownerID1,ownerName2,ownerID2,argName1,argID1,amount,balance,reason,taxReceiverID,taxAmount,owner1TypeID,owner2TypeID\"
-        />\r\n  </result>\r\n  <cachedUntil>2015-09-09 00:05:23</cachedUntil>\r\n</eveapi>"
+        />\r\n  </result>\r\n  <cachedUntil>2015-09-09 13:02:46</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Tue, 08 Sep 2015 23:52:44 GMT
+  recorded_at: Wed, 09 Sep 2015 12:35:46 GMT
 recorded_with: VCR 2.9.3

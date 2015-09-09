@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.eveonline.com/char/Standings.xml.aspx?characterID=95512059&keyID=4278167&vCode=7QJg6p5BZNpDBp2FIz39dGwa7jnNaXAuYyLUVitlTQ3rY60VPBcaTpJVfYIkiW5l
+    uri: https://api.eveonline.com/char/Standings.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
     body:
       encoding: US-ASCII
       string: ''
@@ -19,11 +19,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Tue, 08 Sep 2015 23:52:44 GMT
+      - Wed, 09 Sep 2015 12:35:46 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-08 23:52:44</currentTime>\r\n  <result>\r\n    <characterNPCStandings>\r\n
+        \ <currentTime>2015-09-09 12:35:47</currentTime>\r\n  <result>\r\n    <characterNPCStandings>\r\n
         \     <rowset name=\"agents\" key=\"fromID\" columns=\"fromID,fromName,standing\">\r\n
         \       <row fromID=\"3012076\" fromName=\"Koikaski Uika\" standing=\"-0.67\"
         />\r\n        <row fromID=\"3013320\" fromName=\"Ahmobah Hethiba\" standing=\"-0.34\"
@@ -39,7 +39,7 @@ http_interactions:
         fromName=\"Khanid Kingdom\" standing=\"0.00\" />\r\n        <row fromID=\"500013\"
         fromName=\"The InterBus\" standing=\"0.00\" />\r\n        <row fromID=\"500018\"
         fromName=\"Mordu's Legion Command\" standing=\"0.00\" />\r\n      </rowset>\r\n
-        \   </characterNPCStandings>\r\n  </result>\r\n  <cachedUntil>2015-09-09 02:35:24</cachedUntil>\r\n</eveapi>"
+        \   </characterNPCStandings>\r\n  </result>\r\n  <cachedUntil>2015-09-09 14:33:08</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Tue, 08 Sep 2015 23:52:44 GMT
+  recorded_at: Wed, 09 Sep 2015 12:35:47 GMT
 recorded_with: VCR 2.9.3
