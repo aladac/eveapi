@@ -6,7 +6,7 @@ module EVEApi
 
     def initialize(response=nil)
       @response = response
-      raise 'No such method' if response.status == 404
+      raise "HTTP: #{response.status}" unless response.status == 200
       @data = parse_xml
       @result = convert_hash_keys(self.parse_result)
       raise error if error
