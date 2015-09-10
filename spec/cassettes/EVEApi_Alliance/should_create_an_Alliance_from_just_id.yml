@@ -17,7 +17,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 10 Sep 2015 23:10:24 GMT
+      - Thu, 10 Sep 2015 23:10:42 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -547,7 +547,7 @@ http_interactions:
         "id": 99000871, "name": "Surely You''re Joking"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=2"},
         "totalCount": 3082, "pageCount_str": "13"}'
     http_version: 
-  recorded_at: Thu, 10 Sep 2015 23:07:36 GMT
+  recorded_at: Thu, 10 Sep 2015 23:07:55 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=2
@@ -565,7 +565,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 10 Sep 2015 23:10:24 GMT
+      - Thu, 10 Sep 2015 23:10:42 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -1095,7 +1095,7 @@ http_interactions:
         "id": 99001648, "name": "P-A-T-R-I-O-T-S"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=3"},
         "totalCount": 3082, "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/"}}'
     http_version: 
-  recorded_at: Thu, 10 Sep 2015 23:07:37 GMT
+  recorded_at: Thu, 10 Sep 2015 23:07:55 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=3
@@ -1113,7 +1113,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 10 Sep 2015 23:10:24 GMT
+      - Thu, 10 Sep 2015 23:10:43 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -1643,7 +1643,7 @@ http_interactions:
         "id": 99002385, "name": "Sphere Alliance"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=4"},
         "totalCount": 3082, "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=2"}}'
     http_version: 
-  recorded_at: Thu, 10 Sep 2015 23:07:37 GMT
+  recorded_at: Thu, 10 Sep 2015 23:07:55 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=4
@@ -1661,7 +1661,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 10 Sep 2015 23:10:25 GMT
+      - Thu, 10 Sep 2015 23:10:43 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -2191,7 +2191,7 @@ http_interactions:
         99003172, "name": "M Corp Alliance"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=5"},
         "totalCount": 3082, "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=3"}}'
     http_version: 
-  recorded_at: Thu, 10 Sep 2015 23:07:37 GMT
+  recorded_at: Thu, 10 Sep 2015 23:07:56 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=5
@@ -2209,7 +2209,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 10 Sep 2015 23:10:25 GMT
+      - Thu, 10 Sep 2015 23:10:43 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -2739,7 +2739,7 @@ http_interactions:
         "id": 99003816, "name": "Hard University"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=6"},
         "totalCount": 3082, "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=4"}}'
     http_version: 
-  recorded_at: Thu, 10 Sep 2015 23:07:38 GMT
+  recorded_at: Thu, 10 Sep 2015 23:07:56 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=6
@@ -2757,7 +2757,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 10 Sep 2015 23:10:25 GMT
+      - Thu, 10 Sep 2015 23:10:44 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -3287,7 +3287,7 @@ http_interactions:
         "id": 99004423, "name": "We need wards."}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=7"},
         "totalCount": 3082, "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=5"}}'
     http_version: 
-  recorded_at: Thu, 10 Sep 2015 23:07:38 GMT
+  recorded_at: Thu, 10 Sep 2015 23:07:56 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=7
@@ -3305,7 +3305,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 10 Sep 2015 23:10:26 GMT
+      - Thu, 10 Sep 2015 23:10:44 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -3835,7 +3835,7 @@ http_interactions:
         "id": 99004937, "name": "Terradain Dominion"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=8"},
         "totalCount": 3082, "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=6"}}'
     http_version: 
-  recorded_at: Thu, 10 Sep 2015 23:07:38 GMT
+  recorded_at: Thu, 10 Sep 2015 23:07:57 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=8
@@ -3853,7 +3853,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 10 Sep 2015 23:10:26 GMT
+      - Thu, 10 Sep 2015 23:10:44 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -4383,7 +4383,7 @@ http_interactions:
         "id": 99005360, "name": "Prothean Alliance"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=9"},
         "totalCount": 3082, "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=7"}}'
     http_version: 
-  recorded_at: Thu, 10 Sep 2015 23:07:39 GMT
+  recorded_at: Thu, 10 Sep 2015 23:07:57 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=9
@@ -4401,7 +4401,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 10 Sep 2015 23:10:26 GMT
+      - Thu, 10 Sep 2015 23:10:45 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -4931,7 +4931,7 @@ http_interactions:
         "id": 99005718, "name": "Promethean Confederation"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=10"},
         "totalCount": 3082, "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=8"}}'
     http_version: 
-  recorded_at: Thu, 10 Sep 2015 23:07:39 GMT
+  recorded_at: Thu, 10 Sep 2015 23:07:57 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=10
@@ -4949,7 +4949,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 10 Sep 2015 23:10:27 GMT
+      - Thu, 10 Sep 2015 23:10:45 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -5479,7 +5479,7 @@ http_interactions:
         "id": 492994173, "name": "Arbeitaholics Anonymous"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=11"},
         "totalCount": 3082, "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=9"}}'
     http_version: 
-  recorded_at: Thu, 10 Sep 2015 23:07:39 GMT
+  recorded_at: Thu, 10 Sep 2015 23:07:58 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=11
@@ -5497,7 +5497,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 10 Sep 2015 23:10:30 GMT
+      - Thu, 10 Sep 2015 23:10:45 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -6027,7 +6027,7 @@ http_interactions:
         "id": 1194892549, "name": "The Fourth District"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=12"},
         "totalCount": 3082, "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=10"}}'
     http_version: 
-  recorded_at: Thu, 10 Sep 2015 23:07:43 GMT
+  recorded_at: Thu, 10 Sep 2015 23:07:58 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=12
@@ -6045,7 +6045,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 10 Sep 2015 23:10:30 GMT
+      - Thu, 10 Sep 2015 23:10:46 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -6575,7 +6575,7 @@ http_interactions:
         "id": 1796387588, "name": "Caveo Lupus"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=13"},
         "totalCount": 3082, "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=11"}}'
     http_version: 
-  recorded_at: Thu, 10 Sep 2015 23:07:43 GMT
+  recorded_at: Thu, 10 Sep 2015 23:07:58 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=13
@@ -6593,7 +6593,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 10 Sep 2015 23:10:31 GMT
+      - Thu, 10 Sep 2015 23:10:46 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -6787,97 +6787,5 @@ http_interactions:
         "id": 2077084692, "name": "The OORT Cloud"}}], "pageCount_str": "13", "totalCount":
         3082, "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=12"}}'
     http_version: 
-  recorded_at: Thu, 10 Sep 2015 23:07:43 GMT
-- request:
-    method: get
-    uri: https://public-crest.eveonline.com/alliances/99000006/
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - excon/0.45.4
-  response:
-    status:
-      code: 200
-      message: ''
-    headers:
-      Server:
-      - nginx
-      Date:
-      - Thu, 10 Sep 2015 23:10:34 GMT
-      Content-Type:
-      - application/vnd.ccp.eve.Alliance-v1+json; charset=utf-8
-      Connection:
-      - keep-alive
-      X-Cache-Status:
-      - HIT
-      Access-Control-Max-Age:
-      - '1728000'
-      Access-Control-Expose-Header:
-      - CONTENT-TYPE
-      Cache-Control:
-      - private, max-age=1800
-      Access-Control-Allow-Origin:
-      - "*"
-      Content-Length:
-      - '3979'
-      Access-Control-Allow-Methods:
-      - GET, PUT, POST, DELETE, HEAD, OPTIONS
-      Access-Control:
-      - allow <*>
-      Access-Control-Allow-Headers:
-      - AUTHORIZATION, X-REQUESTED-WITH, CONTENT-TYPE, ACCEPT
-      Vary:
-      - Accept, Accept-Encoding, Accept-Language, User-Agent
-    body:
-      encoding: UTF-8
-      string: '{"startDate": "2010-11-04T13:11:00", "corporationsCount": 2, "description":
-        "<font size=\"12\" color=\"#bfffffff\">No Friend nor Ally we are Mercenaries.
-        <br><br>Lurking in the shadows hunting our latest victims for nothing more
-        than blood money. Death to the highest bidder... Assassination by any means
-        available.<br><br>The only question left to ask yourself is will you be next?<br><br><i>Everto
-        Rex Regis Open For Buisness</i><br><br>[Alliance Diplo] Join: 666 PUB<br></font><font
-        size=\"12\" color=\"#ffffa600\"><loc><a href=\"showinfo:1384//1265238237\">AnatomicalFaith</a></loc><br><br></font><font
-        size=\"12\" color=\"#bfffffff\">[Contract Quary &amp; Pricing]<br></font><font
-        size=\"12\" color=\"#ffffa600\"><loc><a href=\"showinfo:1384//549618368\">Drako
-        Zay</a><br><a href=\"showinfo:1384//1265238237\">AnatomicalFaith</a></loc></font><font
-        size=\"12\" color=\"#bfffffff\"> <br><br>Everto Rex Regis Provides Service
-        in:<br>-Corp/Alliance Logistic Blockades<br>-Corp/Alliance Ship Destruction
-        <br>-Empire/Lowsec Tower Protection<br>-Empire/Lowsec Tower Removal</font>",
-        "executorCorporation": {"name": "Demonic Imperial Holding", "isNPC": false,
-        "href": "https://public-crest.eveonline.com/corporations/1983708877/", "id_str":
-        "1983708877", "logo": {"32x32": {"href": "http://imageserver.eveonline.com/Corporation/1983708877_32.png"},
-        "64x64": {"href": "http://imageserver.eveonline.com/Corporation/1983708877_64.png"},
-        "128x128": {"href": "http://imageserver.eveonline.com/Corporation/1983708877_128.png"},
-        "256x256": {"href": "http://imageserver.eveonline.com/Corporation/1983708877_256.png"}},
-        "id": 1983708877}, "corporationsCount_str": "2", "deleted": false, "creatorCorporation":
-        {"name": "Demonic Empire", "isNPC": false, "href": "https://public-crest.eveonline.com/corporations/665335352/",
-        "id_str": "665335352", "logo": {"32x32": {"href": "http://imageserver.eveonline.com/Corporation/665335352_32.png"},
-        "64x64": {"href": "http://imageserver.eveonline.com/Corporation/665335352_64.png"},
-        "128x128": {"href": "http://imageserver.eveonline.com/Corporation/665335352_128.png"},
-        "256x256": {"href": "http://imageserver.eveonline.com/Corporation/665335352_256.png"}},
-        "id": 665335352}, "url": "http://evertorexregis.net", "id_str": "99000006",
-        "creatorCharacter": {"name": "Drako Zay", "isNPC": false, "href": "https://public-crest.eveonline.com/characters/549618368/",
-        "capsuleer": {"href": "https://public-crest.eveonline.com/characters/549618368/capsuleer/"},
-        "portrait": {"32x32": {"href": "http://imageserver.eveonline.com/Character/549618368_32.jpg"},
-        "64x64": {"href": "http://imageserver.eveonline.com/Character/549618368_64.jpg"},
-        "128x128": {"href": "http://imageserver.eveonline.com/Character/549618368_128.jpg"},
-        "256x256": {"href": "http://imageserver.eveonline.com/Character/549618368_256.jpg"}},
-        "id": 549618368, "id_str": "549618368"}, "corporations": [{"name": "Demonic
-        Empire", "isNPC": false, "href": "https://public-crest.eveonline.com/corporations/665335352/",
-        "id_str": "665335352", "logo": {"32x32": {"href": "http://imageserver.eveonline.com/Corporation/665335352_32.png"},
-        "64x64": {"href": "http://imageserver.eveonline.com/Corporation/665335352_64.png"},
-        "128x128": {"href": "http://imageserver.eveonline.com/Corporation/665335352_128.png"},
-        "256x256": {"href": "http://imageserver.eveonline.com/Corporation/665335352_256.png"}},
-        "id": 665335352}, {"name": "Demonic Imperial Holding", "isNPC": false, "href":
-        "https://public-crest.eveonline.com/corporations/1983708877/", "id_str": "1983708877",
-        "logo": {"32x32": {"href": "http://imageserver.eveonline.com/Corporation/1983708877_32.png"},
-        "64x64": {"href": "http://imageserver.eveonline.com/Corporation/1983708877_64.png"},
-        "128x128": {"href": "http://imageserver.eveonline.com/Corporation/1983708877_128.png"},
-        "256x256": {"href": "http://imageserver.eveonline.com/Corporation/1983708877_256.png"}},
-        "id": 1983708877}], "shortName": "666", "id": 99000006, "name": "Everto Rex
-        Regis"}'
-    http_version: 
-  recorded_at: Thu, 10 Sep 2015 23:07:46 GMT
+  recorded_at: Thu, 10 Sep 2015 23:07:59 GMT
 recorded_with: VCR 2.9.3

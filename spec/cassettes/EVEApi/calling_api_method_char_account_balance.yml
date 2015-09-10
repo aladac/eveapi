@@ -19,14 +19,14 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Thu, 10 Sep 2015 20:27:27 GMT
+      - Thu, 10 Sep 2015 23:07:12 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-10 20:27:28</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-10 23:07:12</currentTime>\r\n  <result>\r\n    <rowset
         name=\"accounts\" key=\"accountID\" columns=\"accountID,accountKey,balance\">\r\n
         \     <row accountID=\"69081883\" accountKey=\"1000\" balance=\"0.01\" />\r\n
-        \   </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-10 20:42:20</cachedUntil>\r\n</eveapi>"
+        \   </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-10 23:22:03</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Thu, 10 Sep 2015 20:27:28 GMT
+  recorded_at: Thu, 10 Sep 2015 23:07:12 GMT
 recorded_with: VCR 2.9.3

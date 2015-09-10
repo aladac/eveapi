@@ -19,11 +19,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Thu, 10 Sep 2015 20:27:20 GMT
+      - Thu, 10 Sep 2015 23:07:03 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-10 20:27:21</currentTime>\r\n  <result>\r\n    <characterNPCStandings>\r\n
+        \ <currentTime>2015-09-10 23:07:03</currentTime>\r\n  <result>\r\n    <characterNPCStandings>\r\n
         \     <rowset name=\"agents\" key=\"fromID\" columns=\"fromID,fromName,standing\">\r\n
         \       <row fromID=\"3012076\" fromName=\"Koikaski Uika\" standing=\"-0.67\"
         />\r\n        <row fromID=\"3013320\" fromName=\"Ahmobah Hethiba\" standing=\"-0.34\"
@@ -41,5 +41,5 @@ http_interactions:
         fromName=\"Mordu's Legion Command\" standing=\"0.00\" />\r\n      </rowset>\r\n
         \   </characterNPCStandings>\r\n  </result>\r\n  <cachedUntil>2015-09-10 23:24:21</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Thu, 10 Sep 2015 20:27:21 GMT
+  recorded_at: Thu, 10 Sep 2015 23:07:03 GMT
 recorded_with: VCR 2.9.3
