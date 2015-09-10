@@ -6,6 +6,7 @@ require 'eveapi/client'
 require 'eveapi/request'
 require 'eveapi/crest'
 require 'eveapi/util'
+require 'eveapi/alliance'
 require 'excon'
 require 'crack'
 

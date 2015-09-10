@@ -15,7 +15,7 @@ module EVEApi
         new_request = convert_hash_keys(get_request(path: 'alliances/', query: { page: i }))
         output[:items].concat(new_request[:items])
       end
-      return output[:items].each { |item| item.merge!(item[:href]) }
+      return output[:items].map { |item| EVEApi::Alliance.new item.merge!(item[:href]) }
     end
   end
 end
