@@ -71,3 +71,23 @@ describe EVEApi::Crest, :vcr do
     expect(@crest.alliances).to be_an(Array)
   end
 end
+
+describe EVEApi::Alliance, :vcr do
+  before :each do
+    @alliance = Crest.new.alliances.first
+  end
+
+  it 'should show alliance info in form of a Hash' do
+    expect { @alliance.info }.not_to raise_error
+    expect(@alliance.info).to be_a(Hash)
+  end
+
+  it 'should return corporations in form of an Array' do
+    expect { @alliance.corporations }.not_to raise_error
+    expect(@alliance.corporations).to be_an(Array)
+  end
+
+  it 'should return an Alliance in form of a hash' do
+    expect(@alliance.to_h).to be_a(Hash)
+  end
+end
