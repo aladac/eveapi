@@ -56,3 +56,18 @@ describe EVEApi::Request, :vcr do
     expect { Request }.not_to raise_error
   end
 end
+
+describe EVEApi::Crest, :vcr do
+  before :each do
+    @crest = Crest.new
+  end
+
+  it 'Crest.new should succeed' do
+    expect { @crest }.not_to raise_error
+  end
+
+  it 'alliances crest methods should return an Array of alliances' do
+    expect { @crest.alliances }.not_to raise_error
+    expect(@crest.alliances).to be_an(Array)
+  end
+end
