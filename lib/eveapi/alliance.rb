@@ -25,5 +25,15 @@ module EVEApi
     def info
       Crack::JSON.parse Excon.get(href).body
     end
+
+    def to_h
+      h = Hash.new
+      instance_variables.each do |var|
+        name = var.to_s.gsub(/^@/,'').to_sym
+        value = eval var.to_s
+        h[name] = value
+      end
+      h
+    end
   end
 end

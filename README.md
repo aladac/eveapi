@@ -54,6 +54,25 @@ Because of the way the paths are being built from the method names - some method
 | [char_asset_list](https://github.com/aladac/eveapi/wiki/char_asset_list) | `key_id`, `vcode`, `character_id` | `Array` |
 | [char_account_balance](https://github.com/aladac/eveapi/wiki/char_account_balance)  | `key_id`, `vcode`, `character_id` | `Array` |
 
+## CREST
+Rudimentary CREST support is added via the `EVEApi::Crest` class.
+Working mehtods
+
+`alliances`
+```ruby
+[1] pry(main)> a = Crest.new.alliances.select { |a| a.name == "Goonswarm Federation" }.first
+=> #<EVEApi::Alliance:0x007fd511c48248 @href="https://public-crest.eveonline.com/alliances/1354830081/", @id_str="1354830081", @short_name="CONDI", @name="Goonswarm Federation", @id=1354830081>
+[2] pry(main)> a.to_h
+=> {
+          :href => "https://public-crest.eveonline.com/alliances/1354830081/",
+        :id_str => "1354830081",
+    :short_name => "CONDI",
+          :name => "Goonswarm Federation",
+            :id => 1354830081
+}
+```
+
+
 ## Description
 
 EVE Online API Client for ruby
