@@ -19,13 +19,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Wed, 09 Sep 2015 12:35:48 GMT
+      - Thu, 10 Sep 2015 20:27:26 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-09 12:35:49</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-10 20:27:27</currentTime>\r\n  <result>\r\n    <rowset
         name=\"contactNotifications\" key=\"notificationID\" columns=\"notificationID,senderID,senderName,sentDate,messageData\"
-        />\r\n  </result>\r\n  <cachedUntil>2015-09-09 13:05:49</cachedUntil>\r\n</eveapi>"
+        />\r\n  </result>\r\n  <cachedUntil>2015-09-10 20:57:27</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Wed, 09 Sep 2015 12:35:49 GMT
+  recorded_at: Thu, 10 Sep 2015 20:27:27 GMT
 recorded_with: VCR 2.9.3

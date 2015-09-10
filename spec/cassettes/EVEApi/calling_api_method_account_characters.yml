@@ -19,16 +19,16 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Wed, 09 Sep 2015 12:35:45 GMT
+      - Thu, 10 Sep 2015 20:27:19 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-09 12:35:45</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-10 20:27:19</currentTime>\r\n  <result>\r\n    <rowset
         name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
         \     <row name=\"Quint Slade\" characterID=\"95512059\" corporationName=\"Imperial
         Academy\" corporationID=\"1000166\" allianceID=\"0\" allianceName=\"\" factionID=\"0\"
-        factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-09
-        13:24:15</cachedUntil>\r\n</eveapi>"
+        factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-10
+        21:24:19</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Wed, 09 Sep 2015 12:35:45 GMT
+  recorded_at: Thu, 10 Sep 2015 20:27:19 GMT
 recorded_with: VCR 2.9.3

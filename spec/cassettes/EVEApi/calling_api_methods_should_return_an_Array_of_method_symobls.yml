@@ -19,11 +19,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Wed, 09 Sep 2015 12:35:44 GMT
+      - Thu, 10 Sep 2015 20:27:18 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-09 12:35:45</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-10 20:27:18</currentTime>\r\n  <result>\r\n    <rowset
         name=\"callGroups\" key=\"groupID\" columns=\"groupID,name,description\">\r\n
         \     <row groupID=\"1\" name=\"Account and Market\" description=\"Market
         Orders, account balance and journal history.\" />\r\n      <row groupID=\"7\"
@@ -153,8 +153,8 @@ http_interactions:
         accessMask=\"2\" type=\"Corporation\" name=\"AssetList\" groupID=\"3\" description=\"List
         of all corporation assets.\" />\r\n      <row accessMask=\"1\" type=\"Corporation\"
         name=\"AccountBalance\" groupID=\"1\" description=\"Current balance of all
-        corporation accounts.\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-09
-        18:32:45</cachedUntil>\r\n</eveapi>"
+        corporation accounts.\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-11
+        02:24:18</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Wed, 09 Sep 2015 12:35:45 GMT
+  recorded_at: Thu, 10 Sep 2015 20:27:18 GMT
 recorded_with: VCR 2.9.3

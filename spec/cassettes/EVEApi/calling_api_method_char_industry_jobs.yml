@@ -19,13 +19,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Wed, 09 Sep 2015 12:35:48 GMT
+      - Thu, 10 Sep 2015 20:27:26 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-09 12:35:49</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-10 20:27:26</currentTime>\r\n  <result>\r\n    <rowset
         name=\"jobs\" key=\"jobID\" columns=\"jobID,installerID,installerName,facilityID,solarSystemID,solarSystemName,stationID,activityID,blueprintID,blueprintTypeID,blueprintTypeName,blueprintLocationID,outputLocationID,runs,cost,teamID,licensedRuns,probability,productTypeID,productTypeName,status,timeInSeconds,startDate,endDate,pauseDate,completedDate,completedCharacterID,successfulRuns\"
-        />\r\n  </result>\r\n  <cachedUntil>2015-09-09 12:50:49</cachedUntil>\r\n</eveapi>"
+        />\r\n  </result>\r\n  <cachedUntil>2015-09-10 20:42:26</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Wed, 09 Sep 2015 12:35:49 GMT
+  recorded_at: Thu, 10 Sep 2015 20:27:26 GMT
 recorded_with: VCR 2.9.3

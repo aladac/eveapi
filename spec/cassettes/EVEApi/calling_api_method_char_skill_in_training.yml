@@ -19,13 +19,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Wed, 09 Sep 2015 12:35:47 GMT
+      - Thu, 10 Sep 2015 20:27:21 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-09 12:35:47</currentTime>\r\n  <result>\r\n    <currentTQTime
-        offset=\"0\">2015-09-09 12:35:47</currentTQTime>\r\n    <skillInTraining>0</skillInTraining>\r\n
-        \ </result>\r\n  <cachedUntil>2015-09-09 13:32:47</cachedUntil>\r\n</eveapi>"
+        \ <currentTime>2015-09-10 20:27:22</currentTime>\r\n  <result>\r\n    <currentTQTime
+        offset=\"0\">2015-09-10 20:27:22</currentTQTime>\r\n    <skillInTraining>0</skillInTraining>\r\n
+        \ </result>\r\n  <cachedUntil>2015-09-10 21:24:21</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Wed, 09 Sep 2015 12:35:47 GMT
+  recorded_at: Thu, 10 Sep 2015 20:27:22 GMT
 recorded_with: VCR 2.9.3
