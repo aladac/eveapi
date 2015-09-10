@@ -35,12 +35,13 @@ module EVEApi
     end
 
     def corporations
-      info['corporations']
+      info[:corporations]
     end
 
     def find
       @short_name = info[:short_name]
       @name = info[:name]
+      self
     end
 
     def to_h
