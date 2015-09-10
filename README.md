@@ -58,11 +58,12 @@ Because of the way the paths are being built from the method names - some method
 Rudimentary CREST support is added via the `EVEApi::Crest` class.
 Working mehtods
 
-`alliances`
+
 ```ruby
-[1] pry(main)> a = Crest.new.alliances.select { |a| a.name == "Goonswarm Federation" }.first
-=> #<EVEApi::Alliance:0x007fd511c48248 @href="https://public-crest.eveonline.com/alliances/1354830081/", @id_str="1354830081", @short_name="CONDI", @name="Goonswarm Federation", @id=1354830081>
-[2] pry(main)> a.to_h
+# Crest#alliances  and Alliance#info methods
+a = Crest.new.alliances.select { |a| a.name == "Goonswarm Federation" }.first
+=> #<EVEApi::Alliance:0x007fd511c48248 ...>
+a.to_h
 => {
           :href => "https://public-crest.eveonline.com/alliances/1354830081/",
         :id_str => "1354830081",
@@ -70,6 +71,28 @@ Working mehtods
           :name => "Goonswarm Federation",
             :id => 1354830081
 }
+a.info['url']
+=> "http://www.goonfleet.com"
+a.info.keys
+=> [
+    [ 0] "startDate",
+    [ 1] "corporationsCount",
+    [ 2] "description",
+    [ 3] "executorCorporation",
+    [ 4] "primeHour_str",
+    [ 5] "primeHour",
+    [ 6] "deleted",
+    [ 7] "corporationsCount_str",
+    [ 8] "creatorCorporation",
+    [ 9] "url",
+    [10] "id_str",
+    [11] "creatorCharacter",
+    [12] "capitalSystem",
+    [13] "corporations",
+    [14] "shortName",
+    [15] "id",
+    [16] "name"
+]
 ```
 
 

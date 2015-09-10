@@ -26,6 +26,10 @@ module EVEApi
       Crack::JSON.parse Excon.get(href).body
     end
 
+    def corporations
+      info['corporations']
+    end
+
     def to_h
       h = Hash.new
       instance_variables.each do |var|
