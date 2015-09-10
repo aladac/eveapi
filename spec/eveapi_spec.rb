@@ -90,4 +90,16 @@ describe EVEApi::Alliance, :vcr do
   it 'should return an Alliance in form of a hash' do
     expect(@alliance.to_h).to be_a(Hash)
   end
+
+  it 'should create an Alliance from just id' do
+    expect(Alliance.new('1354830081')).to be_an(Alliance)
+  end
+
+  it 'after find short_name and name should not be blank' do
+    @alliance = Alliance.new('1354830081').find
+    expect(@alliance.short_name).to be_a(String)
+    expect(@alliance.short_name).not_to be_empty
+    expect(@alliance.name).to be_a(String)
+    expect(@alliance.name).not_to be_empty
+  end
 end

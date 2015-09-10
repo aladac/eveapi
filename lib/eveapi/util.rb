@@ -48,6 +48,10 @@ end
 module EVEApi
   # Utility methods
   module Util
+    def json_get(url)
+      Crack::JSON.parse Excon.get(url).body
+    end
+
     def underscore_key(k)
       k.to_s.underscore.to_sym
     end

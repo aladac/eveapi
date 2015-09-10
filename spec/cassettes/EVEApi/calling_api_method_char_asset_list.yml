@@ -19,11 +19,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Thu, 10 Sep 2015 20:27:27 GMT
+      - Thu, 10 Sep 2015 23:07:09 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-10 20:27:27</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-10 23:07:09</currentTime>\r\n  <result>\r\n    <rowset
         name=\"assets\" key=\"itemID\" columns=\"itemID,locationID,typeID,quantity,flag,singleton\">\r\n
         \     <row itemID=\"1017893173936\" locationID=\"60003760\" typeID=\"596\"
         quantity=\"1\" flag=\"4\" singleton=\"1\" rawQuantity=\"-1\">\r\n        <rowset
@@ -75,5 +75,5 @@ http_interactions:
         />\r\n        </rowset>\r\n      </row>\r\n    </rowset>\r\n  </result>\r\n
         \ <cachedUntil>2015-09-11 02:27:27</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Thu, 10 Sep 2015 20:27:27 GMT
+  recorded_at: Thu, 10 Sep 2015 23:07:08 GMT
 recorded_with: VCR 2.9.3

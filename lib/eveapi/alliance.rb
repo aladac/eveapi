@@ -1,4 +1,5 @@
 module EVEApi
+  # Alliance CREST object
   class Alliance
     #     => {
     #           :href => "https://public-crest.eveonline.com/alliances/99000006/",
@@ -7,34 +8,47 @@ module EVEApi
     #             :id => 99000006,
     #           :name => "Everto Rex Regis"
     # }
+    BASE_URI = 'https://public-crest.eveonline.com/alliances/'
 
     attr_accessor :href
     attr_accessor :id_str
     attr_accessor :short_name
     attr_accessor :name
     attr_accessor :id
+    attr_accessor :info
 
     def initialize(args)
-      @href = args[:href]
-      @id_str = args[:id_str]
-      @short_name = args[:short_name]
-      @name = args[:name]
-      @id = args[:id]
+      case args
+      when String, Fixnum
+        @id = args.to_i
+        @href = BASE_URI + id.to_s + '/'
+      when Hash
+        @href = args[:href]
+        @short_name = args[:short_name]
+        @name = args[:name]
+        @id = args[:id]
+      end
     end
 
     def info
-      Crack::JSON.parse Excon.get(href).body
+      @info ||= convert_hash_keys json_get(href)
     end
 
     def corporations
-      info['corporations']
+      info[:corporations]
+    end
+
+    def find
+      @short_name = info[:short_name]
+      @name = info[:name]
+      self
     end
 
     def to_h
-      h = Hash.new
+      h = {}
       instance_variables.each do |var|
-        name = var.to_s.gsub(/^@/,'').to_sym
-        value = eval var.to_s
+        name = var.to_s.gsub(/^@/, '').to_sym
+        value = send name
         h[name] = value
       end
       h
