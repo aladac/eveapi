@@ -13,11 +13,11 @@ describe EVEApi, :vcr do
     expect(@client.connection).to be_a(Excon::Connection)
   end
 
-  it 'check_path method should return an empty string when name contains of 1 part' do
+  it 'should return empty string when name contains of 1 part' do
     expect(@client.check_path('name')).to eq('')
   end
 
-  it 'check_path method should return a path string when name contains of 2 or more parts' do
+  it 'should return a path string when name contains of 2 or more parts' do
     expect(@client.check_path('name_name')).to be_a(String)
     expect(@client.check_path('name_name')).not_to be_empty
   end

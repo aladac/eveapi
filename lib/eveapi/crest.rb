@@ -7,16 +7,20 @@ module EVEApi
     end
 
     def get_request(args)
-      Crack::JSON.parse connection.get(path: args[:path], query: args[:query]).body
+      body = connection.get(path: args[:path], query: args[:query]).body
+      Crack::JSON.parse body
     end
 
     def alliances
       output = convert_hash_keys(get_request(path: 'alliances/'))
       2.upto(output[:page_count]) do |i|
-        new_request = convert_hash_keys(get_request(path: 'alliances/', query: { page: i }))
+        http = get_request(path: 'alliances/', query: { page: i })
+        new_request = convert_hash_keys(http)
         output[:items].concat(new_request[:items])
       end
-      output[:items].map { |item| EVEApi::Alliance.new item.merge!(item[:href]) }
+      output[:items].map do |item|
+        EVEApi::Alliance.new item.merge!(item[:href])
+      end
     end
   end
 end

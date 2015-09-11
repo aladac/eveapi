@@ -38,13 +38,16 @@ module EVEApi
     end
 
     def api_methods_hash
-      api_call_list[:calls].map { |m| { name: ruby_method_name(m), desc: m[:description] } }
+      api_call_list[:calls].map do |m|
+        { name: ruby_method_name(m), desc: m[:description] }
+      end
     end
 
     def method_missing(name, *_args, &_block)
       fail 'Invalid Method Name' if check_path(name).empty?
       check_path(name)
-      request = EVEApi::Request.new @connection.get(path: check_path(name), query: params)
+      http = connection.get(path: check_path(name), query: params)
+      request = EVEApi::Request.new(http)
       request.result
     end
 

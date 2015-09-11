@@ -1,13 +1,6 @@
 module EVEApi
   # Alliance CREST object
   class Alliance
-    #     => {
-    #           :href => "https://public-crest.eveonline.com/alliances/99000006/",
-    #         :id_str => "99000006",
-    #     :short_name => "666",
-    #             :id => 99000006,
-    #           :name => "Everto Rex Regis"
-    # }
     BASE_URI = 'https://public-crest.eveonline.com/alliances/'
 
     attr_accessor :href
