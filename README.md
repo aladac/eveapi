@@ -7,6 +7,7 @@
 [![Code Climate](https://codeclimate.com/github/aladac/eveapi/badges/gpa.svg)](https://codeclimate.com/github/aladac/eveapi)
 [![Test Coverage](https://codeclimate.com/github/aladac/eveapi/badges/coverage.svg)](https://codeclimate.com/github/aladac/eveapi/coverage)
 [![Downloads](https://img.shields.io/gem/dt/eveapi.svg)](https://rubygems.org/gems/eveapi)
+[![Latest Version Downloads](https://img.shields.io/gem/dtv/eveapi.svg)](https://rubygems.org/gems/eveapi)
 
 
 ## Disclaimer!
