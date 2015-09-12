@@ -43,6 +43,29 @@ module EVEApi
       end
     end
 
+    def characters_array(account_characters)
+      account_characters.to_a.map do |character|
+        args = character
+        args.merge!(key_id: key_id, vcode: vcode)
+        Character.new(args)
+      end
+    end
+
+    def characters_hash(account_characters)
+      args = account_characters
+      args.merge!(key_id: key_id, vcode: vcode)
+      [Character.new(args)]
+    end
+
+    def characters
+      case account_characters
+      when Array
+        return characters_array(account_characters)
+      when Hash
+        return characters_hash(account_characters)
+      end
+    end
+
     def method_missing(name, *_args, &_block)
       fail 'Invalid Method Name' if check_path(name).empty?
       check_path(name)

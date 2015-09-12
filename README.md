@@ -11,25 +11,26 @@
 
 
 ## Disclaimer!
-This work in progress in a very early stage. Not documented. Only a couple of methods are tested.
+*This work in progress in a very early stage. Not documented. Only a couple of methods are tested.*
 
-Most methods names can be listed by calling `EVEApi::Client#api_methods`
-```ruby
-EVEApi::Client.new.api_methods[0..5]
-=> [
-    [0] :char_chat_channels,
-    [1] :char_bookmarks,
-    [2] :char_locations,
-    [3] :char_contracts,
-    [4] :char_account_status,
-    [5] :char_character_info
-]
-```
-Most methods requiring arguments other than `character_id`, `key_id`, `vcode` and `row_count` probably will not function correctly.
+~~Most~~ working methods names can be listed by calling ~~`EVEApi::Client#api_methods`~~ `EVEApi::Client#working_methods`
 
 Because of the way the paths are being built from the method names - some methods may look funky eq. `server_server_status`.
 
-## Methods
+## Auto Methods
+These methods are procedurally handled.
+
+```ruby
+def method_missing(name, *_args, &_block)
+  fail 'Invalid Method Name' if check_path(name).empty?
+  check_path(name)
+  http = connection.get(path: check_path(name), query: params)
+  request = EVEApi::Request.new(http)
+  request.result
+end
+```
+
+The ones listed below are known to work, provided the instance variables listed in the *Requires* column are supplied.
 
 | Method Name   | Requires      |  Output Class             |
 | ------------- | ------------- | ------------- |
@@ -61,7 +62,6 @@ Working mehtods
 
 
 ```ruby
-# Crest#alliances  and Alliance#info methods
 a = Crest.new.alliances.select { |a| a.name == "Goonswarm Federation" }.first
 => #<EVEApi::Alliance:0x007fd511c48248 ...>
 a.to_h

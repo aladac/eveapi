@@ -19,6 +19,15 @@ task doc: :rdoc
 require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new
 
+require 'rubocop/rake_task'
+
+desc 'Run RuboCop on the lib directory'
+RuboCop::RakeTask.new(:rubocop) do |task|
+  # task.patterns = ['lib/**/*.rb']
+  # task.formatters = ['files']
+  task.fail_on_error = true
+end
+
 require 'pry'
 
 desc 'Run pry console'
@@ -63,4 +72,4 @@ end
 
 task c: :console
 task test: :spec
-task default: :spec
+task default: [:spec, :rubocop]

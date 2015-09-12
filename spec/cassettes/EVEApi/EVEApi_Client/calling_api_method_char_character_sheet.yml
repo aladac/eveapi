@@ -1,0 +1,207 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.eveonline.com/account/Characters.xml.aspx?keyID=4669404&vCode=hushhush
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Sat, 12 Sep 2015 08:52:21 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-12 08:52:22</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
+        \     <row name=\"Blondie Blond\" characterID=\"93051887\" corporationName=\"Carl
+        Malus Corporation\" corporationID=\"98279136\" allianceID=\"0\" allianceName=\"\"
+        factionID=\"0\" factionName=\"\" />\r\n      <row name=\"Adrian Dent\" characterID=\"810699209\"
+        corporationName=\"Caldari Provisions\" corporationID=\"1000009\" allianceID=\"0\"
+        allianceName=\"\" factionID=\"0\" factionName=\"\" />\r\n    </rowset>\r\n
+        \ </result>\r\n  <cachedUntil>2015-09-12 09:48:16</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Sat, 12 Sep 2015 08:52:22 GMT
+- request:
+    method: get
+    uri: https://api.eveonline.com/account/Characters.xml.aspx?keyID=4669404&vCode=hushhush
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Sat, 12 Sep 2015 08:52:21 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-12 08:52:22</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
+        \     <row name=\"Blondie Blond\" characterID=\"93051887\" corporationName=\"Carl
+        Malus Corporation\" corporationID=\"98279136\" allianceID=\"0\" allianceName=\"\"
+        factionID=\"0\" factionName=\"\" />\r\n      <row name=\"Adrian Dent\" characterID=\"810699209\"
+        corporationName=\"Caldari Provisions\" corporationID=\"1000009\" allianceID=\"0\"
+        allianceName=\"\" factionID=\"0\" factionName=\"\" />\r\n    </rowset>\r\n
+        \ </result>\r\n  <cachedUntil>2015-09-12 09:48:16</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Sat, 12 Sep 2015 08:52:22 GMT
+- request:
+    method: get
+    uri: https://api.eveonline.com/account/Characters.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Sat, 12 Sep 2015 08:52:21 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-12 08:52:22</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
+        \     <row name=\"Quint Slade\" characterID=\"95512059\" corporationName=\"Imperial
+        Academy\" corporationID=\"1000166\" allianceID=\"0\" allianceName=\"\" factionID=\"0\"
+        factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-12
+        09:48:16</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Sat, 12 Sep 2015 08:52:22 GMT
+- request:
+    method: get
+    uri: https://api.eveonline.com/account/Characters.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Sat, 12 Sep 2015 08:52:22 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-12 08:52:23</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
+        \     <row name=\"Quint Slade\" characterID=\"95512059\" corporationName=\"Imperial
+        Academy\" corporationID=\"1000166\" allianceID=\"0\" allianceName=\"\" factionID=\"0\"
+        factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-12
+        09:48:16</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Sat, 12 Sep 2015 08:52:23 GMT
+- request:
+    method: get
+    uri: https://api.eveonline.com/char/CharacterSheet.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Sat, 12 Sep 2015 08:52:22 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-12 08:52:23</currentTime>\r\n  <result>\r\n    <characterID>95512059</characterID>\r\n
+        \   <name>Quint Slade</name>\r\n    <homeStationID>60014629</homeStationID>\r\n
+        \   <DoB>2015-04-09 20:37:05</DoB>\r\n    <race>Amarr</race>\r\n    <bloodLineID>13</bloodLineID>\r\n
+        \   <bloodLine>Khanid</bloodLine>\r\n    <ancestryID>37</ancestryID>\r\n    <ancestry>Cyber
+        Knights</ancestry>\r\n    <gender>Male</gender>\r\n    <corporationName>Imperial
+        Academy</corporationName>\r\n    <corporationID>1000166</corporationID>\r\n
+        \   <cloneTypeID>164</cloneTypeID>\r\n    <cloneName>Clone Grade Alpha</cloneName>\r\n
+        \   <cloneSkillPoints>0</cloneSkillPoints>\r\n    <freeSkillPoints>0</freeSkillPoints>\r\n
+        \   <freeRespecs>2</freeRespecs>\r\n    <cloneJumpDate>0001-01-01 00:00:00</cloneJumpDate>\r\n
+        \   <lastRespecDate>0001-01-01 00:00:00</lastRespecDate>\r\n    <lastTimedRespec>0001-01-01
+        00:00:00</lastTimedRespec>\r\n    <remoteStationDate>0001-01-01 00:00:00</remoteStationDate>\r\n
+        \   <rowset name=\"jumpClones\" key=\"jumpCloneID\" columns=\"jumpCloneID,typeID,locationID,cloneName\"
+        />\r\n    <rowset name=\"jumpCloneImplants\" key=\"jumpCloneID\" columns=\"jumpCloneID,typeID,typeName\"
+        />\r\n    <jumpActivation>0001-01-01 00:00:00</jumpActivation>\r\n    <jumpFatigue>0001-01-01
+        00:00:00</jumpFatigue>\r\n    <jumpLastUpdate>0001-01-01 00:00:00</jumpLastUpdate>\r\n
+        \   <balance>0.01</balance>\r\n    <rowset name=\"implants\" key=\"typeID\"
+        columns=\"typeID,typeName\">\r\n      <row typeID=\"9956\" typeName=\"Social
+        Adaptation Chip - Basic\" />\r\n      <row typeID=\"10221\" typeName=\"Cybernetic
+        Subprocessor - Standard\" />\r\n      <row typeID=\"10208\" typeName=\"Memory
+        Augmentation - Standard\" />\r\n      <row typeID=\"10212\" typeName=\"Neural
+        Boost - Standard\" />\r\n      <row typeID=\"10216\" typeName=\"Ocular Filter
+        - Standard\" />\r\n    </rowset>\r\n    <attributes>\r\n      <intelligence>20</intelligence>\r\n
+        \     <memory>20</memory>\r\n      <charisma>19</charisma>\r\n      <perception>20</perception>\r\n
+        \     <willpower>20</willpower>\r\n    </attributes>\r\n    <rowset name=\"skills\"
+        key=\"typeID\" columns=\"typeID,skillpoints,level,published\">\r\n      <row
+        typeID=\"3300\" skillpoints=\"1415\" level=\"2\" published=\"1\" />\r\n      <row
+        typeID=\"3303\" skillpoints=\"8000\" level=\"3\" published=\"1\" />\r\n      <row
+        typeID=\"3327\" skillpoints=\"256000\" level=\"5\" published=\"1\" />\r\n
+        \     <row typeID=\"3331\" skillpoints=\"3603\" level=\"2\" published=\"1\"
+        />\r\n      <row typeID=\"3386\" skillpoints=\"1415\" level=\"2\" published=\"1\"
+        />\r\n      <row typeID=\"3392\" skillpoints=\"1421\" level=\"2\" published=\"1\"
+        />\r\n      <row typeID=\"3402\" skillpoints=\"8000\" level=\"3\" published=\"1\"
+        />\r\n      <row typeID=\"3412\" skillpoints=\"750\" level=\"1\" published=\"1\"
+        />\r\n      <row typeID=\"3413\" skillpoints=\"8000\" level=\"3\" published=\"1\"
+        />\r\n      <row typeID=\"3426\" skillpoints=\"45255\" level=\"4\" published=\"1\"
+        />\r\n      <row typeID=\"3449\" skillpoints=\"8000\" level=\"3\" published=\"1\"
+        />\r\n      <row typeID=\"3411\" skillpoints=\"768000\" level=\"5\" published=\"1\"
+        />\r\n      <row typeID=\"3450\" skillpoints=\"8000\" level=\"3\" published=\"1\"
+        />\r\n      <row typeID=\"3318\" skillpoints=\"90510\" level=\"4\" published=\"1\"
+        />\r\n      <row typeID=\"3393\" skillpoints=\"250\" level=\"1\" published=\"1\"
+        />\r\n      <row typeID=\"3424\" skillpoints=\"2829\" level=\"2\" published=\"1\"
+        />\r\n      <row typeID=\"3394\" skillpoints=\"500\" level=\"1\" published=\"1\"
+        />\r\n      <row typeID=\"3454\" skillpoints=\"1250\" level=\"1\" published=\"1\"
+        />\r\n    </rowset>\r\n    <rowset name=\"certificates\" key=\"certificateID\"
+        columns=\"certificateID\" />\r\n    <rowset name=\"corporationRoles\" key=\"roleID\"
+        columns=\"roleID,roleName\" />\r\n    <rowset name=\"corporationRolesAtHQ\"
+        key=\"roleID\" columns=\"roleID,roleName\" />\r\n    <rowset name=\"corporationRolesAtBase\"
+        key=\"roleID\" columns=\"roleID,roleName\" />\r\n    <rowset name=\"corporationRolesAtOther\"
+        key=\"roleID\" columns=\"roleID,roleName\" />\r\n    <rowset name=\"corporationTitles\"
+        key=\"titleID\" columns=\"titleID,titleName\" />\r\n  </result>\r\n  <cachedUntil>2015-09-12
+        09:49:23</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Sat, 12 Sep 2015 08:52:23 GMT
+recorded_with: VCR 2.9.3

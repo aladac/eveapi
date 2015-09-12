@@ -1,0 +1,288 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.eveonline.com/account/Characters.xml.aspx?keyID=4669404&vCode=hushhush
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Sat, 12 Sep 2015 08:51:47 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-12 08:51:48</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
+        \     <row name=\"Blondie Blond\" characterID=\"93051887\" corporationName=\"Carl
+        Malus Corporation\" corporationID=\"98279136\" allianceID=\"0\" allianceName=\"\"
+        factionID=\"0\" factionName=\"\" />\r\n      <row name=\"Adrian Dent\" characterID=\"810699209\"
+        corporationName=\"Caldari Provisions\" corporationID=\"1000009\" allianceID=\"0\"
+        allianceName=\"\" factionID=\"0\" factionName=\"\" />\r\n    </rowset>\r\n
+        \ </result>\r\n  <cachedUntil>2015-09-12 09:48:16</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Sat, 12 Sep 2015 08:51:48 GMT
+- request:
+    method: get
+    uri: https://api.eveonline.com/account/Characters.xml.aspx?keyID=4669404&vCode=hushhush
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Sat, 12 Sep 2015 08:51:47 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-12 08:51:48</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
+        \     <row name=\"Blondie Blond\" characterID=\"93051887\" corporationName=\"Carl
+        Malus Corporation\" corporationID=\"98279136\" allianceID=\"0\" allianceName=\"\"
+        factionID=\"0\" factionName=\"\" />\r\n      <row name=\"Adrian Dent\" characterID=\"810699209\"
+        corporationName=\"Caldari Provisions\" corporationID=\"1000009\" allianceID=\"0\"
+        allianceName=\"\" factionID=\"0\" factionName=\"\" />\r\n    </rowset>\r\n
+        \ </result>\r\n  <cachedUntil>2015-09-12 09:48:16</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Sat, 12 Sep 2015 08:51:48 GMT
+- request:
+    method: get
+    uri: https://api.eveonline.com/account/Characters.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Sat, 12 Sep 2015 08:51:48 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-12 08:51:49</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
+        \     <row name=\"Quint Slade\" characterID=\"95512059\" corporationName=\"Imperial
+        Academy\" corporationID=\"1000166\" allianceID=\"0\" allianceName=\"\" factionID=\"0\"
+        factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-12
+        09:48:16</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Sat, 12 Sep 2015 08:51:49 GMT
+- request:
+    method: get
+    uri: https://api.eveonline.com/account/Characters.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Sat, 12 Sep 2015 08:51:49 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-12 08:51:49</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
+        \     <row name=\"Quint Slade\" characterID=\"95512059\" corporationName=\"Imperial
+        Academy\" corporationID=\"1000166\" allianceID=\"0\" allianceName=\"\" factionID=\"0\"
+        factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-12
+        09:48:16</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Sat, 12 Sep 2015 08:51:49 GMT
+- request:
+    method: get
+    uri: https://api.eveonline.com/api/CallList.xml.aspx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Sat, 12 Sep 2015 08:51:49 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-12 08:51:50</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"callGroups\" key=\"groupID\" columns=\"groupID,name,description\">\r\n
+        \     <row groupID=\"1\" name=\"Account and Market\" description=\"Market
+        Orders, account balance and journal history.\" />\r\n      <row groupID=\"7\"
+        name=\"Communications\" description=\"Private communications such as contact
+        lists, Eve Mail and Notifications.\" />\r\n      <row groupID=\"5\" name=\"Corporation
+        Members\" description=\"Member information for Corporations.\" />\r\n      <row
+        groupID=\"6\" name=\"Outposts and Starbases\" description=\"Outpost and Starbase
+        information for Corporations\" />\r\n      <row groupID=\"3\" name=\"Private
+        Information\" description=\"Personal information about the owner. Asset lists,
+        skill training for characters, Private Calendar and more.\" />\r\n      <row
+        groupID=\"4\" name=\"Public Information\" description=\"Achievements such
+        as Medals, Kill Mails, Fational Warfare Statistics and NPC Standings.\" />\r\n
+        \     <row groupID=\"2\" name=\"Science and Industry\" description=\"Datacore
+        production and job listing.\" />\r\n    </rowset>\r\n    <rowset name=\"calls\"
+        key=\"accessMask,type\" columns=\"accessMask,type,name,groupID,description\">\r\n
+        \     <row accessMask=\"536870912\" type=\"Character\" name=\"ChatChannels\"
+        groupID=\"7\" description=\"List of all chat channels the character owns or
+        is an operator of.\" />\r\n      <row accessMask=\"268435456\" type=\"Character\"
+        name=\"Bookmarks\" groupID=\"3\" description=\"List of all personal bookmarks.\"
+        />\r\n      <row accessMask=\"134217728\" type=\"Character\" name=\"Locations\"
+        groupID=\"3\" description=\"Allows the fetching of coordinate and name data
+        for items owned by the character.\" />\r\n      <row accessMask=\"67108864\"
+        type=\"Character\" name=\"Contracts\" groupID=\"3\" description=\"List of
+        all Contracts the character is involved in.\" />\r\n      <row accessMask=\"33554432\"
+        type=\"Character\" name=\"AccountStatus\" groupID=\"3\" description=\"EVE
+        player account status.\" />\r\n      <row accessMask=\"16777216\" type=\"Character\"
+        name=\"CharacterInfo\" groupID=\"3\" description=\"Sensitive Character Information,
+        exposes account balance and last known location on top of the other Character
+        Information call.\" />\r\n      <row accessMask=\"8388608\" type=\"Character\"
+        name=\"CharacterInfo\" groupID=\"4\" description=\"Character information,
+        exposes skill points and current ship information on top of'Show Info'information.\"
+        />\r\n      <row accessMask=\"4194304\" type=\"Character\" name=\"WalletTransactions\"
+        groupID=\"1\" description=\"Market transaction journal of character.\" />\r\n
+        \     <row accessMask=\"2097152\" type=\"Character\" name=\"WalletJournal\"
+        groupID=\"1\" description=\"Wallet journal of character.\" />\r\n      <row
+        accessMask=\"1048576\" type=\"Character\" name=\"UpcomingCalendarEvents\"
+        groupID=\"3\" description=\"Upcoming events on characters calendar.\" />\r\n
+        \     <row accessMask=\"524288\" type=\"Character\" name=\"Standings\" groupID=\"4\"
+        description=\"NPC Standings towards the character.\" />\r\n      <row accessMask=\"262144\"
+        type=\"Character\" name=\"SkillQueue\" groupID=\"3\" description=\"Entire
+        skill queue of character.\" />\r\n      <row accessMask=\"131072\" type=\"Character\"
+        name=\"SkillInTraining\" groupID=\"3\" description=\"Skill currently in training
+        on the character. Subset of entire Skill Queue.\" />\r\n      <row accessMask=\"65536\"
+        type=\"Character\" name=\"Research\" groupID=\"2\" description=\"List of all
+        Research agents working for the character and the progress of the research.\"
+        />\r\n      <row accessMask=\"32768\" type=\"Character\" name=\"NotificationTexts\"
+        groupID=\"7\" description=\"Actual body of notifications sent to the character.
+        Requires Notification access to function.\" />\r\n      <row accessMask=\"16384\"
+        type=\"Character\" name=\"Notifications\" groupID=\"7\" description=\"List
+        of recent notifications sent to the character.\" />\r\n      <row accessMask=\"8192\"
+        type=\"Character\" name=\"Medals\" groupID=\"4\" description=\"Medals awarded
+        to the character.\" />\r\n      <row accessMask=\"4096\" type=\"Character\"
+        name=\"MarketOrders\" groupID=\"1\" description=\"List of all Market Orders
+        the character has made.\" />\r\n      <row accessMask=\"2048\" type=\"Character\"
+        name=\"MailMessages\" groupID=\"7\" description=\"List of all messages in
+        the characters EVE Mail Inbox.\" />\r\n      <row accessMask=\"1024\" type=\"Character\"
+        name=\"MailingLists\" groupID=\"7\" description=\"List of all Mailing Lists
+        the character subscribes to.\" />\r\n      <row accessMask=\"512\" type=\"Character\"
+        name=\"MailBodies\" groupID=\"7\" description=\"EVE Mail bodies. Requires
+        MailMessages as well to function.\" />\r\n      <row accessMask=\"256\" type=\"Character\"
+        name=\"KillLog\" groupID=\"4\" description=\"Characters kill log.\" />\r\n
+        \     <row accessMask=\"128\" type=\"Character\" name=\"IndustryJobs\" groupID=\"2\"
+        description=\"Character jobs, completed and active.\" />\r\n      <row accessMask=\"64\"
+        type=\"Character\" name=\"FacWarStats\" groupID=\"4\" description=\"Characters
+        Factional Warfare Statistics.\" />\r\n      <row accessMask=\"32\" type=\"Character\"
+        name=\"ContactNotifications\" groupID=\"7\" description=\"Most recent contact
+        notifications for the character.\" />\r\n      <row accessMask=\"16\" type=\"Character\"
+        name=\"ContactList\" groupID=\"7\" description=\"List of character contacts
+        and relationship levels.\" />\r\n      <row accessMask=\"8\" type=\"Character\"
+        name=\"CharacterSheet\" groupID=\"3\" description=\"Character Sheet information.
+        Contains basic'Show Info'information along with clones, account balance, implants,
+        attributes, skills, certificates and corporation roles.\" />\r\n      <row
+        accessMask=\"4\" type=\"Character\" name=\"CalendarEventAttendees\" groupID=\"3\"
+        description=\"Event attendee responses. Requires UpcomingCalendarEvents to
+        function.\" />\r\n      <row accessMask=\"2\" type=\"Character\" name=\"AssetList\"
+        groupID=\"3\" description=\"Entire asset list of character.\" />\r\n      <row
+        accessMask=\"1\" type=\"Character\" name=\"AccountBalance\" groupID=\"1\"
+        description=\"Current balance of characters wallet.\" />\r\n      <row accessMask=\"67108864\"
+        type=\"Corporation\" name=\"Bookmarks\" groupID=\"3\" description=\"List of
+        all corporate bookmarks.\" />\r\n      <row accessMask=\"33554432\" type=\"Corporation\"
+        name=\"MemberTrackingExtended\" groupID=\"5\" description=\"Extensive Member
+        information. Time of last logoff, last known location and ship.\" />\r\n      <row
+        accessMask=\"16777216\" type=\"Corporation\" name=\"Locations\" groupID=\"3\"
+        description=\"Allows the fetching of coordinate and name data for items owned
+        by the corporation.\" />\r\n      <row accessMask=\"8388608\" type=\"Corporation\"
+        name=\"Contracts\" groupID=\"3\" description=\"List of recent Contracts the
+        corporation is involved in.\" />\r\n      <row accessMask=\"4194304\" type=\"Corporation\"
+        name=\"Titles\" groupID=\"5\" description=\"Titles of corporation and the
+        roles they grant.\" />\r\n      <row accessMask=\"2097152\" type=\"Corporation\"
+        name=\"WalletTransactions\" groupID=\"1\" description=\"Market transactions
+        of all corporate accounts.\" />\r\n      <row accessMask=\"1048576\" type=\"Corporation\"
+        name=\"WalletJournal\" groupID=\"1\" description=\"Wallet journal for all
+        corporate accounts.\" />\r\n      <row accessMask=\"524288\" type=\"Corporation\"
+        name=\"StarbaseList\" groupID=\"6\" description=\"List of all corporate starbases.\"
+        />\r\n      <row accessMask=\"262144\" type=\"Corporation\" name=\"Standings\"
+        groupID=\"4\" description=\"NPC Standings towards corporation.\" />\r\n      <row
+        accessMask=\"131072\" type=\"Corporation\" name=\"StarbaseDetail\" groupID=\"6\"
+        description=\"List of all settings of corporate starbases.\" />\r\n      <row
+        accessMask=\"65536\" type=\"Corporation\" name=\"Shareholders\" groupID=\"1\"
+        description=\"Shareholders of the corporation.\" />\r\n      <row accessMask=\"32768\"
+        type=\"Corporation\" name=\"OutpostServiceDetail\" groupID=\"6\" description=\"List
+        of all service settings of corporate outposts.\" />\r\n      <row accessMask=\"16384\"
+        type=\"Corporation\" name=\"OutpostList\" groupID=\"6\" description=\"List
+        of all outposts controlled by the corporation.\" />\r\n      <row accessMask=\"8192\"
+        type=\"Corporation\" name=\"Medals\" groupID=\"4\" description=\"List of all
+        medals created by the corporation.\" />\r\n      <row accessMask=\"4096\"
+        type=\"Corporation\" name=\"MarketOrders\" groupID=\"1\" description=\"List
+        of all corporate market orders.\" />\r\n      <row accessMask=\"2048\" type=\"Corporation\"
+        name=\"MemberTrackingLimited\" groupID=\"5\" description=\"Limited Member
+        information.\" />\r\n      <row accessMask=\"1024\" type=\"Corporation\" name=\"MemberSecurityLog\"
+        groupID=\"5\" description=\"Member role and title change log.\" />\r\n      <row
+        accessMask=\"512\" type=\"Corporation\" name=\"MemberSecurity\" groupID=\"5\"
+        description=\"Member roles and titles.\" />\r\n      <row accessMask=\"256\"
+        type=\"Corporation\" name=\"KillLog\" groupID=\"4\" description=\"Corporation
+        kill log.\" />\r\n      <row accessMask=\"128\" type=\"Corporation\" name=\"IndustryJobs\"
+        groupID=\"2\" description=\"Corporation jobs, completed and active.\" />\r\n
+        \     <row accessMask=\"64\" type=\"Corporation\" name=\"FacWarStats\" groupID=\"4\"
+        description=\"Corporations Factional Warfare Statistics.\" />\r\n      <row
+        accessMask=\"32\" type=\"Corporation\" name=\"ContainerLog\" groupID=\"3\"
+        description=\"Corporate secure container acess log.\" />\r\n      <row accessMask=\"16\"
+        type=\"Corporation\" name=\"ContactList\" groupID=\"7\" description=\"Corporate
+        contact list and relationships.\" />\r\n      <row accessMask=\"8\" type=\"Corporation\"
+        name=\"CorporationSheet\" groupID=\"3\" description=\"Exposes basic'Show Info'information
+        as well as Member Limit and basic division and wallet info.\" />\r\n      <row
+        accessMask=\"4\" type=\"Corporation\" name=\"MemberMedals\" groupID=\"5\"
+        description=\"List of medals awarded to corporation members.\" />\r\n      <row
+        accessMask=\"2\" type=\"Corporation\" name=\"AssetList\" groupID=\"3\" description=\"List
+        of all corporation assets.\" />\r\n      <row accessMask=\"1\" type=\"Corporation\"
+        name=\"AccountBalance\" groupID=\"1\" description=\"Current balance of all
+        corporation accounts.\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-12
+        14:48:50</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Sat, 12 Sep 2015 08:51:50 GMT
+recorded_with: VCR 2.9.3
