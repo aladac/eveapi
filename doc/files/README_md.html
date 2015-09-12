@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>README.md</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="../css/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../css/main.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../css/github.css" type="text/css" media="screen" />
+<script src="../js/jquery-1.3.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/jquery-effect.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/main.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/highlight.pack.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+
+<body>     
+    <div class="banner">
+        
+        <h1>
+            README.md
+        </h1>
+        <ul class="files">
+            <li>README.md</li>
+            <li>Last modified: 2015-09-12 21:49:33 +0200</li>
+        </ul>
+    </div>
+
+    <div id="bodyContent">
+        <div id="content">
+  
+    <div class="description">
+      
+<p><img src="https://github.com/aladac/eveapi/raw/master/doc/eveapi.png"></p>
+
+<p><em>EVE API for ruby</em></p>
+
+<p><a href="http://badge.fury.io/rb/eveapi"><img
+src="https://badge.fury.io/rb/eveapi.svg"></a> <a
+href="https://travis-ci.org/aladac/eveapi"><img
+src="https://secure.travis-ci.org/aladac/eveapi.svg?branch=master"></a> <a
+href="https://codeclimate.com/github/aladac/eveapi"><img
+src="https://codeclimate.com/github/aladac/eveapi/badges/gpa.svg"></a> <a
+href="https://codeclimate.com/github/aladac/eveapi/coverage"><img
+src="https://codeclimate.com/github/aladac/eveapi/badges/coverage.svg"></a>
+<a href="https://rubygems.org/gems/eveapi"><img
+src="https://img.shields.io/gem/dt/eveapi.svg"></a> <a
+href="https://rubygems.org/gems/eveapi"><img
+src="https://img.shields.io/gem/dtv/eveapi.svg"></a></p>
+
+<h2 id="label-Disclaimer-21">Disclaimer!</h2>
+
+<p><em>This work in progress in a very early stage. Not documented. Only a
+couple of methods are tested.</em></p>
+
+<p>~~Most~~ working methods names can be listed by calling
+~~<code>EVEApi::Client#api_methods</code>~~
+<code>EVEApi::Client#working_methods</code></p>
+
+<p>Because of the way the paths are being built from the method names - some
+methods may look funky eq. <code>server_server_status</code>.</p>
+
+<h2 id="label-Auto+Methods">Auto Methods</h2>
+
+<p>These methods are procedurally handled.</p>
+
+<pre><code>def method_missing(name, *_args, &amp;_block)
+  fail &#39;Invalid Method Name&#39; if check_path(name).empty?
+  check_path(name)
+  http = connection.get(path: check_path(name), query: params)
+  request = EVEApi::Request.new(http)
+  request.result
+end
+</code></pre>
+
+<p>The ones listed below are known to work, provided the instance variables
+listed in the <em>Requires</em> column are supplied.</p>
+
+<p>| Method Name | Requires | Output Class | | ————- | ————- | ————- | | <a
+href="https://github.com/aladac/eveapi/wiki/account_api_key_info">account_api_key_info</a>
+| <code>key_id</code>, <code>vcode</code> | <code>Hash</code> | | <a
+href="https://github.com/aladac/eveapi/wiki/account_account_status">account_account_status</a>
+| <code>key_id</code>, <code>vcode</code> | <code>Hash</code> | | <a
+href="https://github.com/aladac/eveapi/wiki/account_characters">account_characters</a>
+| <code>key_id</code>, <code>vcode</code> | <code>Array</code> | | <a
+href="https://github.com/aladac/eveapi/wiki/server_server_status">server_server_status</a>
+| - | <code>Hash</code> | | <a
+href="https://github.com/aladac/eveapi/wiki/char_wallet_transactions">char_wallet_transactions</a>
+| <code>key_id</code>, <code>vcode</code>, <code>character_id</code> |
+<code>Array</code> | | <a
+href="https://github.com/aladac/eveapi/wiki/char_wallet_journal">char_wallet_journal</a>
+| <code>key_id</code>, <code>vcode</code>, <code>character_id</code> |
+<code>Array</code> | | <a
+href="https://github.com/aladac/eveapi/wiki/char_standings">char_standings</a>
+| <code>key_id</code>, <code>vcode</code>, <code>character_id</code> |
+<code>Array</code> | | <a
+href="https://github.com/aladac/eveapi/wiki/char_skill_queue">char_skill_queue</a>
+| <code>key_id</code>, <code>vcode</code>, <code>character_id</code> |
+<code>Array</code> | | <a
+href="https://github.com/aladac/eveapi/wiki/char_skill_in_training">char_skill_in_training</a>
+| <code>key_id</code>, <code>vcode</code>, <code>character_id</code> |
+<code>Hash</code> | | <a
+href="https://github.com/aladac/eveapi/wiki/char_research">char_research</a>
+| <code>key_id</code>, <code>vcode</code>, <code>character_id</code> |
+<code>Array</code> | | <a
+href="https://github.com/aladac/eveapi/wiki/char_notifications">char_notifications</a>
+| <code>key_id</code>, <code>vcode</code>, <code>character_id</code> |
+<code>Array</code> | | <a
+href="https://github.com/aladac/eveapi/wiki/char_medals">char_medals</a> |
+<code>key_id</code>, <code>vcode</code>, <code>character_id</code> |
+<code>Hash</code> | | <a
+href="https://github.com/aladac/eveapi/wiki/char_market_orders">char_market_orders</a>
+| <code>key_id</code>, <code>vcode</code>, <code>character_id</code> |
+<code>Array</code> | | <a
+href="https://github.com/aladac/eveapi/wiki/char_mail_messages">char_mail_messages</a>
+| <code>key_id</code>, <code>vcode</code>, <code>character_id</code> |
+<code>Array</code> | | <a
+href="https://github.com/aladac/eveapi/wiki/char_mailing_lists">char_mailing_lists</a>
+| <code>key_id</code>, <code>vcode</code>, <code>character_id</code> |
+<code>Array</code> | | <a
+href="https://github.com/aladac/eveapi/wiki/char_industry_jobs">char_industry_jobs</a>
+| <code>key_id</code>, <code>vcode</code>, <code>character_id</code> |
+<code>Array</code> | | <a
+href="https://github.com/aladac/eveapi/wiki/char_contact_notifications">char_contact_notifications</a>
+| <code>key_id</code>, <code>vcode</code>, <code>character_id</code> |
+<code>Array</code> | | <a
+href="https://github.com/aladac/eveapi/wiki/char_contact_list">char_contact_list</a>
+| <code>key_id</code>, <code>vcode</code>, <code>character_id</code> |
+<code>Array</code> | | <a
+href="https://github.com/aladac/eveapi/wiki/char_character_sheet">char_character_sheet</a>
+| <code>key_id</code>, <code>vcode</code>, <code>character_id</code> |
+<code>Hash</code> | | <a
+href="https://github.com/aladac/eveapi/wiki/char_asset_list">char_asset_list</a>
+| <code>key_id</code>, <code>vcode</code>, <code>character_id</code> |
+<code>Array</code> | | <a
+href="https://github.com/aladac/eveapi/wiki/char_account_balance">char_account_balance</a>
+| <code>key_id</code>, <code>vcode</code>, <code>character_id</code> |
+<code>Array</code> |</p>
+
+<h2 id="label-CREST">CREST</h2>
+
+<p>Rudimentary CREST support is added via the <code>EVEApi::Crest</code>
+class. Working mehtods</p>
+
+<pre><code>a = Crest.new.alliances.select { |a| a.name == &quot;Goonswarm Federation&quot; }.first
+=&gt; #&lt;EVEApi::Alliance:0x007fd511c48248 ...&gt;
+a.to_h
+=&gt; {
+          :href =&gt; &quot;https://public-crest.eveonline.com/alliances/1354830081/&quot;,
+        :id_str =&gt; &quot;1354830081&quot;,
+    :short_name =&gt; &quot;CONDI&quot;,
+          :name =&gt; &quot;Goonswarm Federation&quot;,
+            :id =&gt; 1354830081
+}
+a.info[&#39;url&#39;]
+=&gt; &quot;http://www.goonfleet.com&quot;
+a.info.keys
+=&gt; [
+    [ 0] &quot;startDate&quot;,
+    [ 1] &quot;corporationsCount&quot;,
+    [ 2] &quot;description&quot;,
+    [ 3] &quot;executorCorporation&quot;,
+    [ 4] &quot;primeHour_str&quot;,
+    [ 5] &quot;primeHour&quot;,
+    [ 6] &quot;deleted&quot;,
+    [ 7] &quot;corporationsCount_str&quot;,
+    [ 8] &quot;creatorCorporation&quot;,
+    [ 9] &quot;url&quot;,
+    [10] &quot;id_str&quot;,
+    [11] &quot;creatorCharacter&quot;,
+    [12] &quot;capitalSystem&quot;,
+    [13] &quot;corporations&quot;,
+    [14] &quot;shortName&quot;,
+    [15] &quot;id&quot;,
+    [16] &quot;name&quot;
+]
+</code></pre>
+
+<h2 id="label-Description">Description</h2>
+
+<p>EVE Online API Client for ruby</p>
+
+<h2 id="label-Features">Features</h2>
+
+<p>Uses <a href="https://github.com/excon/excon">excon</a>, <a
+href="https://github.com/jnunemaker/crack">crack</a>,
+<code>method_missing</code> and a couple of rescue blocks to automate
+access to EVE Online API. - returns results as <code>Hash</code> or
+<code>Array</code> - raises exceptions with messages from the API itself -
+converts ruby methods like <code>account_api_info</code> to an EVE Online
+API request like <code>GET /account/APIKeyInfo.xml.aspx</code> along with
+query params.</p>
+
+<h2 id="label-Examples">Examples</h2>
+
+<h3 id="label-Getting+Implant+names+for+character">Getting Implant names for character</h3>
+
+<pre><code>require &#39;eveapi&#39;
+# initialize the client with key_id, vcode, character_id
+client = Client.new(4278167, &quot;supersecretstuff&quot;, 95512059)
+# =&gt; #&lt;EVEApi::Client:0x007fe349ad0d48 ... &gt;
+client.characters.first.character_sheet[:implants].map { |i| i[:type_name] }
+# =&gt; [
+#     [0] &quot;Social Adaptation Chip - Basic&quot;,
+#     [1] &quot;Cybernetic Subprocessor - Standard&quot;,
+#     [2] &quot;Memory Augmentation - Standard&quot;,
+#     [3] &quot;Neural Boost - Standard&quot;,
+#     [4] &quot;Ocular Filter - Standard&quot;
+# ]
+</code></pre>
+
+<h3 id="label-Server+status">Server status</h3>
+
+<pre><code>require &#39;eveapi&#39;
+client.server_status
+# =&gt; {
+#        :server_open =&gt; &quot;True&quot;,
+#     :online_players =&gt; &quot;32500&quot;
+# }
+</code></pre>
+
+<h3 id="label-Showing+accounts+characters">Showing accounts characters</h3>
+
+<pre><code>require &#39;eveapi&#39;
+client = EVEApi::Client.new
+client.key_id = 4278167
+client.vcode = &quot;7QJg6p5BZNpDBp2FIz39dGwa7jnNaXAuYyLUVitlTQ3rY60VPBcaTpJVfYIkiW5l&quot;
+client.characters
+# =&gt; {
+#                 :name =&gt; &quot;Quint Slade&quot;,
+#         :character_id =&gt; &quot;95512059&quot;,
+#     :corporation_name =&gt; &quot;Imperial Academy&quot;,
+#       :corporation_id =&gt; &quot;1000166&quot;,
+#          :alliance_id =&gt; &quot;0&quot;,
+#        :alliance_name =&gt; &quot;&quot;,
+#           :faction_id =&gt; &quot;0&quot;,
+#         :faction_name =&gt; &quot;&quot;
+# }
+</code></pre>
+
+<h2 id="label-Requirements">Requirements</h2>
+
+<p><code>excon</code> and <code>crack</code> automatically installed as
+dependencies during <code>gem install</code>, or <code>bundle
+install</code> in development.</p>
+
+<h2 id="label-Install">Install</h2>
+
+<pre><code>$ gem install eveapi</code></pre>
+
+<h2 id="label-Copyright">Copyright</h2>
+
+<p>Copyright © 2015 Adam Ladachowski</p>
+
+<p>See <a href="LICENSE_txt.html">LICENSE.txt</a> for details.</p>
+
+    </div>
+  
+
+
+  
+
+
+  
+  
+
+
+  
+
+
+  
+
+  
+
+
+
+  
+
+    
+
+    
+
+    
+
+
+    
+
+
+    <!-- Methods -->
+              </div>
+
+    </div>
+  </body>
+</html>

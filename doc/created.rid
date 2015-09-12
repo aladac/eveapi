@@ -1,0 +1,13 @@
+Sat, 12 Sep 2015 22:29:41 +0200
+./lib/eveapi/alliance.rb	Fri, 11 Sep 2015 20:55:46 +0200
+./lib/eveapi/character.rb	Sat, 12 Sep 2015 14:23:58 +0200
+./lib/eveapi/client.rb	Sat, 12 Sep 2015 21:36:11 +0200
+./lib/eveapi/console.rb	Wed, 09 Sep 2015 19:52:20 +0200
+./lib/eveapi/crest.rb	Fri, 11 Sep 2015 20:55:46 +0200
+./lib/eveapi/request.rb	Wed, 09 Sep 2015 19:52:20 +0200
+./lib/eveapi/util.rb	Sat, 12 Sep 2015 14:30:31 +0200
+./lib/eveapi/version.rb	Sat, 12 Sep 2015 11:55:27 +0200
+./lib/eveapi.rb	Sat, 12 Sep 2015 11:54:46 +0200
+./README.md	Sat, 12 Sep 2015 21:49:33 +0200
+./ChangeLog.md	Thu, 10 Sep 2015 22:35:41 +0200
+./LICENSE.txt	Wed, 09 Sep 2015 19:52:20 +0200
