@@ -19,20 +19,20 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Sat, 12 Sep 2015 08:52:33 GMT
+      - Sat, 12 Sep 2015 12:32:53 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-12 08:52:34</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-12 12:32:53</currentTime>\r\n  <result>\r\n    <rowset
         name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
         \     <row name=\"Blondie Blond\" characterID=\"93051887\" corporationName=\"Carl
         Malus Corporation\" corporationID=\"98279136\" allianceID=\"0\" allianceName=\"\"
         factionID=\"0\" factionName=\"\" />\r\n      <row name=\"Adrian Dent\" characterID=\"810699209\"
         corporationName=\"Caldari Provisions\" corporationID=\"1000009\" allianceID=\"0\"
         allianceName=\"\" factionID=\"0\" factionName=\"\" />\r\n    </rowset>\r\n
-        \ </result>\r\n  <cachedUntil>2015-09-12 09:48:16</cachedUntil>\r\n</eveapi>"
+        \ </result>\r\n  <cachedUntil>2015-09-12 12:55:32</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 08:52:34 GMT
+  recorded_at: Sat, 12 Sep 2015 12:32:53 GMT
 - request:
     method: get
     uri: https://api.eveonline.com/account/Characters.xml.aspx?keyID=4669404&vCode=hushhush
@@ -52,20 +52,20 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Sat, 12 Sep 2015 08:52:34 GMT
+      - Sat, 12 Sep 2015 12:32:53 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-12 08:52:35</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-12 12:32:53</currentTime>\r\n  <result>\r\n    <rowset
         name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
         \     <row name=\"Blondie Blond\" characterID=\"93051887\" corporationName=\"Carl
         Malus Corporation\" corporationID=\"98279136\" allianceID=\"0\" allianceName=\"\"
         factionID=\"0\" factionName=\"\" />\r\n      <row name=\"Adrian Dent\" characterID=\"810699209\"
         corporationName=\"Caldari Provisions\" corporationID=\"1000009\" allianceID=\"0\"
         allianceName=\"\" factionID=\"0\" factionName=\"\" />\r\n    </rowset>\r\n
-        \ </result>\r\n  <cachedUntil>2015-09-12 09:48:16</cachedUntil>\r\n</eveapi>"
+        \ </result>\r\n  <cachedUntil>2015-09-12 12:55:32</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 08:52:35 GMT
+  recorded_at: Sat, 12 Sep 2015 12:32:53 GMT
 - request:
     method: get
     uri: https://api.eveonline.com/account/Characters.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
@@ -85,18 +85,18 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Sat, 12 Sep 2015 08:52:34 GMT
+      - Sat, 12 Sep 2015 12:32:53 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-12 08:52:35</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-12 12:32:53</currentTime>\r\n  <result>\r\n    <rowset
         name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
         \     <row name=\"Quint Slade\" characterID=\"95512059\" corporationName=\"Imperial
         Academy\" corporationID=\"1000166\" allianceID=\"0\" allianceName=\"\" factionID=\"0\"
         factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-12
-        09:48:16</cachedUntil>\r\n</eveapi>"
+        13:19:30</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 08:52:35 GMT
+  recorded_at: Sat, 12 Sep 2015 12:32:54 GMT
 - request:
     method: get
     uri: https://api.eveonline.com/account/Characters.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
@@ -116,18 +116,18 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Sat, 12 Sep 2015 08:52:34 GMT
+      - Sat, 12 Sep 2015 12:32:53 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-12 08:52:35</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-12 12:32:54</currentTime>\r\n  <result>\r\n    <rowset
         name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
         \     <row name=\"Quint Slade\" characterID=\"95512059\" corporationName=\"Imperial
         Academy\" corporationID=\"1000166\" allianceID=\"0\" allianceName=\"\" factionID=\"0\"
         factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-12
-        09:48:16</cachedUntil>\r\n</eveapi>"
+        13:19:30</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 08:52:35 GMT
+  recorded_at: Sat, 12 Sep 2015 12:32:54 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/
@@ -145,7 +145,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 12 Sep 2015 08:55:22 GMT
+      - Sat, 12 Sep 2015 12:32:54 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -675,7 +675,7 @@ http_interactions:
         "id": 99000871, "name": "Surely You''re Joking"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=2"},
         "totalCount": 3084, "pageCount_str": "13"}'
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 08:52:35 GMT
+  recorded_at: Sat, 12 Sep 2015 12:32:54 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=2
@@ -693,7 +693,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 12 Sep 2015 08:55:23 GMT
+      - Sat, 12 Sep 2015 12:32:54 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -1223,7 +1223,7 @@ http_interactions:
         "id": 99001649, "name": "Tesseract Nexus"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=3"},
         "totalCount": 3084, "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/"}}'
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 08:52:36 GMT
+  recorded_at: Sat, 12 Sep 2015 12:32:54 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=3
@@ -1241,7 +1241,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 12 Sep 2015 08:55:23 GMT
+      - Sat, 12 Sep 2015 12:32:55 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -1771,7 +1771,7 @@ http_interactions:
         "id": 99002388, "name": "INFERNO ALLIANCE"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=4"},
         "totalCount": 3084, "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=2"}}'
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 08:52:36 GMT
+  recorded_at: Sat, 12 Sep 2015 12:32:55 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=4
@@ -1789,7 +1789,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 12 Sep 2015 08:55:23 GMT
+      - Sat, 12 Sep 2015 12:32:55 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -2319,7 +2319,7 @@ http_interactions:
         99003179, "name": "Last Resort."}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=5"},
         "totalCount": 3084, "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=3"}}'
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 08:52:36 GMT
+  recorded_at: Sat, 12 Sep 2015 12:32:55 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=5
@@ -2337,7 +2337,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 12 Sep 2015 08:55:24 GMT
+      - Sat, 12 Sep 2015 12:32:55 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -2867,7 +2867,7 @@ http_interactions:
         "id": 99003822, "name": "Pigships"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=6"},
         "totalCount": 3084, "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=4"}}'
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 08:52:37 GMT
+  recorded_at: Sat, 12 Sep 2015 12:32:56 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=6
@@ -2885,7 +2885,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 12 Sep 2015 08:55:24 GMT
+      - Sat, 12 Sep 2015 12:32:56 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -3416,7 +3416,7 @@ http_interactions:
         "https://public-crest.eveonline.com/alliances/?page=7"}, "totalCount": 3084,
         "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=5"}}'
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 08:52:37 GMT
+  recorded_at: Sat, 12 Sep 2015 12:32:56 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=7
@@ -3434,7 +3434,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 12 Sep 2015 08:55:24 GMT
+      - Sat, 12 Sep 2015 12:32:56 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -3964,7 +3964,7 @@ http_interactions:
         "id": 99004942, "name": "CONFLAGBUSINESSMAN"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=8"},
         "totalCount": 3084, "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=6"}}'
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 08:52:37 GMT
+  recorded_at: Sat, 12 Sep 2015 12:32:56 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=8
@@ -3982,7 +3982,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 12 Sep 2015 08:55:25 GMT
+      - Sat, 12 Sep 2015 12:32:56 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -4513,7 +4513,7 @@ http_interactions:
         "https://public-crest.eveonline.com/alliances/?page=9"}, "totalCount": 3084,
         "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=7"}}'
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 08:52:38 GMT
+  recorded_at: Sat, 12 Sep 2015 12:32:57 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=9
@@ -4531,7 +4531,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 12 Sep 2015 08:55:25 GMT
+      - Sat, 12 Sep 2015 12:32:57 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -4547,7 +4547,7 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Content-Length:
-      - '42052'
+      - '42047'
       Access-Control-Allow-Methods:
       - GET, PUT, POST, DELETE, HEAD, OPTIONS
       Access-Control:
@@ -4826,9 +4826,7 @@ http_interactions:
         "shortName": "POS", "href": "https://public-crest.eveonline.com/alliances/99005563/",
         "id": 99005563, "name": "Prime Orbital Systems"}}, {"href": {"id_str": "99005566",
         "shortName": "TAF", "href": "https://public-crest.eveonline.com/alliances/99005566/",
-        "id": 99005566, "name": "The Angry Fellows"}}, {"href": {"id_str": "99005567",
-        "shortName": "SHE2", "href": "https://public-crest.eveonline.com/alliances/99005567/",
-        "id": 99005567, "name": "Thats what she said too"}}, {"href": {"id_str": "99005569",
+        "id": 99005566, "name": "The Angry Fellows"}}, {"href": {"id_str": "99005569",
         "shortName": "SNOT", "href": "https://public-crest.eveonline.com/alliances/99005569/",
         "id": 99005569, "name": "Band of Boogers"}}, {"href": {"id_str": "99005571",
         "shortName": "R64", "href": "https://public-crest.eveonline.com/alliances/99005571/",
@@ -5058,10 +5056,12 @@ http_interactions:
         "shortName": "DOOMN", "href": "https://public-crest.eveonline.com/alliances/99005721/",
         "id": 99005721, "name": "DOOM NAVY"}}, {"href": {"id_str": "99005722", "shortName":
         "DPSW", "href": "https://public-crest.eveonline.com/alliances/99005722/",
-        "id": 99005722, "name": "S P R U T"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=10"},
+        "id": 99005722, "name": "S P R U T"}}, {"href": {"id_str": "99005723", "shortName":
+        "SERV", "href": "https://public-crest.eveonline.com/alliances/99005723/",
+        "id": 99005723, "name": "Servantal Alliance"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=10"},
         "totalCount": 3084, "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=8"}}'
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 08:52:38 GMT
+  recorded_at: Sat, 12 Sep 2015 12:32:57 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=10
@@ -5079,7 +5079,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 12 Sep 2015 08:55:25 GMT
+      - Sat, 12 Sep 2015 12:32:57 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -5095,7 +5095,7 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Content-Length:
-      - '42304'
+      - '42308'
       Access-Control-Allow-Methods:
       - GET, PUT, POST, DELETE, HEAD, OPTIONS
       Access-Control:
@@ -5107,9 +5107,7 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"totalCount_str": "3084", "pageCount": 13, "items": [{"href": {"id_str":
-        "99005723", "shortName": "SERV", "href": "https://public-crest.eveonline.com/alliances/99005723/",
-        "id": 99005723, "name": "Servantal Alliance"}}, {"href": {"id_str": "99005724",
-        "shortName": "-TM-", "href": "https://public-crest.eveonline.com/alliances/99005724/",
+        "99005724", "shortName": "-TM-", "href": "https://public-crest.eveonline.com/alliances/99005724/",
         "id": 99005724, "name": "The Minions."}}, {"href": {"id_str": "99005725",
         "shortName": "BHAND", "href": "https://public-crest.eveonline.com/alliances/99005725/",
         "id": 99005725, "name": "Black Hand Alliance"}}, {"href": {"id_str": "99005726",
@@ -5314,7 +5312,9 @@ http_interactions:
         "99005826", "shortName": "SSCB", "href": "https://public-crest.eveonline.com/alliances/99005826/",
         "id": 99005826, "name": "Swiggity Swooty Coming for the Booty"}}, {"href":
         {"id_str": "99005827", "shortName": "BRUTL", "href": "https://public-crest.eveonline.com/alliances/99005827/",
-        "id": 99005827, "name": "Aegis Directorate"}}, {"href": {"id_str": "101677770",
+        "id": 99005827, "name": "Aegis Directorate"}}, {"href": {"id_str": "99005828",
+        "shortName": "POCO", "href": "https://public-crest.eveonline.com/alliances/99005828/",
+        "id": 99005828, "name": "Poco Loco Trading Inc."}}, {"href": {"id_str": "101677770",
         "shortName": "SLAP", "href": "https://public-crest.eveonline.com/alliances/101677770/",
         "id": 101677770, "name": "United Freaks"}}, {"href": {"id_str": "106665679",
         "shortName": "BMWG", "href": "https://public-crest.eveonline.com/alliances/106665679/",
@@ -5609,7 +5609,7 @@ http_interactions:
         "id": 487280191, "name": "The Star League"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=11"},
         "totalCount": 3084, "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=9"}}'
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 08:52:38 GMT
+  recorded_at: Sat, 12 Sep 2015 12:32:57 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=11
@@ -5627,7 +5627,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 12 Sep 2015 08:55:26 GMT
+      - Sat, 12 Sep 2015 12:32:58 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -6157,7 +6157,7 @@ http_interactions:
         "id": 1188261112, "name": "Green Rhino"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=12"},
         "totalCount": 3084, "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=10"}}'
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 08:52:39 GMT
+  recorded_at: Sat, 12 Sep 2015 12:32:58 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=12
@@ -6175,7 +6175,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 12 Sep 2015 08:55:26 GMT
+      - Sat, 12 Sep 2015 12:32:58 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -6705,7 +6705,7 @@ http_interactions:
         "id": 1793718161, "name": "TransWarp Ventures"}}], "next": {"href": "https://public-crest.eveonline.com/alliances/?page=13"},
         "totalCount": 3084, "pageCount_str": "13", "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=11"}}'
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 08:52:39 GMT
+  recorded_at: Sat, 12 Sep 2015 12:32:58 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/?page=13
@@ -6723,7 +6723,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 12 Sep 2015 08:55:26 GMT
+      - Sat, 12 Sep 2015 12:32:59 GMT
       Content-Type:
       - application/vnd.ccp.eve.AllianceCollection-v1+json; charset=utf-8
       Connection:
@@ -6921,7 +6921,7 @@ http_interactions:
         "id": 2077084692, "name": "The OORT Cloud"}}], "pageCount_str": "13", "totalCount":
         3084, "previous": {"href": "https://public-crest.eveonline.com/alliances/?page=12"}}'
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 08:52:39 GMT
+  recorded_at: Sat, 12 Sep 2015 12:32:59 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/99000006/
@@ -6939,13 +6939,13 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 12 Sep 2015 08:55:27 GMT
+      - Sat, 12 Sep 2015 12:32:59 GMT
       Content-Type:
       - application/vnd.ccp.eve.Alliance-v1+json; charset=utf-8
       Connection:
       - keep-alive
       X-Cache-Status:
-      - EXPIRED
+      - MISS
       Access-Control-Max-Age:
       - '1728000'
       Access-Control-Expose-Header:
@@ -7013,5 +7013,5 @@ http_interactions:
         "id": 1983708877}], "shortName": "666", "id": 99000006, "name": "Everto Rex
         Regis"}'
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 08:52:40 GMT
+  recorded_at: Sat, 12 Sep 2015 12:33:00 GMT
 recorded_with: VCR 2.9.3
