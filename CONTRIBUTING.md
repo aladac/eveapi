@@ -20,7 +20,12 @@ To git@github.com:saidenpl/eveapi.git
 ```
 
 4. Make a pull request to this repos `master`
+  - Click on `Compare & pull request`
 
-![pull request 1](https://i.imgur.com/8YUuQ76.png)
+    ![pull request 1](https://i.imgur.com/8YUuQ76.png)
 
-![pull request 2](https://i.imgur.com/d5UYIr5.png)
+  - Make sure that `aladac/eveapi` and your feature branch are selectedd
+  - Write a comment
+  - Click `Create pull request`
+
+    ![pull request 2](https://i.imgur.com/WNvaMsm.png)
