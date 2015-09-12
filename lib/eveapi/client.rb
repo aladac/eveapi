@@ -56,11 +56,31 @@ module EVEApi
       end
     end
 
-    def method_missing(name, *_args, &_block)
-      fail 'Invalid Method Name' if name.to_path.empty?
+    def server_status
+      api_request(:server_server_status)
+    end
+
+    def account_status
+      api_request(:account_account_status)
+    end
+
+    def key_info
+      api_request(:account_api_key_info)
+    end
+
+    def call_list
+      api_request(:api_call_list)
+    end
+
+    def api_request(name)
       http = connection.get(path: name.to_path, query: params)
       request = EVEApi::Request.new(http)
       request.result
+    end
+
+    def method_missing(name, *_args, &_block)
+      fail 'Invalid Method Name' if name.to_path.empty?
+      api_request(name)
     end
 
     def working_methods

@@ -110,22 +110,50 @@ Uses [excon](https://github.com/excon/excon),  [crack](https://github.com/jnunem
 
 ## Examples
 
+### Getting Implant names for character
+```ruby
+require 'eveapi'
+# initialize the client with key_id, vcode, character_id
+client = Client.new(4278167, "supersecretstuff", 95512059)
+# => #<EVEApi::Client:0x007fe349ad0d48 ... >
+client.characters.first.character_sheet[:implants].map { |i| i[:type_name] }
+# => [
+#     [0] "Social Adaptation Chip - Basic",
+#     [1] "Cybernetic Subprocessor - Standard",
+#     [2] "Memory Augmentation - Standard",
+#     [3] "Neural Boost - Standard",
+#     [4] "Ocular Filter - Standard"
+# ]
+```
+
+### Server status
+```ruby
+require 'eveapi'
+client.server_status
+# => {
+#        :server_open => "True",
+#     :online_players => "32500"
+# }
+```
+
+### Showing accounts characters
+
 ```ruby
 require 'eveapi'
 client = EVEApi::Client.new
 client.key_id = 4278167
 client.vcode = "7QJg6p5BZNpDBp2FIz39dGwa7jnNaXAuYyLUVitlTQ3rY60VPBcaTpJVfYIkiW5l"
-client.account_characters
-=> {
-                :name => "Quint Slade",
-        :character_id => "95512059",
-    :corporation_name => "Imperial Academy",
-      :corporation_id => "1000166",
-         :alliance_id => "0",
-       :alliance_name => "",
-          :faction_id => "0",
-        :faction_name => ""
-}
+client.characters
+# => {
+#                 :name => "Quint Slade",
+#         :character_id => "95512059",
+#     :corporation_name => "Imperial Academy",
+#       :corporation_id => "1000166",
+#          :alliance_id => "0",
+#        :alliance_name => "",
+#           :faction_id => "0",
+#         :faction_name => ""
+# }
 ```
 
 ## Requirements
