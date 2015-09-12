@@ -2,9 +2,10 @@ require 'spec_helper'
 require 'eveapi'
 
 describe EVEApi, :vcr do
-  describe Client do
-    let!(:client) { Client.new }
+  let!(:client) { Client.new }
+  let!(:client_auth) { Client.new('4278167', 'supersecretstuff', '95512059') }
 
+  describe Client do
     it 'expect Client.new to succeed' do
       expect { client }.not_to raise_error
     end
@@ -39,19 +40,23 @@ describe EVEApi, :vcr do
       expect(client.api_methods).to be_an(Array)
     end
 
+    it 'expect charcaters_array to succeed' do
+      characters = client.characters_array([client_auth.account_characters])
+      expect { characters }.not_to raise_error
+    end
+
+    it 'expect mutiple characters to be handle differently' do
+    end
+
     Client.new.working_methods.each do |m|
-      let(:client) { Client.new }
       it "calling api method #{m}" do
-        client.key_id = '4278167'
-        client.vcode = 'supersecretstuff'
-        client.character_id = '95512059'
-        expect { client.send(m) }.not_to raise_error
+        expect { client_auth.send(m) }.not_to raise_error
       end
     end
   end
 
   describe Request do
-    it 'there should be a EVEApi::Request class' do
+    it 'expect there to be a EVEApi::Request class' do
       expect { Request }.not_to raise_error
     end
   end
@@ -94,6 +99,16 @@ describe EVEApi, :vcr do
       expect(alliance.short_name).not_to be_empty
       expect(alliance.name).to be_a(String)
       expect(alliance.name).not_to be_empty
+    end
+  end
+
+  describe Character do
+    let(:character) { client_auth.characters.first }
+    it 'expect Character.new(args) to create a Character' do
+      expect(character).to be_a(Character)
+    end
+    it 'expect a Character#account_balance to return a Hash' do
+      expect(character.account_balance).to be_a(Hash)
     end
   end
 end
