@@ -19,20 +19,20 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Sat, 12 Sep 2015 12:31:55 GMT
+      - Sat, 12 Sep 2015 22:11:34 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-12 12:31:55</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-12 22:11:34</currentTime>\r\n  <result>\r\n    <rowset
         name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
         \     <row name=\"Blondie Blond\" characterID=\"93051887\" corporationName=\"Carl
         Malus Corporation\" corporationID=\"98279136\" allianceID=\"0\" allianceName=\"\"
         factionID=\"0\" factionName=\"\" />\r\n      <row name=\"Adrian Dent\" characterID=\"810699209\"
         corporationName=\"Caldari Provisions\" corporationID=\"1000009\" allianceID=\"0\"
         allianceName=\"\" factionID=\"0\" factionName=\"\" />\r\n    </rowset>\r\n
-        \ </result>\r\n  <cachedUntil>2015-09-12 12:55:32</cachedUntil>\r\n</eveapi>"
+        \ </result>\r\n  <cachedUntil>2015-09-12 22:55:52</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 12:31:55 GMT
+  recorded_at: Sat, 12 Sep 2015 22:11:34 GMT
 - request:
     method: get
     uri: https://api.eveonline.com/account/Characters.xml.aspx?keyID=4669404&vCode=hushhush
@@ -52,20 +52,20 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Sat, 12 Sep 2015 12:31:54 GMT
+      - Sat, 12 Sep 2015 22:11:35 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-12 12:31:55</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-12 22:11:35</currentTime>\r\n  <result>\r\n    <rowset
         name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
         \     <row name=\"Blondie Blond\" characterID=\"93051887\" corporationName=\"Carl
         Malus Corporation\" corporationID=\"98279136\" allianceID=\"0\" allianceName=\"\"
         factionID=\"0\" factionName=\"\" />\r\n      <row name=\"Adrian Dent\" characterID=\"810699209\"
         corporationName=\"Caldari Provisions\" corporationID=\"1000009\" allianceID=\"0\"
         allianceName=\"\" factionID=\"0\" factionName=\"\" />\r\n    </rowset>\r\n
-        \ </result>\r\n  <cachedUntil>2015-09-12 12:55:32</cachedUntil>\r\n</eveapi>"
+        \ </result>\r\n  <cachedUntil>2015-09-12 22:55:52</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 12:31:55 GMT
+  recorded_at: Sat, 12 Sep 2015 22:11:35 GMT
 - request:
     method: get
     uri: https://api.eveonline.com/account/Characters.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
@@ -85,18 +85,18 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Sat, 12 Sep 2015 12:31:55 GMT
+      - Sat, 12 Sep 2015 22:11:35 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-12 12:31:55</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-12 22:11:35</currentTime>\r\n  <result>\r\n    <rowset
         name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
         \     <row name=\"Quint Slade\" characterID=\"95512059\" corporationName=\"Imperial
         Academy\" corporationID=\"1000166\" allianceID=\"0\" allianceName=\"\" factionID=\"0\"
         factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-12
-        13:19:30</cachedUntil>\r\n</eveapi>"
+        23:07:41</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 12:31:55 GMT
+  recorded_at: Sat, 12 Sep 2015 22:11:35 GMT
 - request:
     method: get
     uri: https://api.eveonline.com/account/Characters.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
@@ -116,18 +116,18 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Sat, 12 Sep 2015 12:31:57 GMT
+      - Sat, 12 Sep 2015 22:11:35 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-12 12:31:58</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-12 22:11:35</currentTime>\r\n  <result>\r\n    <rowset
         name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
         \     <row name=\"Quint Slade\" characterID=\"95512059\" corporationName=\"Imperial
         Academy\" corporationID=\"1000166\" allianceID=\"0\" allianceName=\"\" factionID=\"0\"
         factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-12
-        13:19:30</cachedUntil>\r\n</eveapi>"
+        23:07:41</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 12:31:58 GMT
+  recorded_at: Sat, 12 Sep 2015 22:11:35 GMT
 - request:
     method: get
     uri: https://api.eveonline.com/some/BsMethod.xml.aspx
@@ -149,13 +149,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Sat, 12 Sep 2015 12:31:58 GMT
+      - Sat, 12 Sep 2015 22:11:35 GMT
       Content-Length:
       - '7383'
     body:
       encoding: UTF-8
       string: "<!DOCTYPE html>\r\n<html>\r\n    <head><script type=\"text/javascript\">window.NREUM||(NREUM={});NREUM.info
-        = {\"beacon\":\"bam.nr-data.net\",\"errorBeacon\":\"bam.nr-data.net\",\"licenseKey\":\"4519cc3c6b\",\"applicationID\":\"2400733\",\"transactionName\":\"b1xaYEADDEoHBxVRX1YWa0BTFhdKJQsFXR8MCQw=\",\"queueTime\":0,\"applicationTime\":2,\"ttGuid\":\"C4614C47297F52B0\",\"agent\":\"js-agent.newrelic.com/nr-686.min.js\"}</script><script
+        = {\"beacon\":\"bam.nr-data.net\",\"errorBeacon\":\"bam.nr-data.net\",\"licenseKey\":\"4519cc3c6b\",\"applicationID\":\"2400733\",\"transactionName\":\"b1xaYEADDEoHBxVRX1YWa0BTFhdKJQsFXR8MCQw=\",\"queueTime\":1,\"applicationTime\":2,\"ttGuid\":\"910FBA5CC3E81705\",\"agent\":\"js-agent.newrelic.com/nr-686.min.js\"}</script><script
         type=\"text/javascript\">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function
         r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var
         o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if(\"function\"==typeof
@@ -230,5 +230,5 @@ http_interactions:
         &lt;customErrors mode=\"Off\"/&gt;. Consider using &lt;customErrors mode=\"On\"/&gt;
         or &lt;customErrors mode=\"RemoteOnly\"/&gt; in production environments.-->"
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 12:31:58 GMT
+  recorded_at: Sat, 12 Sep 2015 22:11:36 GMT
 recorded_with: VCR 2.9.3
