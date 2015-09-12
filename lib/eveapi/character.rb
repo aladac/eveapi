@@ -1,4 +1,5 @@
 module EVEApi
+  # Character class
   class Character
     attr_accessor :name
     attr_accessor :character_id
@@ -12,7 +13,7 @@ module EVEApi
     attr_accessor :vcode
     attr_accessor :client
 
-    def initialize(args={})
+    def initialize(args = {})
       @key_id           = args[:key_id]
       @vcode            = args[:vcode]
       @name             = args[:name]
@@ -23,7 +24,10 @@ module EVEApi
       @alliance_name    = args[:alliance_name]
       @faction_id       = args[:faction_id]
       @faction_name     = args[:faction_name]
-      @client         ||= Client.new(key_id, vcode, character_id)
+    end
+
+    def client
+      @client ||= Client.new(key_id, vcode, character_id)
     end
 
     METHODS = [
@@ -49,7 +53,7 @@ module EVEApi
     ]
 
     METHODS.each do |m|
-      name = "char_#{m.to_s}".to_sym
+      name = "char_#{m}".to_sym
       define_method(m) { client.send(name) }
     end
   end
