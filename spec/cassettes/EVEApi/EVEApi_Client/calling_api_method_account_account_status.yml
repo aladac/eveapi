@@ -1,0 +1,33 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.eveonline.com/account/AccountStatus.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Sat, 12 Sep 2015 00:04:11 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-12 00:04:12</currentTime>\r\n  <result>\r\n    <paidUntil>2015-05-09
+        20:30:35</paidUntil>\r\n    <createDate>2015-04-09 20:28:28</createDate>\r\n
+        \   <logonCount>14</logonCount>\r\n    <logonMinutes>166</logonMinutes>\r\n
+        \   <rowset name=\"multiCharacterTraining\" key=\"trainingEnd\" columns=\"trainingEnd\"
+        />\r\n  </result>\r\n  <cachedUntil>2015-09-12 00:55:16</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Sat, 12 Sep 2015 00:04:12 GMT
+recorded_with: VCR 2.9.3
