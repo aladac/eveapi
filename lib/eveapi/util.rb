@@ -1,5 +1,9 @@
 # Utility Hash methods
 class Hash
+  def ruby_method_name
+    (self[:type][0..3].downcase + '_' + self[:name].underscore).to_sym
+  end
+
   def process_rows
     case self['rowset']
     when Hash
@@ -42,6 +46,15 @@ class String
     word.tr!('-', '_')
     word.downcase!
     word
+  end
+end
+
+# Utility Symbol methods
+class Symbol
+  def to_path
+    parts = to_s.split('_')
+    return '' if parts.count < 2
+    "/#{parts[0]}/#{parts[1..-1].join('_').camelize}.xml.aspx"
   end
 end
 

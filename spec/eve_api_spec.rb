@@ -17,13 +17,13 @@ describe EVEApi, :vcr do
       expect(client.connection).to be_a(Excon::Connection)
     end
 
-    it 'expect check_path to return an empty String for a one part name' do
-      expect(client.check_path('name')).to eq('')
+    it 'expect Symbol#to_path to return an empty String for a one part name' do
+      expect(:name.to_path).to eq('')
     end
 
-    it 'expect check_path to return a non-empty String for a muti-part name' do
-      expect(client.check_path('name_name')).to be_a(String)
-      expect(client.check_path('name_name')).not_to be_empty
+    it 'expect Symbol#to_path to return a String for a muti-part name' do
+      expect(:name_name.to_path).to be_a(String)
+      expect(:name_name.to_path).not_to be_empty
     end
 
     it 'expect Client#params to return an empty hash when on no param' do

@@ -14,12 +14,6 @@ module EVEApi
       @vcode = vcode
     end
 
-    def check_path(name)
-      parts = name.to_s.split('_')
-      return '' if parts.count < 2
-      "/#{parts[0]}/#{parts[1..-1].join('_').camelize}.xml.aspx"
-    end
-
     def params
       {
         'rowCount'    => row_count,
@@ -33,13 +27,9 @@ module EVEApi
       api_methods_hash.map { |m| m[:name] }
     end
 
-    def ruby_method_name(m)
-      (m[:type][0..3].downcase + '_' + m[:name].underscore).to_sym
-    end
-
     def api_methods_hash
       api_call_list[:calls].map do |m|
-        { name: ruby_method_name(m), desc: m[:description] }
+        { name: m.ruby_method_name, desc: m[:description] }
       end
     end
 
@@ -67,9 +57,8 @@ module EVEApi
     end
 
     def method_missing(name, *_args, &_block)
-      fail 'Invalid Method Name' if check_path(name).empty?
-      check_path(name)
-      http = connection.get(path: check_path(name), query: params)
+      fail 'Invalid Method Name' if name.to_path.empty?
+      http = connection.get(path: name.to_path, query: params)
       request = EVEApi::Request.new(http)
       request.result
     end
