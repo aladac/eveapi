@@ -2,6 +2,134 @@
 http_interactions:
 - request:
     method: get
+    uri: https://api.eveonline.com/account/Characters.xml.aspx?keyID=4669404&vCode=hushhush
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Sat, 12 Sep 2015 08:52:19 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-12 08:52:20</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
+        \     <row name=\"Blondie Blond\" characterID=\"93051887\" corporationName=\"Carl
+        Malus Corporation\" corporationID=\"98279136\" allianceID=\"0\" allianceName=\"\"
+        factionID=\"0\" factionName=\"\" />\r\n      <row name=\"Adrian Dent\" characterID=\"810699209\"
+        corporationName=\"Caldari Provisions\" corporationID=\"1000009\" allianceID=\"0\"
+        allianceName=\"\" factionID=\"0\" factionName=\"\" />\r\n    </rowset>\r\n
+        \ </result>\r\n  <cachedUntil>2015-09-12 09:48:16</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Sat, 12 Sep 2015 08:52:20 GMT
+- request:
+    method: get
+    uri: https://api.eveonline.com/account/Characters.xml.aspx?keyID=4669404&vCode=hushhush
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Sat, 12 Sep 2015 08:52:19 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-12 08:52:20</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
+        \     <row name=\"Blondie Blond\" characterID=\"93051887\" corporationName=\"Carl
+        Malus Corporation\" corporationID=\"98279136\" allianceID=\"0\" allianceName=\"\"
+        factionID=\"0\" factionName=\"\" />\r\n      <row name=\"Adrian Dent\" characterID=\"810699209\"
+        corporationName=\"Caldari Provisions\" corporationID=\"1000009\" allianceID=\"0\"
+        allianceName=\"\" factionID=\"0\" factionName=\"\" />\r\n    </rowset>\r\n
+        \ </result>\r\n  <cachedUntil>2015-09-12 09:48:16</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Sat, 12 Sep 2015 08:52:20 GMT
+- request:
+    method: get
+    uri: https://api.eveonline.com/account/Characters.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Sat, 12 Sep 2015 08:52:19 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-12 08:52:20</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
+        \     <row name=\"Quint Slade\" characterID=\"95512059\" corporationName=\"Imperial
+        Academy\" corporationID=\"1000166\" allianceID=\"0\" allianceName=\"\" factionID=\"0\"
+        factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-12
+        09:48:16</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Sat, 12 Sep 2015 08:52:20 GMT
+- request:
+    method: get
+    uri: https://api.eveonline.com/account/Characters.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Sat, 12 Sep 2015 08:52:19 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-12 08:52:20</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
+        \     <row name=\"Quint Slade\" characterID=\"95512059\" corporationName=\"Imperial
+        Academy\" corporationID=\"1000166\" allianceID=\"0\" allianceName=\"\" factionID=\"0\"
+        factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-12
+        09:48:16</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Sat, 12 Sep 2015 08:52:20 GMT
+- request:
+    method: get
     uri: https://api.eveonline.com/char/ContactNotifications.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
     body:
       encoding: US-ASCII
@@ -19,13 +147,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Sat, 12 Sep 2015 00:22:03 GMT
+      - Sat, 12 Sep 2015 08:52:20 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-12 00:22:03</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-12 08:52:20</currentTime>\r\n  <result>\r\n    <rowset
         name=\"contactNotifications\" key=\"notificationID\" columns=\"notificationID,senderID,senderName,sentDate,messageData\"
-        />\r\n  </result>\r\n  <cachedUntil>2015-09-12 00:28:20</cachedUntil>\r\n</eveapi>"
+        />\r\n  </result>\r\n  <cachedUntil>2015-09-12 09:22:20</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Sat, 12 Sep 2015 00:22:03 GMT
+  recorded_at: Sat, 12 Sep 2015 08:52:21 GMT
 recorded_with: VCR 2.9.3
