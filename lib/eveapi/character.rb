@@ -1,9 +1,6 @@
 module EVEApi
   # Character class
   class Character
-    # @method foobar
-    # @param
-
     attr_accessor :name             # @return [String] Character name
     attr_accessor :character_id     # @return [String] Character ID
     attr_accessor :corporation_name # @return [String] Corporation name
@@ -33,35 +30,6 @@ module EVEApi
     def client
       @client ||= Client.new(key_id, vcode, character_id)
     end
-
-    # @method wallet_journal
-    # Wallet Journal in the form of an +Array+ of wallet records
-    #
-    # @param [Fixnum] row_count=nil Number of result rows to return,
-    #   API default is +50+, maximum value is +2560+
-    # @return [Array] List of wallet records
-    # @see Client
-    # @example
-    #     character = client.characters.first
-    #     character.wallet_journal.first
-    #     # => {
-    #     #                :date => "2015-09-12 21:28:29",
-    #     #              :ref_id => "11650126182",
-    #     #         :ref_type_id => "42",
-    #     #         :owner_name1 => "Adrian Dent",
-    #     #           :owner_id1 => "810699209",
-    #     #         :owner_name2 => "",
-    #     #           :owner_id2 => "0",
-    #     #           :arg_name1 => "",
-    #     #             :arg_id1 => "0",
-    #     #              :amount => "-6099996.94",
-    #     #             :balance => "14125001916.75",
-    #     #              :reason => "",
-    #     #     :tax_receiver_id => "",
-    #     #          :tax_amount => "",
-    #     #      :owner1_type_id => "2",
-    #     #      :owner2_type_id => "1375"
-    #     # }
 
     METHODS = [
       :wallet_journal,
@@ -94,14 +62,22 @@ module EVEApi
     end
     private :client_method
 
-    METHODS.each do |m|
-      define_method(m) do |args = {}|
-        args.each_pair do |k, v|
-          fail ArgumentError unless client.respond_to?(k)
-          client.instance_variable_set("@#{k}".to_sym, v)
-        end
-        client.send(client_method(m))
+    def process_args(args = {})
+      args.each_pair do |k, v|
+        fail ArgumentError unless client.respond_to?(k)
+        client.instance_variable_set("@#{k}".to_sym, v)
       end
+    end
+    private :process_args
+
+    def send_client_method(m, args = {})
+      process_args(args)
+      client.send(client_method(m))
+    end
+    private :send_client_method
+
+    METHODS.each do |m|
+      define_method(m) { |args = {}| send_client_method(m, args) }
     end
   end
 end
