@@ -58,10 +58,13 @@ module EVEApi
     # @param [Symbol] method_name +Character+ method name
     # @return [Symbol] {Client} method name
     def client_method(method_name)
-      "char_#{m}".to_sym
+      "char_#{method_name}".to_sym
     end
     private :client_method
 
+    # Process arguments for Client method
+    #
+    # @param [Hash] args = {} Client method arguments
     def process_args(args = {})
       args.each_pair do |k, v|
         fail ArgumentError unless client.respond_to?(k)
@@ -70,9 +73,13 @@ module EVEApi
     end
     private :process_args
 
-    def send_client_method(m, args = {})
+    # Send a method to a {Client} instance
+    #
+    # @param [String] method_name Method name
+    # @param [Hash] args = {} Method arguments
+    def send_client_method(method_name, args = {})
       process_args(args)
-      client.send(client_method(m))
+      client.send(client_method(method_name))
     end
     private :send_client_method
 

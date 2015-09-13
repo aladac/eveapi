@@ -16,22 +16,26 @@ module EVEApi
     def error
       data['eveapi'].key?('error') ? data['eveapi']['error'] : false
     end
+    private :error
 
     def parse_xml
       Crack::XML.parse(response.body)
     end
+    private :parse_xml
 
     def process_hash(data)
       data.each_value do |v|
         v.process_rows if v.is_a?(Hash)
       end.process_rows
     end
+    private :process_hash
 
     def process_array(data)
       data.each do |v|
         v.process_rows if v.is_a?(Hash)
       end
     end
+    private :process_array
 
     def parse_result
       api_result = data['eveapi']['result']
@@ -44,5 +48,6 @@ module EVEApi
     rescue TypeError, NoMethodError
       return process_hash(api_result)
     end
+    private :parse_result
   end
 end

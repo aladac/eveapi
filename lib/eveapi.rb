@@ -1,18 +1,6 @@
 lib_dir = File.dirname(__FILE__)
 $LOAD_PATH << lib_dir unless $LOAD_PATH.include?(lib_dir)
 
-require 'eveapi/version'
-require 'eveapi/client'
-require 'eveapi/request'
-require 'eveapi/crest'
-require 'eveapi/util'
-require 'eveapi/alliance'
-require 'eveapi/character'
-require 'excon'
-require 'crack'
-
-include EVEApi::Util
-
 # EVEApi namespace
 module EVEApi
   # CREST API endpoint
@@ -29,3 +17,15 @@ module EVEApi
     :call_list
   ]
 end
+
+require 'eveapi/version'
+require 'eveapi/client'
+require 'eveapi/request'
+require 'eveapi/crest'
+require 'eveapi/util'
+require 'eveapi/alliance'
+require 'eveapi/character'
+require 'excon'
+require 'crack'
+
+include EVEApi::Util

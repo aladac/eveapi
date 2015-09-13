@@ -16,6 +16,10 @@ module EVEApi
     end
     private :paginate
 
+    # List of Alliances
+    #
+    # @return [Array] +Array+ of {Alliance} objects
+    # @see Alliance
     def alliances
       alliances = paginate(__method__.to_s + '/')
       alliances.map do |alliance|
@@ -23,6 +27,9 @@ module EVEApi
       end
     end
 
+    # List of Types
+    #
+    # @return [Array] List of types with descriptions and ID's
     def types
       types = paginate(__method__.to_s + '/')
       types.map do |type|
