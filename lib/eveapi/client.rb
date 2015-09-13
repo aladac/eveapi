@@ -28,7 +28,7 @@ module EVEApi
       @vcode = vcode
     end
 
-    # Description of method
+    # Query params used in the API request
     #
     # @return [Hash] query params for the API request
     def params
@@ -40,7 +40,7 @@ module EVEApi
       }.select { |_k, v| v }
     end
 
-    # Description of method
+    # API methods
     #
     # @return [Array] list of ruby API method names
     # @example
@@ -79,7 +79,7 @@ module EVEApi
     end
     private :characters_hash
 
-    # Description of method
+    # List of characters belonging to the account
     #
     # @return [Array] of characters for account
     # @see Character
@@ -97,7 +97,7 @@ module EVEApi
       end
     end
 
-    # Description of method
+    # Status of the Tranquility server
     #
     # @return [Hash] Tranquility server status
     # @example
@@ -110,7 +110,7 @@ module EVEApi
       api_request(:server_server_status)
     end
 
-    # Description of method
+    # Account Status
     #
     # @return [Hash] account status
     # @example
@@ -127,7 +127,7 @@ module EVEApi
       api_request(:account_account_status)
     end
 
-    # Description of method
+    # API key details
     #
     # @return [Hash] API key info
     # @example
@@ -153,7 +153,7 @@ module EVEApi
     end
 
     # Description of method
-    #
+    # Details
     # @return [Hash] list of API +:calls+ and +:call_groups+
     # @example
     #   Client.new.call_list.keys
@@ -180,13 +180,14 @@ module EVEApi
     end
     private :api_request
 
+    # Dynamic handling of API requests
     def method_missing(name, *_args, &_block)
       fail 'Invalid Method Name' if name.to_path.empty?
       api_request(name)
     end
     private :method_missing
 
-    # Description of method
+    # List of implemented methods
     #
     # @return [Array] list of implemented +Client+ methods
     # @example
