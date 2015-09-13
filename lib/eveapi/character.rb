@@ -95,7 +95,7 @@ module EVEApi
     private :client_method
 
     METHODS.each do |m|
-      define_method(m) do |**args|
+      define_method(m) do |args = {}|
         args.each_pair do |k, v|
           fail ArgumentError unless client.respond_to?(k)
           client.instance_variable_set("@#{k}".to_sym, v)
