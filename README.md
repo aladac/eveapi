@@ -1,7 +1,5 @@
 ![EVEApi for ruby](https://github.com/aladac/eveapi/raw/master/doc/eveapi.png)
 
-*EVE API for ruby*
-
 [![Gem Version](https://badge.fury.io/rb/eveapi.svg)](http://badge.fury.io/rb/eveapi)
 [![Build Status](https://secure.travis-ci.org/aladac/eveapi.svg?branch=master)](https://travis-ci.org/aladac/eveapi)
 [![Code Climate](https://codeclimate.com/github/aladac/eveapi/badges/gpa.svg)](https://codeclimate.com/github/aladac/eveapi)
@@ -9,18 +7,45 @@
 [![Downloads](https://img.shields.io/gem/dt/eveapi.svg)](https://rubygems.org/gems/eveapi)
 [![Latest Version Downloads](https://img.shields.io/gem/dtv/eveapi.svg)](https://rubygems.org/gems/eveapi)
 
+## TOC
+- [Description](#desc)
+- [Documentation](#doc)
+- [Install](#install)
+- [Working methods](#methods)
+  - [`Client`](#client)
+  - [`Character`](#character)
+  - [`Alliance`](#alliance)
+  - [`Crest`](#crest_methods)
+- [CREST](#crest)
+- [Features](#feats)
+- [Examples](#examples)
+- [Requirements](#reqs)
+- [Contributing](https://github.com/aladac/eveapi/blob/master/CONTRIBUTING.md)
 
-## General
+<a name="name"></a>
+## Description
+EVE Online API Client for ruby
 
-Working methods names can be listed by calling `EVEApi::Client#working_methods`.
+<a name="doc"></a>
+## Documentation
+- [rubydoc.info](http://www.rubydoc.info/github/aladac/eveapi)
+- [legacy methods (wiki)](https://github.com/aladac/eveapi/wiki)
 
+<a name="install"></a>
+## Install
+    $ gem install eveapi
+
+<a name="methods"></a>
 ## Working methods
+Working `Client` methods names can be listed by calling `EVEApi::Client#working_methods`.
 
 Check out [rubydoc.info](http://www.rubydoc.info/github/aladac/eveapi) for the documentation.
 
 *Legacy methods are available [here](https://github.com/aladac/eveapi/wiki)*
 
+<a name="client"></a>
 #### Client
+
 - `EVEApi::Client.new`
 - `EVEApi::Client#characters`
 - `EVEApi::Client#server_status`
@@ -29,6 +54,7 @@ Check out [rubydoc.info](http://www.rubydoc.info/github/aladac/eveapi) for the d
 - `EVEApi::Client#account_status`
 - `EVEApi::Client#key_info`
 
+<a name="characters"></a>
 #### Character
 
 - `EVEApi::Character#wallet_journal`
@@ -51,18 +77,24 @@ Check out [rubydoc.info](http://www.rubydoc.info/github/aladac/eveapi) for the d
 - `EVEApi::Character#asset_list`
 - `EVEApi::Character#account_balance`
 
+<a name="crest_methods"></a>
 #### Crest
+
 - `EVEApi::Crest.new`
-- `EVEApi::Crest#allainces`
+- `EVEApi::Crest#alliances`
 - `EVEApi::Crest#types`
 
+<a name="alliance"></a>
 #### Alliance
+
 - `EVEApi::Alliance.find(id = nil)`
 - `EVEApi::Alliance#info`
 - `EVEApi::Alliance#corporations`
 - `EVEApi::Alliance#to_h`
 
+<a name="crest"></a>
 ## CREST
+
 Rudimentary CREST support is added via the `EVEApi::Crest` class.
 Working mehtods
 
@@ -102,11 +134,7 @@ a.info.keys
 ]
 ```
 
-
-## Description
-
-EVE Online API Client for ruby
-
+<a name="feats"></a>
 ## Features
 
 Uses [excon](https://github.com/excon/excon),  [crack](https://github.com/jnunemaker/crack), `method_missing` and a couple of rescue blocks to automate access to EVE Online API.
@@ -114,6 +142,7 @@ Uses [excon](https://github.com/excon/excon),  [crack](https://github.com/jnunem
 - raises exceptions with messages from the API itself
 - converts ruby methods like `account_api_info` to an EVE Online API request like `GET /account/APIKeyInfo.xml.aspx` along with query params.
 
+<a name="examples"></a>
 ## Examples
 
 ### Getting Implant names for character
@@ -163,14 +192,11 @@ client.characters
 ```
 
 ## Requirements
+<a name="reqs"></a>
 `excon` and `crack` automatically installed as dependencies during `gem install`, or `bundle install` in development.
-
-## Install
-
-    $ gem install eveapi
 
 ## Copyright
 
 Copyright (c) 2015 Adam Ladachowski
 
-See LICENSE.txt for details.
+See [LICENSE.txt](https://github.com/aladac/eveapi/blob/master/LICENSE.txt) for details.
