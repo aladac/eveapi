@@ -164,9 +164,9 @@ module EVEApi
     #   Client.new.call_list[:call_groups]
     #   # => [
     #   # [0] {
-    #   #        :group_id => "1",
-    #   #            :name => "Account and Market",
-    #   #     :description => "Market Orders, account balance and journal history."
+    #   #    :group_id => "1",
+    #   #        :name => "Account and Market",
+    #   # :description => "Market Orders, account balance and journal history."
     #   # },
     #   # ... ]
     def call_list
