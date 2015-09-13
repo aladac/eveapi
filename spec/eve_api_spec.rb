@@ -121,5 +121,11 @@ describe EVEApi, :vcr do
     it 'expect a Character#account_balance to return a Hash' do
       expect(character.account_balance).to be_a(Hash)
     end
+    it 'sets Client instance variable if method argument key matches name' do
+      expect { character.wallet_journal(row_count: 1) }.not_to raise_error
+    end
+    it 'raises ArgumentError on non-existing instance variable' do
+      expect { character.wallet_journal(a: 1) }.to raise_error(ArgumentError)
+    end
   end
 end
