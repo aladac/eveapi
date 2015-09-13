@@ -20,7 +20,7 @@ module EVEApi
     # @param [String] key_id API key ID
     # @param [String] vcode API verification code
     # @param [String] character_id Character ID
-    # @return client [EVEAPI::Client]
+    # @return [EVEAPI::Client] client
     def initialize(key_id = nil, vcode = nil, character_id = nil)
       @connection ||= Excon.new(API_ENDPOINT)
       @key_id = key_id

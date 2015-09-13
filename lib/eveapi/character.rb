@@ -13,7 +13,6 @@ module EVEApi
     attr_accessor :vcode            # @return [String] API key verification code
     attr_accessor :client           # @return [Client] {EVEApi::Client} instance
 
-    # @private
     def initialize(args = {})
       @key_id           = args[:key_id]
       @vcode            = args[:vcode]
@@ -31,6 +30,7 @@ module EVEApi
       @client ||= Client.new(key_id, vcode, character_id)
     end
 
+    # Character methods known to work
     METHODS = [
       :wallet_journal,
       :contracts,
@@ -57,7 +57,7 @@ module EVEApi
     #
     # @param [Symbol] method_name +Character+ method name
     # @return [Symbol] {Client} method name
-    def client_method(m)
+    def client_method(method_name)
       "char_#{m}".to_sym
     end
     private :client_method

@@ -1,14 +1,15 @@
 module EVEApi
   # Alliance CREST object
   class Alliance
-    BASE_URI = 'https://public-crest.eveonline.com/alliances/'
+    # CREST alliances endpoint
+    BASE_URI = CREST_ENDPOINT + 'alliances/'
 
-    attr_accessor :href
-    attr_accessor :id_str
-    attr_accessor :short_name
-    attr_accessor :name
-    attr_accessor :id
-    attr_accessor :info
+    attr_accessor :href       # @return [String] href
+    attr_accessor :id_str     # @return [String] String ID
+    attr_accessor :short_name # @return [String] Short name
+    attr_accessor :name       # @return [String] Name
+    attr_accessor :id         # @return [Fixnum] ID
+    attr_accessor :info       # @return [Hash] Info
 
     def initialize(args)
       case args
@@ -23,20 +24,32 @@ module EVEApi
       end
     end
 
+    # Get detailed Alliance info from CREST
+    #
+    # @return [Hash] Alliance info
     def info
-      @info ||= convert_hash_keys json_get(href)
+      @info ||= json_get(href)
     end
 
+    # Show corporations belonging to the Alliance
+    #
+    # @return [Array] List of corporations
     def corporations
       info[:corporations]
     end
 
+    # Get Alliance from CREST by ID
+    #
+    # @return [Alliance] Alliance object
     def find
       @short_name = info[:short_name]
       @name = info[:name]
       self
     end
 
+    # Converts {Alliance} to {Hash}
+    #
+    # @return [Hash] Alliance in {Hash} format
     def to_h
       h = {}
       instance_variables.each do |var|

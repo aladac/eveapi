@@ -1,7 +1,7 @@
 # Utility Hash methods
 class Hash
   def details
-    json_get(self[:href]) if self[:href]
+    convert_hash_keys json_get(self[:href]) if self[:href]
   end
 
   def ruby_method_name

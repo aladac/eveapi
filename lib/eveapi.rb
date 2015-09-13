@@ -15,8 +15,11 @@ include EVEApi::Util
 
 # EVEApi namespace
 module EVEApi
+  # CREST API endpoint
   CREST_ENDPOINT = 'https://public-crest.eveonline.com/'
+  # v2 API endpoint
   API_ENDPOINT = 'https://api.eveonline.com'
+  # Client methods implemented
   WORKING_METHODS = [
     :account_status,
     :server_status,
