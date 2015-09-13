@@ -30,9 +30,15 @@ module EVEApi
       @client ||= Client.new(key_id, vcode, character_id)
     end
 
+    # Wallet Journal
+    #
+    # @return [Array] Wallet Journal
+    def wallet_journal(args = {})
+      send_client_method(__method__, args)
+    end
+
     # Character methods known to work
     METHODS = [
-      :wallet_journal,
       :contracts,
       :wallet_transactions,
       :upcoming_calendar_events,
