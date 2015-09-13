@@ -18,6 +18,8 @@ Working methods names can be listed by calling `EVEApi::Client#working_methods`.
 
 Check out [rubydoc.info](http://www.rubydoc.info/github/aladac/eveapi) for the documentation.
 
+*Legacy methods are available [here](LEGACY.md)*
+
 #### Client
 - `EVEApi::Client.new`
 - `EVEApi::Client#characters`
