@@ -10,51 +10,55 @@
 [![Latest Version Downloads](https://img.shields.io/gem/dtv/eveapi.svg)](https://rubygems.org/gems/eveapi)
 
 
-## Disclaimer!
-*This work in progress in a very early stage. Not documented. Only a couple of methods are tested.*
+## General
 
-~~Most~~ working methods names can be listed by calling ~~`EVEApi::Client#api_methods`~~ `EVEApi::Client#working_methods`
+Working methods names can be listed by calling `EVEApi::Client#working_methods`.
 
-Because of the way the paths are being built from the method names - some methods may look funky eq. `server_server_status`.
+## Working methods
 
-## Auto Methods
-These methods are procedurally handled.
+Check out [rubydoc.info](http://www.rubydoc.info/github/aladac/eveapi) for the documentation.
 
-```ruby
-def method_missing(name, *_args, &_block)
-  fail 'Invalid Method Name' if check_path(name).empty?
-  check_path(name)
-  http = connection.get(path: check_path(name), query: params)
-  request = EVEApi::Request.new(http)
-  request.result
-end
-```
+#### Client
+- `EVEApi::Client.new`
+- `EVEApi::Client#characters`
+- `EVEApi::Client#server_status`
+- `EVEApi::Client#call_list`
+- `EVEApi::Client#working_methods`
+- `EVEApi::Client#account_status`
+- `EVEApi::Client#key_info`
 
-The ones listed below are known to work, provided the instance variables listed in the *Requires* column are supplied.
+#### Character
 
-| Method Name   | Requires      |  Output Class             |
-| ------------- | ------------- | ------------- |
-| [account_api_key_info](https://github.com/aladac/eveapi/wiki/account_api_key_info) |  `key_id`, `vcode`  | `Hash` |
-| [account_account_status](https://github.com/aladac/eveapi/wiki/account_account_status) | `key_id`, `vcode` | `Hash` |
-| [account_characters](https://github.com/aladac/eveapi/wiki/account_characters) | `key_id`, `vcode` | `Array` |
-| [server_server_status](https://github.com/aladac/eveapi/wiki/server_server_status) | - | `Hash` |
-| [char_wallet_transactions](https://github.com/aladac/eveapi/wiki/char_wallet_transactions) | `key_id`, `vcode`, `character_id` | `Array` |
-| [char_wallet_journal](https://github.com/aladac/eveapi/wiki/char_wallet_journal) | `key_id`, `vcode`, `character_id` | `Array` |
-| [char_standings](https://github.com/aladac/eveapi/wiki/char_standings) | `key_id`, `vcode`, `character_id` | `Array` |
-| [char_skill_queue](https://github.com/aladac/eveapi/wiki/char_skill_queue) | `key_id`, `vcode`, `character_id` | `Array` |
-| [char_skill_in_training](https://github.com/aladac/eveapi/wiki/char_skill_in_training) | `key_id`, `vcode`, `character_id` | `Hash` |
-| [char_research](https://github.com/aladac/eveapi/wiki/char_research) | `key_id`, `vcode`, `character_id` | `Array` |
-| [char_notifications](https://github.com/aladac/eveapi/wiki/char_notifications) | `key_id`, `vcode`, `character_id` | `Array` |
-| [char_medals](https://github.com/aladac/eveapi/wiki/char_medals) |  `key_id`, `vcode`, `character_id` | `Hash` |
-| [char_market_orders](https://github.com/aladac/eveapi/wiki/char_market_orders)  | `key_id`, `vcode`, `character_id` | `Array` |
-| [char_mail_messages](https://github.com/aladac/eveapi/wiki/char_mail_messages) | `key_id`, `vcode`, `character_id` | `Array` |
-| [char_mailing_lists](https://github.com/aladac/eveapi/wiki/char_mailing_lists) | `key_id`, `vcode`, `character_id` | `Array` |
-| [char_industry_jobs](https://github.com/aladac/eveapi/wiki/char_industry_jobs)  | `key_id`, `vcode`, `character_id` | `Array` |
-| [char_contact_notifications](https://github.com/aladac/eveapi/wiki/char_contact_notifications)  | `key_id`, `vcode`, `character_id` | `Array` |
-| [char_contact_list](https://github.com/aladac/eveapi/wiki/char_contact_list) | `key_id`, `vcode`, `character_id` | `Array` |
-| [char_character_sheet](https://github.com/aladac/eveapi/wiki/char_character_sheet) | `key_id`, `vcode`, `character_id` | `Hash` |
-| [char_asset_list](https://github.com/aladac/eveapi/wiki/char_asset_list) | `key_id`, `vcode`, `character_id` | `Array` |
-| [char_account_balance](https://github.com/aladac/eveapi/wiki/char_account_balance)  | `key_id`, `vcode`, `character_id` | `Array` |
+- `EVEApi::Character#wallet_journal`
+- `EVEApi::Character#contracts`
+- `EVEApi::Character#wallet_transactions`
+- `EVEApi::Character#upcoming_calendar_events`
+- `EVEApi::Character#standings`
+- `EVEApi::Character#skill_queue`
+- `EVEApi::Character#skill_in_training`
+- `EVEApi::Character#research`
+- `EVEApi::Character#notifications`
+- `EVEApi::Character#medals`
+- `EVEApi::Character#market_orders`
+- `EVEApi::Character#mail_messages`
+- `EVEApi::Character#mailing_lists`
+- `EVEApi::Character#industry_jobs`
+- `EVEApi::Character#contact_notifications`
+- `EVEApi::Character#contact_list`
+- `EVEApi::Character#character_sheet`
+- `EVEApi::Character#asset_list`
+- `EVEApi::Character#account_balance`
+
+#### Crest
+- `EVEApi::Crest.new`
+- `EVEApi::Crest#allainces`
+- `EVEApi::Crest#types`
+
+#### Alliance
+- `EVEApi::Alliance.find(id = nil)`
+- `EVEApi::Alliance#info`
+- `EVEApi::Alliance#corporations`
+- `EVEApi::Alliance#to_h`
 
 ## CREST
 Rudimentary CREST support is added via the `EVEApi::Crest` class.
