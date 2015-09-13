@@ -1,5 +1,9 @@
 # Utility Hash methods
 class Hash
+  def details
+    json_get(self[:href]) if self[:href]
+  end
+
   def ruby_method_name
     (self[:type][0..3].downcase + '_' + self[:name].underscore).to_sym
   end
@@ -61,8 +65,9 @@ end
 module EVEApi
   # Utility methods
   module Util
-    def json_get(url)
-      Crack::JSON.parse Excon.get(url).body
+    def json_get(url, args = {})
+      http = Excon.get(url, args).body
+      convert_hash_keys(Crack::JSON.parse http)
     end
 
     def underscore_key(k)

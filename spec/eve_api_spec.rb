@@ -74,6 +74,14 @@ describe EVEApi, :vcr do
     it 'expect Crest#alliances to be an Array' do
       expect(crest.alliances).to be_an(Array)
     end
+
+    it 'expect Crest#types to be an Array' do
+      expect(crest.types).to be_an(Array)
+    end
+
+    it 'expect details to return Hash when called on Hash with :href key' do
+      expect(crest.types.first.details).to be_a(Hash)
+    end
   end
 
   describe Alliance do

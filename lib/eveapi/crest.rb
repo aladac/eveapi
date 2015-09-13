@@ -6,20 +6,27 @@ module EVEApi
       @connection ||= Excon.new(CREST_ENDPOINT)
     end
 
-    def get_request(args)
-      body = connection.get(path: args[:path], query: args[:query]).body
-      Crack::JSON.parse body
-    end
-
-    def alliances
-      output = convert_hash_keys(get_request(path: 'alliances/'))
+    def paginate(path)
+      output = json_get(CREST_ENDPOINT, path: path)
       2.upto(output[:page_count]) do |i|
-        http = get_request(path: 'alliances/', query: { page: i })
-        new_request = convert_hash_keys(http)
+        new_request = json_get(CREST_ENDPOINT, path: path, query: { page: i })
         output[:items].concat(new_request[:items])
       end
-      output[:items].map do |item|
-        EVEApi::Alliance.new item.merge!(item[:href])
+      output[:items]
+    end
+    private :paginate
+
+    def alliances
+      alliances = paginate(__method__.to_s + '/')
+      alliances.map do |alliance|
+        EVEApi::Alliance.new alliance[:href]
+      end
+    end
+
+    def types
+      types = paginate(__method__.to_s + '/')
+      types.map do |type|
+        type.merge!(type_id: type[:href].match(%r{(\d*)\/$})[1])
       end
     end
   end
