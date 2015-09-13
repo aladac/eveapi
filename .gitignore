@@ -5,3 +5,4 @@
 /pkg/
 /vendor/cache/*.gem
 /coverage
+/doc/yard
