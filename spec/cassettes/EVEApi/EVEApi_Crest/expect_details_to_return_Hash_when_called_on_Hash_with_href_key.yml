@@ -19,20 +19,20 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Sun, 13 Sep 2015 20:35:22 GMT
+      - Mon, 14 Sep 2015 07:02:43 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-13 20:35:23</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-14 07:02:43</currentTime>\r\n  <result>\r\n    <rowset
         name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
         \     <row name=\"Blondie Blond\" characterID=\"93051887\" corporationName=\"Carl
         Malus Corporation\" corporationID=\"98279136\" allianceID=\"0\" allianceName=\"\"
         factionID=\"0\" factionName=\"\" />\r\n      <row name=\"Adrian Dent\" characterID=\"810699209\"
         corporationName=\"Caldari Provisions\" corporationID=\"1000009\" allianceID=\"0\"
         allianceName=\"\" factionID=\"0\" factionName=\"\" />\r\n    </rowset>\r\n
-        \ </result>\r\n  <cachedUntil>2015-09-13 21:19:27</cachedUntil>\r\n</eveapi>"
+        \ </result>\r\n  <cachedUntil>2015-09-14 07:19:35</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:18 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:43 GMT
 - request:
     method: get
     uri: https://api.eveonline.com/account/Characters.xml.aspx?keyID=4669404&vCode=hushhush
@@ -52,20 +52,20 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Sun, 13 Sep 2015 20:35:23 GMT
+      - Mon, 14 Sep 2015 07:02:43 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-13 20:35:23</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-14 07:02:43</currentTime>\r\n  <result>\r\n    <rowset
         name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
         \     <row name=\"Blondie Blond\" characterID=\"93051887\" corporationName=\"Carl
         Malus Corporation\" corporationID=\"98279136\" allianceID=\"0\" allianceName=\"\"
         factionID=\"0\" factionName=\"\" />\r\n      <row name=\"Adrian Dent\" characterID=\"810699209\"
         corporationName=\"Caldari Provisions\" corporationID=\"1000009\" allianceID=\"0\"
         allianceName=\"\" factionID=\"0\" factionName=\"\" />\r\n    </rowset>\r\n
-        \ </result>\r\n  <cachedUntil>2015-09-13 21:19:27</cachedUntil>\r\n</eveapi>"
+        \ </result>\r\n  <cachedUntil>2015-09-14 07:19:35</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:18 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:43 GMT
 - request:
     method: get
     uri: https://api.eveonline.com/account/Characters.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
@@ -85,18 +85,18 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Sun, 13 Sep 2015 20:35:23 GMT
+      - Mon, 14 Sep 2015 07:02:43 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-13 20:35:24</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-14 07:02:44</currentTime>\r\n  <result>\r\n    <rowset
         name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
         \     <row name=\"Quint Slade\" characterID=\"95512059\" corporationName=\"Imperial
         Academy\" corporationID=\"1000166\" allianceID=\"0\" allianceName=\"\" factionID=\"0\"
-        factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-13
-        21:23:58</cachedUntil>\r\n</eveapi>"
+        factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-14
+        07:56:34</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:19 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:44 GMT
 - request:
     method: get
     uri: https://api.eveonline.com/account/Characters.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
@@ -116,18 +116,18 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Sun, 13 Sep 2015 20:35:23 GMT
+      - Mon, 14 Sep 2015 07:02:43 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-13 20:35:24</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-14 07:02:44</currentTime>\r\n  <result>\r\n    <rowset
         name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
         \     <row name=\"Quint Slade\" characterID=\"95512059\" corporationName=\"Imperial
         Academy\" corporationID=\"1000166\" allianceID=\"0\" allianceName=\"\" factionID=\"0\"
-        factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-13
-        21:23:58</cachedUntil>\r\n</eveapi>"
+        factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-14
+        07:56:34</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:19 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:44 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/
@@ -145,7 +145,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:11 GMT
+      - Mon, 14 Sep 2015 07:02:44 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -1177,7 +1177,7 @@ http_interactions:
         "name": "Crate of Prototype Body Armor Fabric "}], "next": {"href": "https://public-crest.eveonline.com/types/?page=2"},
         "totalCount": 24285, "pageCount_str": "25"}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:19 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:44 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=2
@@ -1195,7 +1195,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:12 GMT
+      - Mon, 14 Sep 2015 07:02:44 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -2262,7 +2262,7 @@ http_interactions:
         "name": "Spaceship Command"}], "next": {"href": "https://public-crest.eveonline.com/types/?page=3"},
         "totalCount": 24285, "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:20 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:45 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=3
@@ -2280,7 +2280,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:12 GMT
+      - Mon, 14 Sep 2015 07:02:45 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -3329,7 +3329,7 @@ http_interactions:
         "name": "Small Automated Carapace Restoration"}], "next": {"href": "https://public-crest.eveonline.com/types/?page=4"},
         "totalCount": 24285, "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=2"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:20 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:45 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=4
@@ -3347,7 +3347,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:13 GMT
+      - Mon, 14 Sep 2015 07:02:45 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -4382,7 +4382,7 @@ http_interactions:
         "name": "Medium Shield Booster II Blueprint"}], "next": {"href": "https://public-crest.eveonline.com/types/?page=5"},
         "totalCount": 24285, "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=3"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:21 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:45 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=5
@@ -4400,7 +4400,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:13 GMT
+      - Mon, 14 Sep 2015 07:02:46 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -5432,7 +5432,7 @@ http_interactions:
         "name": "Crane"}], "next": {"href": "https://public-crest.eveonline.com/types/?page=6"},
         "totalCount": 24285, "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=4"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:21 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:46 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=6
@@ -5450,7 +5450,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:14 GMT
+      - Mon, 14 Sep 2015 07:02:46 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -6493,7 +6493,7 @@ http_interactions:
         "name": "Chelm''s Modified Heat Sink"}], "next": {"href": "https://public-crest.eveonline.com/types/?page=7"},
         "totalCount": 24285, "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=5"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:22 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:46 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=7
@@ -6511,7 +6511,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:14 GMT
+      - Mon, 14 Sep 2015 07:02:46 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -7561,7 +7561,7 @@ http_interactions:
         "name": "Limited Kinetic Plating I"}], "next": {"href": "https://public-crest.eveonline.com/types/?page=8"},
         "totalCount": 24285, "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=6"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:22 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:47 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=8
@@ -7579,7 +7579,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:15 GMT
+      - Mon, 14 Sep 2015 07:02:47 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -8612,7 +8612,7 @@ http_interactions:
         "name": "Federation Navy Thermic Plating Blueprint"}], "next": {"href": "https://public-crest.eveonline.com/types/?page=9"},
         "totalCount": 24285, "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=7"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:22 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:47 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=9
@@ -8630,7 +8630,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:15 GMT
+      - Mon, 14 Sep 2015 07:02:47 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -9665,7 +9665,7 @@ http_interactions:
         "name": "Ammatar Barricade"}], "next": {"href": "https://public-crest.eveonline.com/types/?page=10"},
         "totalCount": 24285, "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=8"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:23 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:47 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=10
@@ -9683,7 +9683,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:16 GMT
+      - Mon, 14 Sep 2015 07:02:48 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -10728,7 +10728,7 @@ http_interactions:
         "name": "Guristas Thorium Charge S"}], "next": {"href": "https://public-crest.eveonline.com/types/?page=11"},
         "totalCount": 24285, "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=9"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:23 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:48 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=11
@@ -10746,7 +10746,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:16 GMT
+      - Mon, 14 Sep 2015 07:02:48 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -11791,7 +11791,7 @@ http_interactions:
         "https://public-crest.eveonline.com/types/?page=12"}, "totalCount": 24285,
         "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=10"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:24 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:48 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=12
@@ -11809,7 +11809,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:16 GMT
+      - Mon, 14 Sep 2015 07:02:49 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -12848,7 +12848,7 @@ http_interactions:
         "name": "Blood Raider Commander''s Medalion"}], "next": {"href": "https://public-crest.eveonline.com/types/?page=13"},
         "totalCount": 24285, "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=11"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:24 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:49 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=13
@@ -12866,7 +12866,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:17 GMT
+      - Mon, 14 Sep 2015 07:02:49 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -13901,7 +13901,7 @@ http_interactions:
         "name": "Apocalypse 125ms 2500m"}], "next": {"href": "https://public-crest.eveonline.com/types/?page=14"},
         "totalCount": 24285, "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=12"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:25 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:49 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=14
@@ -13919,7 +13919,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:17 GMT
+      - Mon, 14 Sep 2015 07:02:49 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -14959,7 +14959,7 @@ http_interactions:
         "name": "Caldari Elite Industrial Wreck"}], "next": {"href": "https://public-crest.eveonline.com/types/?page=15"},
         "totalCount": 24285, "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=13"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:25 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:49 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=15
@@ -14977,7 +14977,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:18 GMT
+      - Mon, 14 Sep 2015 07:02:50 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -16055,7 +16055,7 @@ http_interactions:
         "name": "Federation Fighter"}], "next": {"href": "https://public-crest.eveonline.com/types/?page=16"},
         "totalCount": 24285, "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=14"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:26 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:50 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=16
@@ -16073,7 +16073,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:18 GMT
+      - Mon, 14 Sep 2015 07:02:50 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -17127,7 +17127,7 @@ http_interactions:
         "https://public-crest.eveonline.com/types/?page=17"}, "totalCount": 24285,
         "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=15"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:26 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:50 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=17
@@ -17145,7 +17145,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:19 GMT
+      - Mon, 14 Sep 2015 07:02:51 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -18213,7 +18213,7 @@ http_interactions:
         "name": "Hollow Talocan Extraction Silo"}], "next": {"href": "https://public-crest.eveonline.com/types/?page=18"},
         "totalCount": 24285, "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=16"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:26 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:51 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=18
@@ -18231,7 +18231,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:19 GMT
+      - Mon, 14 Sep 2015 07:02:51 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -19276,7 +19276,7 @@ http_interactions:
         "name": "Capital Projectile Burst Aerator II"}], "next": {"href": "https://public-crest.eveonline.com/types/?page=19"},
         "totalCount": 24285, "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=17"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:27 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:51 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=19
@@ -19294,7 +19294,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:20 GMT
+      - Mon, 14 Sep 2015 07:02:51 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -20349,7 +20349,7 @@ http_interactions:
         "name": "Angel Clone Soldier Negotiator"}], "next": {"href": "https://public-crest.eveonline.com/types/?page=20"},
         "totalCount": 24285, "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=18"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:28 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:52 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=20
@@ -20367,7 +20367,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:20 GMT
+      - Mon, 14 Sep 2015 07:02:52 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -21427,7 +21427,7 @@ http_interactions:
         "https://public-crest.eveonline.com/types/?page=21"}, "totalCount": 24285,
         "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=19"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:28 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:52 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=21
@@ -21445,7 +21445,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:21 GMT
+      - Mon, 14 Sep 2015 07:02:52 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -22481,7 +22481,7 @@ http_interactions:
         "name": "Oracle Sarum SKIN (30 Days)"}], "next": {"href": "https://public-crest.eveonline.com/types/?page=22"},
         "totalCount": 24285, "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=20"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:29 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:52 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=22
@@ -22499,7 +22499,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:21 GMT
+      - Mon, 14 Sep 2015 07:02:53 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -23533,7 +23533,7 @@ http_interactions:
         "name": "K17/D Nanohive (R)"}], "next": {"href": "https://public-crest.eveonline.com/types/?page=23"},
         "totalCount": 24285, "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=21"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:29 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:53 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=23
@@ -23551,7 +23551,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:25 GMT
+      - Mon, 14 Sep 2015 07:02:53 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -24583,7 +24583,7 @@ http_interactions:
         "name": "Kaalakiota Tactical HAV"}], "next": {"href": "https://public-crest.eveonline.com/types/?page=24"},
         "totalCount": 24285, "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=22"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:32 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:53 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=24
@@ -24601,7 +24601,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:25 GMT
+      - Mon, 14 Sep 2015 07:02:53 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -25633,7 +25633,7 @@ http_interactions:
         "name": "''Tarapitha'' Basic-M C/I"}], "next": {"href": "https://public-crest.eveonline.com/types/?page=25"},
         "totalCount": 24285, "pageCount_str": "25", "previous": {"href": "https://public-crest.eveonline.com/types/?page=23"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:33 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:54 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/?page=25
@@ -25651,7 +25651,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:26 GMT
+      - Mon, 14 Sep 2015 07:02:54 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemTypeCollection-v1+json; charset=utf-8
       Connection:
@@ -25968,7 +25968,7 @@ http_interactions:
         "name": "''Deathshroud'' AM-M SKIN"}], "pageCount_str": "25", "totalCount":
         24285, "previous": {"href": "https://public-crest.eveonline.com/types/?page=24"}}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:33 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:54 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/types/0/
@@ -25986,13 +25986,13 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:38:26 GMT
+      - Mon, 14 Sep 2015 07:02:54 GMT
       Content-Type:
       - application/vnd.ccp.eve.ItemType-v3+json; charset=utf-8
       Connection:
       - keep-alive
       X-Cache-Status:
-      - HIT
+      - MISS
       Access-Control-Max-Age:
       - '1728000'
       Access-Control-Expose-Header:
@@ -26019,5 +26019,5 @@ http_interactions:
         0.0, "radius": 1.0, "published": false, "portionSize": 1, "mass": 1.0, "description":
         ""}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:35:34 GMT
+  recorded_at: Mon, 14 Sep 2015 07:02:54 GMT
 recorded_with: VCR 2.9.3

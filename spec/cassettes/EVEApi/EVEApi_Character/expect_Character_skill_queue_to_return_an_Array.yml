@@ -1,0 +1,217 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.eveonline.com/account/Characters.xml.aspx?keyID=4669404&vCode=hushhush
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Mon, 14 Sep 2015 07:05:11 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-14 07:05:12</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
+        \     <row name=\"Blondie Blond\" characterID=\"93051887\" corporationName=\"Carl
+        Malus Corporation\" corporationID=\"98279136\" allianceID=\"0\" allianceName=\"\"
+        factionID=\"0\" factionName=\"\" />\r\n      <row name=\"Adrian Dent\" characterID=\"810699209\"
+        corporationName=\"Caldari Provisions\" corporationID=\"1000009\" allianceID=\"0\"
+        allianceName=\"\" factionID=\"0\" factionName=\"\" />\r\n    </rowset>\r\n
+        \ </result>\r\n  <cachedUntil>2015-09-14 07:19:35</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Mon, 14 Sep 2015 07:05:12 GMT
+- request:
+    method: get
+    uri: https://api.eveonline.com/account/Characters.xml.aspx?keyID=4669404&vCode=hushhush
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Mon, 14 Sep 2015 07:05:12 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-14 07:05:12</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
+        \     <row name=\"Blondie Blond\" characterID=\"93051887\" corporationName=\"Carl
+        Malus Corporation\" corporationID=\"98279136\" allianceID=\"0\" allianceName=\"\"
+        factionID=\"0\" factionName=\"\" />\r\n      <row name=\"Adrian Dent\" characterID=\"810699209\"
+        corporationName=\"Caldari Provisions\" corporationID=\"1000009\" allianceID=\"0\"
+        allianceName=\"\" factionID=\"0\" factionName=\"\" />\r\n    </rowset>\r\n
+        \ </result>\r\n  <cachedUntil>2015-09-14 07:19:35</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Mon, 14 Sep 2015 07:05:12 GMT
+- request:
+    method: get
+    uri: https://api.eveonline.com/account/Characters.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Mon, 14 Sep 2015 07:05:12 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-14 07:05:12</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
+        \     <row name=\"Quint Slade\" characterID=\"95512059\" corporationName=\"Imperial
+        Academy\" corporationID=\"1000166\" allianceID=\"0\" allianceName=\"\" factionID=\"0\"
+        factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-14
+        07:56:34</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Mon, 14 Sep 2015 07:05:13 GMT
+- request:
+    method: get
+    uri: https://api.eveonline.com/account/Characters.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Mon, 14 Sep 2015 07:05:12 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-14 07:05:13</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
+        \     <row name=\"Quint Slade\" characterID=\"95512059\" corporationName=\"Imperial
+        Academy\" corporationID=\"1000166\" allianceID=\"0\" allianceName=\"\" factionID=\"0\"
+        factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-14
+        07:56:34</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Mon, 14 Sep 2015 07:05:13 GMT
+- request:
+    method: get
+    uri: https://api.eveonline.com/char/SkillQueue.xml.aspx?characterID=810699209&keyID=4669404&vCode=hushhush
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.4
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Content-Type:
+      - application/xml; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Mon, 14 Sep 2015 07:05:12 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
+        \ <currentTime>2015-09-14 07:05:13</currentTime>\r\n  <result>\r\n    <rowset
+        name=\"skillqueue\" key=\"queuePosition\" columns=\"queuePosition,typeID,level,startSP,endSP,startTime,endTime\">\r\n
+        \     <row queuePosition=\"0\" typeID=\"3412\" level=\"5\" startSP=\"380844\"
+        endSP=\"768000\" startTime=\"2015-09-12 22:39:19\" endTime=\"2015-09-21 02:11:28\"
+        />\r\n      <row queuePosition=\"1\" typeID=\"30552\" level=\"5\" startSP=\"97344\"
+        endSP=\"256000\" startTime=\"2015-09-21 02:11:28\" endTime=\"2015-09-24 01:39:28\"
+        />\r\n      <row queuePosition=\"2\" typeID=\"20212\" level=\"5\" startSP=\"729135\"
+        endSP=\"2048000\" startTime=\"2015-09-24 01:39:28\" endTime=\"2015-10-18 19:44:28\"
+        />\r\n      <row queuePosition=\"3\" typeID=\"21611\" level=\"5\" startSP=\"407294\"
+        endSP=\"2304000\" startTime=\"2015-10-18 19:44:28\" endTime=\"2015-12-01 17:28:00\"
+        />\r\n      <row queuePosition=\"4\" typeID=\"3336\" level=\"4\" startSP=\"64000\"
+        endSP=\"362039\" startTime=\"2015-12-01 17:28:00\" endTime=\"2015-12-07 07:43:06\"
+        />\r\n      <row queuePosition=\"5\" typeID=\"3320\" level=\"5\" startSP=\"45255\"
+        endSP=\"256000\" startTime=\"2015-12-07 07:43:06\" endTime=\"2015-12-11 06:38:55\"
+        />\r\n      <row queuePosition=\"6\" typeID=\"12487\" level=\"5\" startSP=\"731527\"
+        endSP=\"1280000\" startTime=\"2015-12-11 06:38:55\" endTime=\"2015-12-19 17:47:12\"
+        />\r\n      <row queuePosition=\"7\" typeID=\"23566\" level=\"5\" startSP=\"226275\"
+        endSP=\"1280000\" startTime=\"2015-12-19 17:47:12\" endTime=\"2016-01-05 00:03:19\"
+        />\r\n      <row queuePosition=\"8\" typeID=\"33399\" level=\"5\" startSP=\"90510\"
+        endSP=\"512000\" startTime=\"2016-01-05 00:03:19\" endTime=\"2016-01-15 10:56:32\"
+        />\r\n      <row queuePosition=\"9\" typeID=\"30549\" level=\"5\" startSP=\"45286\"
+        endSP=\"256000\" startTime=\"2016-01-15 10:56:32\" endTime=\"2016-01-19 09:51:30\"
+        />\r\n      <row queuePosition=\"10\" typeID=\"3394\" level=\"5\" startSP=\"90510\"
+        endSP=\"512000\" startTime=\"2016-01-19 09:51:30\" endTime=\"2016-01-28 06:43:56\"
+        />\r\n      <row queuePosition=\"11\" typeID=\"3425\" level=\"5\" startSP=\"90523\"
+        endSP=\"512000\" startTime=\"2016-01-28 06:43:56\" endTime=\"2016-02-06 03:35:57\"
+        />\r\n      <row queuePosition=\"12\" typeID=\"3420\" level=\"5\" startSP=\"181020\"
+        endSP=\"1024000\" startTime=\"2016-02-06 03:35:57\" endTime=\"2016-02-23 21:20:48\"
+        />\r\n      <row queuePosition=\"13\" typeID=\"3336\" level=\"5\" startSP=\"362039\"
+        endSP=\"2048000\" startTime=\"2016-02-23 21:20:48\" endTime=\"2016-03-26 12:47:19\"
+        />\r\n      <row queuePosition=\"14\" typeID=\"19760\" level=\"2\" startSP=\"750\"
+        endSP=\"4243\" startTime=\"2016-03-26 12:47:19\" endTime=\"2016-03-26 14:33:10\"
+        />\r\n      <row queuePosition=\"15\" typeID=\"19760\" level=\"3\" startSP=\"4243\"
+        endSP=\"24000\" startTime=\"2016-03-26 14:33:10\" endTime=\"2016-03-27 00:31:52\"
+        />\r\n      <row queuePosition=\"16\" typeID=\"19759\" level=\"2\" startSP=\"1000\"
+        endSP=\"5657\" startTime=\"2016-03-27 00:31:52\" endTime=\"2016-03-27 02:52:59\"
+        />\r\n      <row queuePosition=\"17\" typeID=\"19759\" level=\"3\" startSP=\"5657\"
+        endSP=\"32000\" startTime=\"2016-03-27 02:52:59\" endTime=\"2016-03-27 16:11:15\"
+        />\r\n      <row queuePosition=\"18\" typeID=\"23618\" level=\"4\" startSP=\"40000\"
+        endSP=\"226275\" startTime=\"2016-03-27 16:11:15\" endTime=\"2016-03-30 13:10:42\"
+        />\r\n      <row queuePosition=\"19\" typeID=\"33000\" level=\"4\" startSP=\"16000\"
+        endSP=\"90510\" startTime=\"2016-03-30 13:10:42\" endTime=\"2016-04-01 02:48:35\"
+        />\r\n      <row queuePosition=\"20\" typeID=\"12366\" level=\"4\" startSP=\"16000\"
+        endSP=\"90510\" startTime=\"2016-04-01 02:48:35\" endTime=\"2016-04-02 16:26:28\"
+        />\r\n      <row queuePosition=\"21\" typeID=\"12365\" level=\"4\" startSP=\"16000\"
+        endSP=\"90510\" startTime=\"2016-04-02 16:26:28\" endTime=\"2016-04-04 06:04:20\"
+        />\r\n      <row queuePosition=\"22\" typeID=\"11566\" level=\"4\" startSP=\"16000\"
+        endSP=\"90510\" startTime=\"2016-04-04 06:04:20\" endTime=\"2016-04-05 19:42:13\"
+        />\r\n      <row queuePosition=\"23\" typeID=\"12367\" level=\"4\" startSP=\"16000\"
+        endSP=\"90510\" startTime=\"2016-04-05 19:42:13\" endTime=\"2016-04-07 09:20:06\"
+        />\r\n      <row queuePosition=\"24\" typeID=\"4385\" level=\"4\" startSP=\"40000\"
+        endSP=\"226275\" startTime=\"2016-04-07 09:20:06\" endTime=\"2016-04-11 16:49:16\"
+        />\r\n      <row queuePosition=\"25\" typeID=\"4385\" level=\"5\" startSP=\"226275\"
+        endSP=\"1280000\" startTime=\"2016-04-11 16:49:16\" endTime=\"2016-05-06 02:13:26\"
+        />\r\n      <row queuePosition=\"26\" typeID=\"3452\" level=\"5\" startSP=\"181020\"
+        endSP=\"1024000\" startTime=\"2016-05-06 02:13:26\" endTime=\"2016-05-25 14:32:46\"
+        />\r\n      <row queuePosition=\"27\" typeID=\"3454\" level=\"5\" startSP=\"226275\"
+        endSP=\"1280000\" startTime=\"2016-05-25 14:32:46\" endTime=\"2016-06-18 23:56:56\"
+        />\r\n      <row queuePosition=\"28\" typeID=\"11579\" level=\"5\" startSP=\"271530\"
+        endSP=\"1536000\" startTime=\"2016-06-18 23:56:56\" endTime=\"2016-07-15 14:34:12\"
+        />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-14 08:02:13</cachedUntil>\r\n</eveapi>"
+    http_version: 
+  recorded_at: Mon, 14 Sep 2015 07:05:13 GMT
+recorded_with: VCR 2.9.3

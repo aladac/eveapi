@@ -19,20 +19,20 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Sun, 13 Sep 2015 20:36:11 GMT
+      - Mon, 14 Sep 2015 07:03:10 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-13 20:36:11</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-14 07:03:11</currentTime>\r\n  <result>\r\n    <rowset
         name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
         \     <row name=\"Blondie Blond\" characterID=\"93051887\" corporationName=\"Carl
         Malus Corporation\" corporationID=\"98279136\" allianceID=\"0\" allianceName=\"\"
         factionID=\"0\" factionName=\"\" />\r\n      <row name=\"Adrian Dent\" characterID=\"810699209\"
         corporationName=\"Caldari Provisions\" corporationID=\"1000009\" allianceID=\"0\"
         allianceName=\"\" factionID=\"0\" factionName=\"\" />\r\n    </rowset>\r\n
-        \ </result>\r\n  <cachedUntil>2015-09-13 21:19:27</cachedUntil>\r\n</eveapi>"
+        \ </result>\r\n  <cachedUntil>2015-09-14 07:19:35</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:36:06 GMT
+  recorded_at: Mon, 14 Sep 2015 07:03:11 GMT
 - request:
     method: get
     uri: https://api.eveonline.com/account/Characters.xml.aspx?keyID=4669404&vCode=hushhush
@@ -52,20 +52,20 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Sun, 13 Sep 2015 20:36:11 GMT
+      - Mon, 14 Sep 2015 07:03:10 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-13 20:36:12</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-14 07:03:11</currentTime>\r\n  <result>\r\n    <rowset
         name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
         \     <row name=\"Blondie Blond\" characterID=\"93051887\" corporationName=\"Carl
         Malus Corporation\" corporationID=\"98279136\" allianceID=\"0\" allianceName=\"\"
         factionID=\"0\" factionName=\"\" />\r\n      <row name=\"Adrian Dent\" characterID=\"810699209\"
         corporationName=\"Caldari Provisions\" corporationID=\"1000009\" allianceID=\"0\"
         allianceName=\"\" factionID=\"0\" factionName=\"\" />\r\n    </rowset>\r\n
-        \ </result>\r\n  <cachedUntil>2015-09-13 21:19:27</cachedUntil>\r\n</eveapi>"
+        \ </result>\r\n  <cachedUntil>2015-09-14 07:19:35</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:36:07 GMT
+  recorded_at: Mon, 14 Sep 2015 07:03:11 GMT
 - request:
     method: get
     uri: https://api.eveonline.com/account/Characters.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
@@ -85,18 +85,18 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Sun, 13 Sep 2015 20:36:11 GMT
+      - Mon, 14 Sep 2015 07:03:10 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-13 20:36:12</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-14 07:03:11</currentTime>\r\n  <result>\r\n    <rowset
         name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
         \     <row name=\"Quint Slade\" characterID=\"95512059\" corporationName=\"Imperial
         Academy\" corporationID=\"1000166\" allianceID=\"0\" allianceName=\"\" factionID=\"0\"
-        factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-13
-        21:23:58</cachedUntil>\r\n</eveapi>"
+        factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-14
+        07:56:34</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:36:07 GMT
+  recorded_at: Mon, 14 Sep 2015 07:03:11 GMT
 - request:
     method: get
     uri: https://api.eveonline.com/account/Characters.xml.aspx?characterID=95512059&keyID=4278167&vCode=supersecretstuff
@@ -116,18 +116,18 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Date:
-      - Sun, 13 Sep 2015 20:36:12 GMT
+      - Mon, 14 Sep 2015 07:03:11 GMT
     body:
       encoding: UTF-8
       string: "<?xml version='1.0' encoding='UTF-8'?>\r\n<eveapi version=\"2\">\r\n
-        \ <currentTime>2015-09-13 20:36:12</currentTime>\r\n  <result>\r\n    <rowset
+        \ <currentTime>2015-09-14 07:03:11</currentTime>\r\n  <result>\r\n    <rowset
         name=\"characters\" key=\"characterID\" columns=\"name,characterID,corporationName,corporationID,allianceID,allianceName,factionID,factionName\">\r\n
         \     <row name=\"Quint Slade\" characterID=\"95512059\" corporationName=\"Imperial
         Academy\" corporationID=\"1000166\" allianceID=\"0\" allianceName=\"\" factionID=\"0\"
-        factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-13
-        21:23:58</cachedUntil>\r\n</eveapi>"
+        factionName=\"\" />\r\n    </rowset>\r\n  </result>\r\n  <cachedUntil>2015-09-14
+        07:56:34</cachedUntil>\r\n</eveapi>"
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:36:07 GMT
+  recorded_at: Mon, 14 Sep 2015 07:03:11 GMT
 - request:
     method: get
     uri: https://public-crest.eveonline.com/alliances/1354830081/
@@ -145,13 +145,13 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 13 Sep 2015 20:39:00 GMT
+      - Mon, 14 Sep 2015 07:03:12 GMT
       Content-Type:
       - application/vnd.ccp.eve.Alliance-v1+json; charset=utf-8
       Connection:
       - keep-alive
       X-Cache-Status:
-      - HIT
+      - MISS
       Access-Control-Max-Age:
       - '1728000'
       Access-Control-Expose-Header:
@@ -2253,5 +2253,5 @@ http_interactions:
         "id": 2052404106}], "shortName": "CONDI", "id": 1354830081, "name": "Goonswarm
         Federation"}'
     http_version: 
-  recorded_at: Sun, 13 Sep 2015 20:36:08 GMT
+  recorded_at: Mon, 14 Sep 2015 07:03:12 GMT
 recorded_with: VCR 2.9.3
