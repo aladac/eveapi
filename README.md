@@ -28,7 +28,7 @@ EVE Online API Client for ruby
 
 <a name="doc"></a>
 ## Documentation
-- [rubydoc.info](http://www.rubydoc.info/github/aladac/eveapi)
+- [rubydoc.info](http://rdoc.info/gems/eveapi)
 - [legacy methods (wiki)](https://github.com/aladac/eveapi/wiki)
 
 <a name="install"></a>
@@ -39,7 +39,7 @@ EVE Online API Client for ruby
 ## Working methods
 Working `Client` methods names can be listed by calling `EVEApi::Client#working_methods`.
 
-Check out [rubydoc.info](http://www.rubydoc.info/github/aladac/eveapi) for the documentation.
+Check out [rubydoc.info](http://rdoc.info/gems/eveapi) for the documentation.
 
 *Legacy methods are available [here](https://github.com/aladac/eveapi/wiki)*
 

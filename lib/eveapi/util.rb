@@ -94,7 +94,7 @@ module EVEApi
     #  Make a GET request, parse JSON if present, and process the result
     #
     # @param [String] url URL to Call
-    # @param [Hash] args = {} arguments passed to +Excon+
+    # @param [Hash] args arguments passed to +Excon+
     # @return [Hash] processed result from the CREST API
     def json_get(url, args = {})
       http = Excon.get(url, args).body
