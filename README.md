@@ -46,51 +46,51 @@ Check out [rubydoc.info](http://www.rubydoc.info/github/aladac/eveapi) for the d
 <a name="client"></a>
 #### Client
 
-- `EVEApi::Client.new`
-- `EVEApi::Client#characters`
-- `EVEApi::Client#server_status`
-- `EVEApi::Client#call_list`
-- `EVEApi::Client#working_methods`
-- `EVEApi::Client#account_status`
-- `EVEApi::Client#key_info`
+- [`EVEApi::Client.new`](http://www.rubydoc.info/gems/eveapi/EVEApi/Client)
+- [`EVEApi::Client#characters`](http://www.rubydoc.info/gems/eveapi/EVEApi/Client#characters-instance_method)
+- [`EVEApi::Client#server_status`](http://www.rubydoc.info/gems/eveapi/EVEApi/Client#server_status-instance_method)
+- [`EVEApi::Client#call_list`](http://www.rubydoc.info/gems/eveapi/EVEApi/Client#call_list-instance_method)
+- [`EVEApi::Client#working_methods`](http://www.rubydoc.info/gems/eveapi/EVEApi/Client#working_methods-instance_method)
+- [`EVEApi::Client#account_status`](http://www.rubydoc.info/gems/eveapi/EVEApi/Client#account_status-instance_method)
+- [`EVEApi::Client#key_info`](http://www.rubydoc.info/gems/eveapi/EVEApi/Client#key_info-instance_method)
 
 <a name="characters"></a>
 #### Character
 
-- `EVEApi::Character#wallet_journal`
-- `EVEApi::Character#contracts`
-- `EVEApi::Character#wallet_transactions`
-- `EVEApi::Character#upcoming_calendar_events`
-- `EVEApi::Character#standings`
-- `EVEApi::Character#skill_queue`
-- `EVEApi::Character#skill_in_training`
-- `EVEApi::Character#research`
-- `EVEApi::Character#notifications`
-- `EVEApi::Character#medals`
-- `EVEApi::Character#market_orders`
-- `EVEApi::Character#mail_messages`
-- `EVEApi::Character#mailing_lists`
-- `EVEApi::Character#industry_jobs`
-- `EVEApi::Character#contact_notifications`
-- `EVEApi::Character#contact_list`
-- `EVEApi::Character#character_sheet`
-- `EVEApi::Character#asset_list`
-- `EVEApi::Character#account_balance`
+- [`EVEApi::Character#wallet_journal`](http://www.rubydoc.info/gems/eveapi/EVEApi/Character#wallet_journal-instance_method)
+- [`EVEApi::Character#contracts`](http://www.rubydoc.info/gems/eveapi/EVEApi/Character#contracts-instance_method)
+- [`EVEApi::Character#wallet_transactions`](http://www.rubydoc.info/gems/eveapi/EVEApi/Character#wallet_transactions-instance_method)
+- [`EVEApi::Character#upcoming_calendar_events`](http://www.rubydoc.info/gems/eveapi/EVEApi/Character#upcoming_calendar_events-instance_method)
+- [`EVEApi::Character#standings`](http://www.rubydoc.info/gems/eveapi/EVEApi/Character#standings-instance_method)
+- [`EVEApi::Character#skill_queue`](http://www.rubydoc.info/gems/eveapi/EVEApi/Character#wallet_journal-instance_method)
+- [`EVEApi::Character#skill_in_training`](http://www.rubydoc.info/gems/eveapi/EVEApi/Character#skill_in_training-instance_method)
+- [`EVEApi::Character#research`](http://www.rubydoc.info/gems/eveapi/EVEApi/Character#research-instance_method)
+- [`EVEApi::Character#notifications`](http://www.rubydoc.info/gems/eveapi/EVEApi/Character#notifications-instance_method)
+- [`EVEApi::Character#medals`](http://www.rubydoc.info/gems/eveapi/EVEApi/Character#medals-instance_method)
+- [`EVEApi::Character#market_orders`](http://www.rubydoc.info/gems/eveapi/EVEApi/Character#market_orders-instance_method)
+- [`EVEApi::Character#mail_messages`](http://www.rubydoc.info/gems/eveapi/EVEApi/Character#mail_messages-instance_method)
+- [`EVEApi::Character#mailing_lists`](http://www.rubydoc.info/gems/eveapi/EVEApi/Character#mailing_lists-instance_method)
+- [`EVEApi::Character#industry_jobs`](http://www.rubydoc.info/gems/eveapi/EVEApi/Character#industry_jobs-instance_method)
+- [`EVEApi::Character#contact_notifications`](http://www.rubydoc.info/gems/eveapi/EVEApi/Character#contact_notifications-instance_method)
+- [`EVEApi::Character#contact_list`](http://www.rubydoc.info/gems/eveapi/EVEApi/Character#contact_list-instance_method)
+- [`EVEApi::Character#character_sheet`](http://www.rubydoc.info/gems/eveapi/EVEApi/Character#character_sheet-instance_method)
+- [`EVEApi::Character#asset_list`](http://www.rubydoc.info/gems/eveapi/EVEApi/Character#asset_list-instance_method)
+- [`EVEApi::Character#account_balance`](http://www.rubydoc.info/gems/eveapi/EVEApi/Character#account_balance-instance_method)
 
 <a name="crest_methods"></a>
 #### Crest
 
-- `EVEApi::Crest.new`
-- `EVEApi::Crest#alliances`
-- `EVEApi::Crest#types`
+- [`EVEApi::Crest.new`](http://www.rubydoc.info/gems/eveapi/EVEApi/Crest)
+- [`EVEApi::Crest#alliances`](http://www.rubydoc.info/gems/eveapi/EVEApi/Crest#alliances-instance_method)
+- [`EVEApi::Crest#types`](http://www.rubydoc.info/gems/eveapi/EVEApi/Crest#types-instance_method)
 
 <a name="alliance"></a>
 #### Alliance
 
-- `EVEApi::Alliance.find(id = nil)`
-- `EVEApi::Alliance#info`
-- `EVEApi::Alliance#corporations`
-- `EVEApi::Alliance#to_h`
+- [`EVEApi::Alliance.find(id = nil)`](http://www.rubydoc.info/gems/eveapi/EVEApi/Alliance#find-instance_method)
+- [`EVEApi::Alliance#info`](http://www.rubydoc.info/gems/eveapi/EVEApi/Alliance#info-instance_method)
+- [`EVEApi::Alliance#corporations`](http://www.rubydoc.info/gems/eveapi/EVEApi/Alliance#corporations-instance_method)
+- [`EVEApi::Alliance#to_h`](http://www.rubydoc.info/gems/eveapi/EVEApi/Alliance#to_h-instance_method)
 
 <a name="crest"></a>
 ## CREST

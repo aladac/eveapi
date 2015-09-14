@@ -32,8 +32,48 @@ module EVEApi
 
     # Wallet Journal
     #
+    # @param [Hash] args +:row_count+
     # @return [Array] Wallet Journal
+    # @example
+    #   client.characters.last.wallet_journal.first
+    #   # => {
+    #   #                :date => "2015-09-12 21:28:29",
+    #   #              :ref_id => "11650126182",
+    #   #         :ref_type_id => "42",
+    #   #         :owner_name1 => "Adrian Dent",
+    #   #           :owner_id1 => "810699209",
+    #   #         :owner_name2 => "",
+    #   #           :owner_id2 => "0",
+    #   #           :arg_name1 => "",
+    #   #             :arg_id1 => "0",
+    #   #              :amount => "-6099996.94",
+    #   #             :balance => "14125001916.75",
+    #   #              :reason => "",
+    #   #     :tax_receiver_id => "",
+    #   #          :tax_amount => "",
+    #   #      :owner1_type_id => "2",
+    #   #      :owner2_type_id => "1375"
+    #   # }
     def wallet_journal(args = {})
+      send_client_method(__method__, args)
+    end
+
+    # Skill queue
+    #
+    # @return [Array] Skill queue
+    # @example
+    #   character = client.characters.last
+    #   character.skill_queue.first
+    #   # => {
+    #   #     :queue_position => "0",
+    #   #            :type_id => "3412",
+    #   #              :level => "5",
+    #   #           :start_sp => "380844",
+    #   #             :end_sp => "768000",
+    #   #         :start_time => "2015-09-12 22:39:19",
+    #   #           :end_time => "2015-09-21 02:11:28"
+    #   # }
+    def skill_queue(args = {})
       send_client_method(__method__, args)
     end
 
@@ -43,7 +83,6 @@ module EVEApi
       :wallet_transactions,
       :upcoming_calendar_events,
       :standings,
-      :skill_queue,
       :skill_in_training,
       :research,
       :notifications,

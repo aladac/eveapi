@@ -114,7 +114,7 @@ describe EVEApi, :vcr do
   end
 
   describe Character do
-    let(:character) { client_auth.characters.first }
+    let(:character) { mutliple_characters.last }
     it 'expect Character.new(args) to create a Character' do
       expect(character).to be_a(Character)
     end
@@ -126,6 +126,9 @@ describe EVEApi, :vcr do
     end
     it 'raises ArgumentError on non-existing instance variable' do
       expect { character.wallet_journal(a: 1) }.to raise_error(ArgumentError)
+    end
+    it 'expect Character#skill_queue to return an Array' do
+      expect(character.skill_queue).to be_an(Array)
     end
   end
 end
