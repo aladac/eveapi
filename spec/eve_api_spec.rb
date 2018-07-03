@@ -115,6 +115,7 @@ describe EVEApi, :vcr do
 
   describe Character do
     let(:character) { mutliple_characters.last }
+
     it 'expect Character.new(args) to create a Character' do
       expect(character).to be_a(Character)
     end

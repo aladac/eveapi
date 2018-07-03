@@ -78,25 +78,25 @@ module EVEApi
     end
 
     # Character methods known to work
-    METHODS = [
-      :contracts,
-      :wallet_transactions,
-      :upcoming_calendar_events,
-      :standings,
-      :skill_in_training,
-      :research,
-      :notifications,
-      :medals,
-      :market_orders,
-      :mail_messages,
-      :mailing_lists,
-      :industry_jobs,
-      :contact_notifications,
-      :contact_list,
-      :character_sheet,
-      :asset_list,
-      :account_balance
-    ]
+    METHODS = %i[
+      contracts
+      wallet_transactions
+      upcoming_calendar_events
+      standings
+      skill_in_training
+      research
+      notifications
+      medals
+      market_orders
+      mail_messages
+      mailing_lists
+      industry_jobs
+      contact_notifications
+      contact_list
+      character_sheet
+      asset_list
+      account_balance
+    ].freeze
 
     # Converts the {Character} method name to {Client} method name
     #
@@ -112,7 +112,7 @@ module EVEApi
     # @param [Hash] args = {} Client method arguments
     def process_args(args = {})
       args.each_pair do |k, v|
-        fail ArgumentError unless client.respond_to?(k)
+        raise ArgumentError unless client.respond_to?(k)
         client.instance_variable_set("@#{k}".to_sym, v)
       end
     end

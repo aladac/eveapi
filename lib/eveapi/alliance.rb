@@ -13,7 +13,7 @@ module EVEApi
 
     def initialize(args)
       case args
-      when String, Fixnum
+      when String, Integer
         @id = args.to_i
         @href = BASE_URI + id.to_s + '/'
       when Hash

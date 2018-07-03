@@ -7,10 +7,10 @@ module EVEApi
 
     def initialize(response = nil)
       @response = response
-      fail "HTTP: #{response.status}" unless response.status == 200
+      raise "HTTP: #{response.status}" unless response.status == 200
       @data = parse_xml
       @result = convert_hash_keys(parse_result)
-      fail error if error
+      raise error if error
     end
 
     def error
@@ -46,7 +46,7 @@ module EVEApi
         return api_result['rowset']['row']
       end
     rescue TypeError, NoMethodError
-      return process_hash(api_result)
+      process_hash(api_result)
     end
     private :parse_result
   end

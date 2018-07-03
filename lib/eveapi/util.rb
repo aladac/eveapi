@@ -31,14 +31,14 @@ class Hash
   #
   # @return [Hash] modified +Hash+
   def collapse_key
-    length == 1 ? self.merge!(delete(keys.first)) : self
+    length == 1 ? merge!(delete(keys.first)) : self
   end
 
   # Cleanup not needed keys from the result
   #
   # @return [Hash] modified +Hash+
   def normalize_hash_rowset
-    self.merge!(self['rowset']['name'] => self['rowset']['row'])
+    self[self['rowset']['name']] = self['rowset']['row']
     delete('rowset')
   end
 
@@ -98,7 +98,7 @@ module EVEApi
     # @return [Hash] processed result from the CREST API
     def json_get(url, args = {})
       http = Excon.get(url, args).body
-      convert_hash_keys(Crack::JSON.parse http)
+      convert_hash_keys(Crack::JSON.parse(http))
     end
 
     # Make a symbolized and underscored version of a +Symbol+ or +String+

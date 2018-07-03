@@ -1,5 +1,3 @@
-# encoding: utf-8
-
 require 'yaml'
 
 Gem::Specification.new do |gem|
@@ -36,7 +34,7 @@ Gem::Specification.new do |gem|
   gem.extra_rdoc_files = glob[gemspec['extra_doc_files'] || '*.{txt,md}']
 
   gem.require_paths = Array(gemspec.fetch('require_paths') do
-    %w(ext lib).select { |dir| File.directory?(dir) }
+    %w[ext lib].select { |dir| File.directory?(dir) }
   end)
 
   gem.requirements              = Array(gemspec['requirements'])

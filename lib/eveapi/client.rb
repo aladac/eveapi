@@ -66,7 +66,8 @@ module EVEApi
     def characters_array(account_characters)
       account_characters.to_a.map do |character|
         args = character
-        args.merge!(key_id: key_id, vcode: vcode)
+        args[:key_id] = key_id
+        args[:vcode] = vcode
         Character.new(args)
       end
     end
@@ -74,7 +75,8 @@ module EVEApi
 
     def characters_hash(account_characters)
       args = account_characters
-      args.merge!(key_id: key_id, vcode: vcode)
+      args[:key_id] = key_id
+      args[:vcode] = vcode
       [Character.new(args)]
     end
     private :characters_hash
@@ -91,9 +93,9 @@ module EVEApi
     def characters
       case account_characters
       when Array
-        return characters_array(account_characters)
+        characters_array(account_characters)
       when Hash
-        return characters_hash(account_characters)
+        characters_hash(account_characters)
       end
     end
 
@@ -182,7 +184,7 @@ module EVEApi
 
     # Dynamic handling of API requests
     def method_missing(name, *_args, &_block)
-      fail 'Invalid Method Name' if name.to_path.empty?
+      raise 'Invalid Method Name' if name.to_path.empty?
       api_request(name)
     end
     private :method_missing
