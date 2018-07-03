@@ -1,3 +1,7 @@
+# DEPRECATED!
+see: [https://developers.eveonline.com/blog/article/a-eulogy-for-xml-crest](https://developers.eveonline.com/blog/article/a-eulogy-for-xml-crest)
+
+
 ![EVEApi for ruby](https://github.com/aladac/eveapi/raw/master/doc/eveapi.png)
 
 [![Gem Version](https://badge.fury.io/rb/eveapi.svg)](http://badge.fury.io/rb/eveapi)
